@@ -95,4 +95,4 @@ Wednesday 2025-08-13
 - Commit messages are truncated to the first line.
 
 ## License
-MIT
+GPL3+
