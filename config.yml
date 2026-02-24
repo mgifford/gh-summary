@@ -1,0 +1,42 @@
+# GitHub Summary Configuration
+# This file configures the GitHub Pages deployment
+
+# Default user whose activity will be tracked and cached
+default_user: mgifford
+
+# Schedule configuration
+schedule:
+  # Options: 'bimonthly' (15th and last day) or 'monthly' (last day only)
+  frequency: bimonthly
+  
+  # Timezone for scheduling (uses IANA timezone format)
+  timezone: America/Toronto
+
+# Activity tracking settings
+activity:
+  # Number of days to look back for activity
+  days: 31
+  
+  # Include statistics about private repo contributions
+  # Note: Only aggregated stats are shared, no private details
+  include_private_stats: true
+  
+  # Event types to track (leave empty to track all)
+  # Options: commit, issue, pull request, pr review, discussion, wiki, release
+  include_types: []
+
+# Privacy settings
+privacy:
+  # Share only aggregated statistics, never private repo names or details
+  aggregate_only: true
+  
+  # Allow querying other users (only public data)
+  allow_user_queries: true
+
+# Cache settings
+cache:
+  # Directory to store cached results
+  data_dir: _data
+  
+  # Cache results until next scheduled report
+  enabled: true

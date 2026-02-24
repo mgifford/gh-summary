@@ -1,0 +1,78 @@
+name: Generate Activity Data
+
+on:
+  schedule:
+    # Run on the 15th of each month at 00:00 UTC
+    - cron: '0 0 15 * *'
+    # Run on the last day of each month at 00:00 UTC
+    # Note: This runs on 28-31st depending on month
+    - cron: '0 0 28-31 * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Only run if it's the last day of the month or the 15th
+jobs:
+  check-date:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - name: Check if should run
+        id: check
+        run: |
+          DAY=$(date +%d)
+          NEXT_DAY=$(date -d "+1 day" +%d)
+          
+          # Run on 15th
+          if [ "$DAY" = "15" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            echo "Running on the 15th"
+          # Run on last day of month (when next day is 01)
+          elif [ "$NEXT_DAY" = "01" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            echo "Running on last day of month"
+          # For workflow_dispatch, always run
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            echo "Manual trigger"
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+            echo "Not the 15th or last day, skipping"
+          fi
+
+  generate-data:
+    needs: check-date
+    if: needs.check-date.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Generate activity data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node generate-data.mjs
+      
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add _data/
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update activity data - $(date +'%Y-%m-%d')"
+            git push
+          fi

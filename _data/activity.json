@@ -1,0 +1,17 @@
+{
+  "user": "mgifford",
+  "generated": "2024-01-01T00:00:00.000Z",
+  "period": {
+    "days": 31,
+    "start": "2023-12-01",
+    "end": "2024-01-01"
+  },
+  "summary": {
+    "totalEvents": 0,
+    "totalDaysWithActivity": 0,
+    "averagePerDay": "0.0",
+    "topRepositories": [],
+    "activityByType": []
+  },
+  "dailyActivity": []
+}
