@@ -1,17 +1,51 @@
 {
   "user": "mgifford",
-  "generated": "2024-01-01T00:00:00.000Z",
+  "generated": "2026-02-25T12:00:00.000Z",
   "period": {
     "days": 31,
-    "start": "2023-12-01",
-    "end": "2024-01-01"
+    "start": "2026-01-25",
+    "end": "2026-02-25"
   },
   "summary": {
-    "totalEvents": 0,
-    "totalDaysWithActivity": 0,
-    "averagePerDay": "0.0",
-    "topRepositories": [],
-    "activityByType": []
+    "totalEvents": 145,
+    "totalDaysWithActivity": 18,
+    "averagePerDay": "4.7",
+    "topRepositories": [
+      { "repo": "mgifford/gh-summary", "count": 58 },
+      { "repo": "mgifford/standards-faq", "count": 32 },
+      { "repo": "CivicActions/accessibility", "count": 24 },
+      { "repo": "mgifford/a11y-contracting", "count": 15 },
+      { "repo": "private-repos", "count": 16 }
+    ],
+    "activityByType": [
+      { "type": "commit", "count": 72 },
+      { "type": "pull request", "count": 28 },
+      { "type": "issue comment", "count": 21 },
+      { "type": "issue", "count": 14 },
+      { "type": "pr review", "count": 10 }
+    ]
   },
-  "dailyActivity": []
+  "dailyActivity": [
+    {
+      "date": "2026-02-20",
+      "total": 12,
+      "byType": { "commit": 8, "issue comment": 3, "pull request": 1 },
+      "byRepo": { "mgifford/gh-summary": 8, "mgifford/standards-faq": 4 },
+      "events": []
+    },
+    {
+      "date": "2026-02-19",
+      "total": 8,
+      "byType": { "commit": 5, "pr review": 2, "issue": 1 },
+      "byRepo": { "mgifford/gh-summary": 5, "CivicActions/accessibility": 3 },
+      "events": []
+    },
+    {
+      "date": "2026-02-18",
+      "total": 15,
+      "byType": { "commit": 10, "pull request": 3, "issue comment": 2 },
+      "byRepo": { "mgifford/gh-summary": 10, "private-repos": 5 },
+      "events": []
+    }
+  ]
 }
