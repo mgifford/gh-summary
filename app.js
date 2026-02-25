@@ -179,17 +179,33 @@ function displayDailyTimeline(dailyActivity) {
 // Setup query form for other users
 function setupQueryForm() {
     const form = document.getElementById('query-form');
+    
+    // Set default date values
+    const toDateInput = document.getElementById('query-date-to');
+    const fromDateInput = document.getElementById('query-date-from');
+    
+    // Set "to" date as today
+    toDateInput.value = new Date().toISOString().split('T')[0];
+    
+    // Set "from" date as 31 days ago
+    const thirtyOneDaysAgo = new Date();
+    thirtyOneDaysAgo.setDate(thirtyOneDaysAgo.getDate() - 31);
+    fromDateInput.value = thirtyOneDaysAgo.toISOString().split('T')[0];
+    
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const username = document.getElementById('query-username').value.trim();
+        const fromDate = fromDateInput.value;
+        const toDate = toDateInput.value;
+        
         if (username) {
-            await queryUser(username);
+            await queryUser(username, fromDate, toDate);
         }
     });
 }
 
 // Query another user's public activity
-async function queryUser(username) {
+async function queryUser(username, fromDate, toDate) {
     const resultsSection = document.getElementById('query-results');
     const loadingDiv = document.getElementById('query-loading');
     const errorDiv = document.getElementById('query-error');
@@ -205,25 +221,38 @@ async function queryUser(username) {
     document.getElementById('queried-username').textContent = username;
     
     try {
+        // Parse dates and calculate days
+        const startDate = fromDate ? new Date(fromDate) : new Date(Date.now() - 31 * 24 * 60 * 60 * 1000);
+        const endDate = toDate ? new Date(toDate) : new Date();
+        
+        // Set end date to end of day
+        endDate.setHours(23, 59, 59, 999);
+        
+        // Calculate number of days
+        const daysDiff = Math.ceil((endDate - startDate) / (24 * 60 * 60 * 1000));
+        
         // Fetch public events for the user
-        const events = await fetchPublicEvents(username, 31);
+        const events = await fetchPublicEvents(username, startDate, endDate);
         
         // Hide loading
         loadingDiv.classList.add('hidden');
         
         if (events.length === 0) {
-            summaryDiv.innerHTML = '<p class="no-data">No public activity found in the last 31 days</p>';
+            summaryDiv.innerHTML = `<p class="no-data">No public activity found from ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()}</p>`;
             return;
         }
         
         // Process events
-        const processedData = processEventsForDisplay(events, username, 31);
+        const processedData = processEventsForDisplay(events, username, daysDiff);
         
         // Display summary
         displaySummaryStats(processedData.summary, 'query-summary');
         
         // Display details
         detailsDiv.innerHTML = `
+            <div class="date-range-info">
+                <p><strong>Date Range:</strong> ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()} (${daysDiff} days)</p>
+            </div>
             <div class="chart-section">
                 <h4>Activity by Type</h4>
                 <div id="query-type-chart" class="chart"></div>
@@ -246,8 +275,7 @@ async function queryUser(username) {
 }
 
 // Fetch public events from GitHub API
-async function fetchPublicEvents(username, days) {
-    const since = new Date(Date.now() - days * 24 * 60 * 60 * 1000);
+async function fetchPublicEvents(username, startDate, endDate) {
     const perPage = 100;
     let allEvents = [];
     let page = 1;
@@ -276,13 +304,16 @@ async function fetchPublicEvents(username, days) {
         
         // Check if oldest event is beyond our date range
         const oldestEvent = events[events.length - 1];
-        if (oldestEvent && new Date(oldestEvent.created_at) < since) break;
+        if (oldestEvent && new Date(oldestEvent.created_at) < startDate) break;
         
         page++;
     }
     
     // Filter events within date range
-    return allEvents.filter(e => new Date(e.created_at) >= since);
+    return allEvents.filter(e => {
+        const eventDate = new Date(e.created_at);
+        return eventDate >= startDate && eventDate <= endDate;
+    });
 }
 
 // Process events for display

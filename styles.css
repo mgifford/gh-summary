@@ -242,7 +242,7 @@ h4 {
 .form-group {
     display: flex;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 #query-username {
@@ -256,6 +256,33 @@ h4 {
 }
 
 #query-username:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.date-range-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.date-range-group label {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.date-range-group input[type="date"] {
+    padding: 10px 12px;
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    transition: border-color 0.2s;
+}
+
+.date-range-group input[type="date"]:focus {
     outline: none;
     border-color: var(--primary-color);
 }
@@ -285,6 +312,19 @@ button[type="submit"]:active {
     margin-top: 30px;
     padding-top: 30px;
     border-top: 2px solid var(--border);
+}
+
+.date-range-info {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 20px;
+    color: var(--text-secondary);
+}
+
+.date-range-info p {
+    margin: 0;
 }
 
 .loading {
@@ -398,6 +438,10 @@ footer p {
     
     .form-group {
         flex-direction: column;
+    }
+    
+    .date-range-group {
+        flex-wrap: wrap;
     }
     
     footer {
