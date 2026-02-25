@@ -1,6 +1,6 @@
 {
   "user": "mgifford",
-  "generated": "2026-02-25T17:43:51.606Z",
+  "generated": "2026-02-25T18:29:32.963Z",
   "period": {
     "days": 31,
     "start": "2026-01-25",
@@ -13,15 +13,19 @@
     "topRepositories": [
       {
         "repo": "mgifford/alfa-scan",
-        "count": 54
+        "count": 52
       },
       {
         "repo": "mgifford/wai-yaml-ld",
-        "count": 53
+        "count": 50
       },
       {
         "repo": "mgifford/ACCESSIBILITY.md",
-        "count": 49
+        "count": 44
+      },
+      {
+        "repo": "mgifford/tune-my-repos",
+        "count": 25
       },
       {
         "repo": "mgifford/accessible-buildings",
@@ -32,15 +36,11 @@
         "count": 21
       },
       {
-        "repo": "mgifford/sustainability.md",
-        "count": 18
-      },
-      {
-        "repo": "mgifford/tune-my-repos",
+        "repo": "mgifford/o-hat-scanner",
         "count": 16
       },
       {
-        "repo": "mgifford/o-hat-scanner",
+        "repo": "mgifford/sustainability.md",
         "count": 16
       },
       {
@@ -49,17 +49,17 @@
       },
       {
         "repo": "mgifford/gh-summary",
-        "count": 8
+        "count": 10
       }
     ],
     "activityByType": [
       {
         "type": "commit",
-        "count": 192
+        "count": 188
       },
       {
         "type": "issue",
-        "count": 53
+        "count": 56
       },
       {
         "type": "pr review",
@@ -67,19 +67,19 @@
       },
       {
         "type": "issue comment",
-        "count": 14
+        "count": 17
       },
       {
         "type": "delete",
         "count": 8
       },
       {
-        "type": "create",
-        "count": 6
-      },
-      {
         "type": "pull request",
         "count": 5
+      },
+      {
+        "type": "create",
+        "count": 4
       },
       {
         "type": "watch",
@@ -94,17 +94,17 @@
   "dailyActivity": [
     {
       "date": "Friday, 2026-02-20",
-      "total": 30,
+      "total": 18,
       "byType": {
-        "commit": 26,
+        "commit": 16,
         "issue": 1,
-        "create": 3
+        "create": 1
       },
       "byRepo": {
-        "mgifford/alfa-scan": 7,
-        "mgifford/wai-yaml-ld": 11,
-        "mgifford/sustainability.md": 6,
-        "mgifford/ACCESSIBILITY.md": 6
+        "mgifford/alfa-scan": 5,
+        "mgifford/wai-yaml-ld": 8,
+        "mgifford/sustainability.md": 4,
+        "mgifford/ACCESSIBILITY.md": 1
       },
       "events": [
         {
@@ -199,66 +199,6 @@
           "type": "create",
           "repo": "mgifford/alfa-scan",
           "timestamp": "2026-02-20T21:05:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/alfa-scan",
-          "timestamp": "2026-02-20T21:05:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wai-yaml-ld",
-          "timestamp": "2026-02-20T21:04:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wai-yaml-ld",
-          "timestamp": "2026-02-20T21:01:38Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/alfa-scan",
-          "timestamp": "2026-02-20T21:01:24Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/wai-yaml-ld",
-          "timestamp": "2026-02-20T20:59:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/sustainability.md",
-          "timestamp": "2026-02-20T20:44:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/sustainability.md",
-          "timestamp": "2026-02-20T20:17:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-20T19:24:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-20T19:23:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-20T17:51:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-20T16:57:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-20T16:50:08Z"
         }
       ]
     },
@@ -1572,19 +1512,20 @@
     },
     {
       "date": "Wednesday, 2026-02-25",
-      "total": 61,
+      "total": 73,
       "byType": {
-        "commit": 37,
+        "commit": 43,
+        "issue": 16,
+        "issue comment": 5,
         "pull request": 3,
-        "issue": 13,
         "delete": 5,
-        "pr review": 1,
-        "issue comment": 2
+        "pr review": 1
       },
       "byRepo": {
-        "mgifford/gh-summary": 6,
+        "mgifford/tune-my-repos": 25,
+        "mgifford/gh-summary": 8,
+        "mgifford/wsg-mooc": 1,
         "mgifford/gh-open-dash": 10,
-        "mgifford/tune-my-repos": 16,
         "mgifford/o-hat-scanner": 14,
         "mgifford/accessible-buildings": 3,
         "mgifford/sustainability.md": 1,
@@ -1594,6 +1535,84 @@
         "mgifford/ACCESSIBILITY.md": 5
       },
       "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:25:34Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/gh-summary",
+          "timestamp": "2026-02-25T18:15:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wsg-mooc",
+          "timestamp": "2026-02-25T18:14:45Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:12:41Z",
+          "title": "Ideas from ecosyste.ms ",
+          "number": 1,
+          "url": "https://github.com/mgifford/tune-my-repos/issues/1"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:12:39Z",
+          "title": "Ideas from ecosyste.ms ",
+          "number": 1,
+          "url": "https://github.com/mgifford/tune-my-repos/issues/1"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:12:23Z",
+          "title": "Github Action ",
+          "number": 2,
+          "url": "https://github.com/mgifford/tune-my-repos/issues/2"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:12:24Z",
+          "title": "Github Action ",
+          "number": 2,
+          "url": "https://github.com/mgifford/tune-my-repos/issues/2"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:12:05Z",
+          "title": "broken link",
+          "number": 3,
+          "url": "https://github.com/mgifford/tune-my-repos/issues/3"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:12:06Z",
+          "title": "broken link",
+          "number": 3,
+          "url": "https://github.com/mgifford/tune-my-repos/issues/3"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:11:55Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T18:10:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/gh-summary",
+          "timestamp": "2026-02-25T18:02:54Z"
+        },
         {
           "type": "commit",
           "repo": "mgifford/gh-summary",
