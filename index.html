@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Activity Summary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GitHub Activity Summary</h1>
+            <p class="subtitle">Track and visualize GitHub activity</p>
+        </header>
+
+        <main>
+            <!-- Default user section -->
+            <section id="default-user-section">
+                <h2>Activity for <span id="default-username"></span></h2>
+                <div id="last-update" class="meta-info"></div>
+                <div id="next-update" class="meta-info"></div>
+                
+                <div id="summary-stats" class="stats-grid">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+                
+                <div id="charts-container">
+                    <div class="chart-section">
+                        <h3>Activity by Type</h3>
+                        <div id="type-chart" class="chart"></div>
+                    </div>
+                    
+                    <div class="chart-section">
+                        <h3>Top Repositories</h3>
+                        <div id="repo-chart" class="chart"></div>
+                    </div>
+                </div>
+                
+                <div class="daily-activity">
+                    <h3>Daily Activity</h3>
+                    <div id="daily-timeline"></div>
+                </div>
+            </section>
+
+            <!-- Query other users section -->
+            <section id="query-section">
+                <h2>Query Another User</h2>
+                <p class="info-text">
+                    Enter any GitHub username to view their public activity. 
+                    Data is fetched in real-time and not stored.
+                </p>
+                
+                <form id="query-form">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="query-username" 
+                            placeholder="Enter GitHub username"
+                            autocomplete="off"
+                            required
+                        >
+                        <button type="submit">View Activity</button>
+                    </div>
+                </form>
+                
+                <div id="query-results" class="hidden">
+                    <h3>Activity for <span id="queried-username"></span></h3>
+                    <div id="query-loading" class="loading hidden">
+                        <div class="spinner"></div>
+                        <p>Fetching activity data...</p>
+                    </div>
+                    <div id="query-error" class="error hidden"></div>
+                    <div id="query-summary" class="stats-grid"></div>
+                    <div id="query-details"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                Powered by <a href="https://github.com/mgifford/gh-summary" target="_blank">gh-summary</a> | 
+                <a href="https://docs.github.com/en/rest" target="_blank">GitHub API</a>
+            </p>
+            <p class="privacy-note">
+                Privacy: Only public data is displayed for queried users. 
+                Cached data for the default user may include aggregated statistics from private repositories.
+            </p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
