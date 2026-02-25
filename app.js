@@ -12,6 +12,7 @@ let metadata = null;
 document.addEventListener('DOMContentLoaded', async () => {
     await loadDefaultUserData();
     setupQueryForm();
+    checkUrlParameters();
 });
 
 // Load cached data for default user
@@ -200,8 +201,35 @@ function setupQueryForm() {
         
         if (username) {
             await queryUser(username, fromDate, toDate);
+            // Update URL with the username parameter
+            updateUrlParameter('u', username);
         }
     });
+}
+
+// Check URL parameters on page load
+function checkUrlParameters() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const username = urlParams.get('u');
+    
+    if (username && username.trim()) {
+        // Set the username in the input field
+        document.getElementById('query-username').value = username.trim();
+        
+        // Get date values from the form (which have been set to defaults)
+        const fromDate = document.getElementById('query-date-from').value;
+        const toDate = document.getElementById('query-date-to').value;
+        
+        // Query the user
+        queryUser(username.trim(), fromDate, toDate);
+    }
+}
+
+// Update URL parameter without reloading the page
+function updateUrlParameter(key, value) {
+    const url = new URL(window.location);
+    url.searchParams.set(key, value);
+    window.history.pushState({}, '', url);
 }
 
 // Query another user's public activity
@@ -286,7 +314,8 @@ async function fetchPublicEvents(username, startDate, endDate) {
         const response = await fetch(url, {
             headers: {
                 'Accept': 'application/vnd.github+json',
-                'X-GitHub-Api-Version': '2022-11-28'
+                'X-GitHub-Api-Version': '2022-11-28',
+                'User-Agent': 'gh-summary-pages'
             }
         });
         
