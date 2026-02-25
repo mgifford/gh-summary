@@ -12,9 +12,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 function parseSimpleYaml(yamlString) {
   const lines = yamlString.split('\n');
   const result = {};
-  let currentKey = null;
-  let currentIndent = 0;
-  const stack = [result];
+  const stack = [{ obj: result, indent: -1 }];
   
   for (const line of lines) {
     // Skip comments and empty lines
@@ -26,19 +24,22 @@ function parseSimpleYaml(yamlString) {
     if (trimmed.includes(':')) {
       const [key, ...valueParts] = trimmed.split(':');
       const value = valueParts.join(':').trim();
-      
       const cleanKey = key.trim();
+      
+      // Pop stack to find correct parent based on indentation
+      while (stack.length > 1 && indent <= stack[stack.length - 1].indent) {
+        stack.pop();
+      }
+      
+      const parent = stack[stack.length - 1].obj;
       
       if (value === '') {
         // Nested object
         const obj = {};
-        const parent = stack[stack.length - 1];
         parent[cleanKey] = obj;
-        stack.push(obj);
-        currentIndent = indent;
+        stack.push({ obj, indent });
       } else {
         // Simple key-value
-        const parent = stack[stack.length - 1];
         // Parse value types
         if (value === 'true') parent[cleanKey] = true;
         else if (value === 'false') parent[cleanKey] = false;
@@ -46,12 +47,6 @@ function parseSimpleYaml(yamlString) {
         else if (value === '[]') parent[cleanKey] = [];
         else parent[cleanKey] = value;
       }
-    }
-    
-    // Pop stack if indent decreased
-    while (stack.length > 1 && indent < currentIndent) {
-      stack.pop();
-      currentIndent -= 2;
     }
   }
   
