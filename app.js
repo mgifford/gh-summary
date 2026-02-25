@@ -35,11 +35,18 @@ async function loadDefaultUserData() {
         displayDefaultUserActivity();
     } catch (error) {
         console.error('Error loading default user data:', error);
-        document.getElementById('default-user-section').innerHTML = `
+        // Hide the default user section since we don't have data
+        document.getElementById('default-user-section').style.display = 'none';
+        
+        // Show error in system messages at the bottom
+        const systemMessages = document.getElementById('system-messages');
+        const systemMessagesContent = document.getElementById('system-messages-content');
+        systemMessages.classList.remove('hidden');
+        systemMessagesContent.innerHTML = `
             <div class="error">
-                <h3>Data Not Available</h3>
-                <p>Cached activity data has not been generated yet. Please check back later.</p>
-                <p class="small">Error: ${error.message}</p>
+                <h4>Cached Data Not Available</h4>
+                <p>The cached activity data has not been generated yet. You can still query any GitHub user using the form above.</p>
+                <p class="small">Technical details: ${error.message}</p>
             </div>
         `;
     }

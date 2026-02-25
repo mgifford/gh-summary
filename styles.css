@@ -370,6 +370,43 @@ button[type="submit"]:active {
     display: none;
 }
 
+/* System messages */
+.system-messages {
+    margin: 20px 40px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--surface);
+}
+
+.system-messages summary {
+    cursor: pointer;
+    padding: 12px 16px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    user-select: none;
+    background: var(--background);
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.system-messages summary:hover {
+    background: var(--surface);
+}
+
+.system-messages[open] summary {
+    border-bottom: 1px solid var(--border);
+    border-radius: 6px 6px 0 0;
+}
+
+.system-messages #system-messages-content {
+    padding: 16px;
+}
+
+.system-messages .error {
+    margin: 0;
+}
+
 /* Footer */
 footer {
     background: var(--surface);
