@@ -213,6 +213,9 @@ function checkUrlParameters() {
     const username = urlParams.get('u');
     
     if (username && username.trim()) {
+        // Hide the default user section when viewing another user
+        document.getElementById('default-user-section').style.display = 'none';
+        
         // Set the username in the input field
         document.getElementById('query-username').value = username.trim();
         
