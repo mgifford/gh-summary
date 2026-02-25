@@ -1,6 +1,6 @@
 {
   "user": "mgifford",
-  "generated": "2026-02-25T13:29:25.674Z",
+  "generated": "2026-02-25T17:43:51.606Z",
   "period": {
     "days": 31,
     "start": "2026-01-25",
@@ -8,13 +8,9 @@
   },
   "summary": {
     "totalEvents": 300,
-    "totalDaysWithActivity": 9,
+    "totalDaysWithActivity": 6,
     "averagePerDay": "9.7",
     "topRepositories": [
-      {
-        "repo": "mgifford/ACCESSIBILITY.md",
-        "count": 62
-      },
       {
         "repo": "mgifford/alfa-scan",
         "count": 54
@@ -24,69 +20,69 @@
         "count": 53
       },
       {
+        "repo": "mgifford/ACCESSIBILITY.md",
+        "count": 49
+      },
+      {
         "repo": "mgifford/accessible-buildings",
         "count": 24
       },
       {
         "repo": "mgifford/daily-dap",
-        "count": 20
+        "count": 21
       },
       {
         "repo": "mgifford/sustainability.md",
         "count": 18
       },
       {
-        "repo": "CivicActions/civicactions-homesite",
+        "repo": "mgifford/tune-my-repos",
         "count": 16
       },
       {
         "repo": "mgifford/o-hat-scanner",
-        "count": 14
+        "count": 16
+      },
+      {
+        "repo": "mgifford/gh-open-dash",
+        "count": 12
       },
       {
         "repo": "mgifford/gh-summary",
-        "count": 7
-      },
-      {
-        "repo": "mgifford/a11y-svg",
-        "count": 6
+        "count": 8
       }
     ],
     "activityByType": [
       {
         "type": "commit",
-        "count": 183
+        "count": 192
       },
       {
         "type": "issue",
-        "count": 51
-      },
-      {
-        "type": "issue comment",
-        "count": 22
+        "count": 53
       },
       {
         "type": "pr review",
         "count": 19
       },
       {
-        "type": "create",
-        "count": 8
-      },
-      {
-        "type": "pull request",
-        "count": 7
+        "type": "issue comment",
+        "count": 14
       },
       {
         "type": "delete",
+        "count": 8
+      },
+      {
+        "type": "create",
+        "count": 6
+      },
+      {
+        "type": "pull request",
         "count": 5
       },
       {
         "type": "watch",
-        "count": 2
-      },
-      {
-        "type": "pr review comment",
         "count": 2
       },
       {
@@ -97,278 +93,18 @@
   },
   "dailyActivity": [
     {
-      "date": "Tuesday, 2026-02-17",
-      "total": 18,
-      "byType": {
-        "commit": 3,
-        "pull request": 5,
-        "issue comment": 7,
-        "pr review": 1,
-        "pr review comment": 2
-      },
-      "byRepo": {
-        "mgifford/o-hat-scanner": 2,
-        "CivicActions/civicactions-homesite": 15,
-        "Open-Climate-Resilience-Policies/OCRP": 1
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-02-18T02:28:22Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-18T01:34:44Z",
-          "number": 296
-        },
-        {
-          "type": "pull request",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-18T00:37:25Z",
-          "number": 293
-        },
-        {
-          "type": "pull request",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-18T00:30:35Z",
-          "number": 268
-        },
-        {
-          "type": "pull request",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-18T00:28:06Z",
-          "number": 264
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-02-18T00:05:22Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T22:02:41Z",
-          "title": "Fix for scroll/flashing accessibility bug (284)",
-          "number": 297,
-          "url": "https://github.com/CivicActions/civicactions-homesite/pull/297"
-        },
-        {
-          "type": "pull request",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T19:59:51Z",
-          "number": 292
-        },
-        {
-          "type": "issue comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T22:01:04Z",
-          "title": "Add mobile scroll state management",
-          "number": 292,
-          "url": "https://github.com/CivicActions/civicactions-homesite/pull/292"
-        },
-        {
-          "type": "commit",
-          "repo": "Open-Climate-Resilience-Policies/OCRP",
-          "timestamp": "2026-02-17T20:51:33Z"
-        },
-        {
-          "type": "pr review",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T20:38:53Z",
-          "number": 160
-        },
-        {
-          "type": "pr review comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T20:38:47Z",
-          "number": 160
-        },
-        {
-          "type": "pr review comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T20:38:03Z",
-          "number": 160
-        },
-        {
-          "type": "issue comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T20:36:11Z",
-          "title": "adding new og images",
-          "number": 187,
-          "url": "https://github.com/CivicActions/civicactions-homesite/pull/187"
-        },
-        {
-          "type": "issue comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T20:35:25Z",
-          "title": "Replace GMAS schedule with updated version",
-          "number": 191,
-          "url": "https://github.com/CivicActions/civicactions-homesite/pull/191"
-        },
-        {
-          "type": "issue comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T20:32:57Z",
-          "title": "Recreating post for accessibility pledge",
-          "number": 194,
-          "url": "https://github.com/CivicActions/civicactions-homesite/pull/194"
-        },
-        {
-          "type": "issue comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T20:31:52Z",
-          "title": "Getting set up to run Lighthouse & Pa11y on all URLs",
-          "number": 198,
-          "url": "https://github.com/CivicActions/civicactions-homesite/pull/198"
-        },
-        {
-          "type": "issue comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-17T20:29:11Z",
-          "title": "Update careers.js",
-          "number": 237,
-          "url": "https://github.com/CivicActions/civicactions-homesite/pull/237"
-        }
-      ]
-    },
-    {
-      "date": "Wednesday, 2026-02-18",
-      "total": 5,
-      "byType": {
-        "issue comment": 1,
-        "issue": 2,
-        "commit": 2
-      },
-      "byRepo": {
-        "CivicActions/civicactions-homesite": 1,
-        "mgifford/o-hat-scanner": 3,
-        "mgifford/accessible-buildings": 1
-      },
-      "events": [
-        {
-          "type": "issue comment",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-02-18T23:41:23Z",
-          "title": "Mgifford patch opacity",
-          "number": 295,
-          "url": "https://github.com/CivicActions/civicactions-homesite/pull/295"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-02-18T23:35:13Z",
-          "title": "Trend (total occurrences) - not loading",
-          "number": 46,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/46"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-02-18T23:31:51Z",
-          "title": "Allow for 2 languages but don't include more",
-          "number": 45,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/45"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessible-buildings",
-          "timestamp": "2026-02-18T17:20:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-02-18T15:52:35Z"
-        }
-      ]
-    },
-    {
-      "date": "Thursday, 2026-02-19",
-      "total": 12,
-      "byType": {
-        "commit": 11,
-        "create": 1
-      },
-      "byRepo": {
-        "mgifford/ACCESSIBILITY.md": 12
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:50:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:51:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:46:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:43:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:41:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:38:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:34:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:27:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:19:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:15:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T15:06:19Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-19T14:57:37Z"
-        }
-      ]
-    },
-    {
       "date": "Friday, 2026-02-20",
-      "total": 32,
+      "total": 30,
       "byType": {
-        "commit": 27,
+        "commit": 26,
         "issue": 1,
-        "create": 4
+        "create": 3
       },
       "byRepo": {
         "mgifford/alfa-scan": 7,
         "mgifford/wai-yaml-ld": 11,
-        "mgifford/sustainability.md": 7,
-        "mgifford/ACCESSIBILITY.md": 7
+        "mgifford/sustainability.md": 6,
+        "mgifford/ACCESSIBILITY.md": 6
       },
       "events": [
         {
@@ -523,16 +259,6 @@
           "type": "commit",
           "repo": "mgifford/ACCESSIBILITY.md",
           "timestamp": "2026-02-20T16:50:08Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/sustainability.md",
-          "timestamp": "2026-02-20T16:47:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-02-20T16:44:39Z"
         }
       ]
     },
@@ -1846,22 +1572,229 @@
     },
     {
       "date": "Wednesday, 2026-02-25",
-      "total": 24,
+      "total": 61,
       "byType": {
-        "issue": 9,
-        "commit": 11,
-        "delete": 2,
+        "commit": 37,
+        "pull request": 3,
+        "issue": 13,
+        "delete": 5,
+        "pr review": 1,
         "issue comment": 2
       },
       "byRepo": {
+        "mgifford/gh-summary": 6,
+        "mgifford/gh-open-dash": 10,
+        "mgifford/tune-my-repos": 16,
+        "mgifford/o-hat-scanner": 14,
+        "mgifford/accessible-buildings": 3,
+        "mgifford/sustainability.md": 1,
+        "mgifford/wai-linkedobjects": 3,
+        "mgifford/daily-dap": 1,
         "mgifford/alfa-scan": 2,
-        "mgifford/gh-summary": 5,
-        "mgifford/gh-open-dash": 3,
-        "mgifford/o-hat-scanner": 7,
-        "mgifford/accessible-buildings": 2,
         "mgifford/ACCESSIBILITY.md": 5
       },
       "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/gh-summary",
+          "timestamp": "2026-02-25T17:41:50Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/gh-open-dash",
+          "timestamp": "2026-02-25T17:04:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/gh-open-dash",
+          "timestamp": "2026-02-25T16:45:07Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T16:12:46Z",
+          "number": 12
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T16:48:18Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T16:13:11Z",
+          "number": 13
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T16:12:23Z",
+          "number": 11
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T16:46:40Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/gh-open-dash",
+          "timestamp": "2026-02-25T16:45:08Z",
+          "title": "Learn from ecosyste.ms ",
+          "number": 2,
+          "url": "https://github.com/mgifford/gh-open-dash/issues/2"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/o-hat-scanner",
+          "timestamp": "2026-02-25T15:52:28Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/gh-open-dash",
+          "timestamp": "2026-02-25T16:28:36Z",
+          "title": "Learn from ecosyste.ms ",
+          "number": 2,
+          "url": "https://github.com/mgifford/gh-open-dash/issues/2"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/gh-open-dash",
+          "timestamp": "2026-02-25T16:28:36Z",
+          "title": "Learn from ecosyste.ms ",
+          "number": 2,
+          "url": "https://github.com/mgifford/gh-open-dash/issues/2"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/accessible-buildings",
+          "timestamp": "2026-02-25T16:12:20Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T16:04:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T15:55:11Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/o-hat-scanner",
+          "timestamp": "2026-02-25T15:52:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T15:34:31Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T15:33:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T15:31:20Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sustainability.md",
+          "timestamp": "2026-02-25T15:24:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wai-linkedobjects",
+          "timestamp": "2026-02-25T15:24:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T15:19:51Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/o-hat-scanner",
+          "timestamp": "2026-02-25T14:27:12Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/o-hat-scanner",
+          "timestamp": "2026-02-25T14:27:11Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T14:25:35Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T14:25:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T14:24:52Z"
+        },
+        {
+          "type": "pr review",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T14:14:47Z",
+          "number": 5
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-02-25T14:07:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/gh-open-dash",
+          "timestamp": "2026-02-25T13:57:27Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wai-linkedobjects",
+          "timestamp": "2026-02-25T13:56:41Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-02-25T13:48:21Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/o-hat-scanner",
+          "timestamp": "2026-02-25T13:44:58Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/o-hat-scanner",
+          "timestamp": "2026-02-25T13:44:58Z",
+          "title": "Trend (total occurrences) - not loading",
+          "number": 46,
+          "url": "https://github.com/mgifford/o-hat-scanner/issues/46"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/o-hat-scanner",
+          "timestamp": "2026-02-25T13:44:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/gh-open-dash",
+          "timestamp": "2026-02-25T13:35:37Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wai-linkedobjects",
+          "timestamp": "2026-02-25T13:31:10Z"
+        },
         {
           "type": "issue",
           "repo": "mgifford/alfa-scan",
