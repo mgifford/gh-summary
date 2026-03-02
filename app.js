@@ -329,7 +329,7 @@ async function fetchPublicEvents(username, startDate, endDate) {
     const perPage = 100;
     let allEvents = [];
     let page = 1;
-    const maxPages = 10; // GitHub public events API supports up to 10 pages (1,000 events at 100 per page)
+    const maxPages = 10; // GitHub public events API supports at most 300 events (3 pages of 100); extra pages return 422
     
     console.debug(`[gh-summary] Fetching events for ${username}, range: ${startDate.toISOString()} → ${endDate.toISOString()}`);
     
@@ -347,6 +347,11 @@ async function fetchPublicEvents(username, startDate, endDate) {
         if (!response.ok) {
             if (response.status === 404) {
                 throw new Error('User not found');
+            }
+            // GitHub returns 422 when requesting beyond the available pages limit
+            if (response.status === 422) {
+                console.debug(`[gh-summary] Page ${page}: GitHub returned 422 (beyond available pages), stopping`);
+                break;
             }
             throw new Error(`GitHub API error: ${response.status}`);
         }
