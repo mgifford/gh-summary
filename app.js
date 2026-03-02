@@ -149,8 +149,8 @@ function displayTopRepositories(topRepos, containerId) {
 }
 
 // Display daily timeline
-function displayDailyTimeline(dailyActivity) {
-    const container = document.getElementById('daily-timeline');
+function displayDailyTimeline(dailyActivity, containerId = 'daily-timeline') {
+    const container = document.getElementById(containerId);
     
     if (dailyActivity.length === 0) {
         container.innerHTML = '<p class="no-data">No activity in this period</p>';
@@ -270,13 +270,19 @@ async function queryUser(username, fromDate, toDate) {
         const daysDiff = Math.ceil((endDate - startDate) / (24 * 60 * 60 * 1000));
         
         // Fetch public events for the user
-        const events = await fetchPublicEvents(username, startDate, endDate);
+        const { events, totalFetched, pagesUsed, atLimit } = await fetchPublicEvents(username, startDate, endDate);
         
         // Hide loading
         loadingDiv.classList.add('hidden');
         
         if (events.length === 0) {
-            summaryDiv.innerHTML = `<p class="no-data">No public activity found from ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()}</p>`;
+            const apiLimitNote = atLimit
+                ? ' <strong>Note:</strong> The GitHub API returned the maximum number of available events, but none fell within this date range. For very active users, older events may not be available via the public API.'
+                : '';
+            summaryDiv.innerHTML = `
+                <p class="no-data">No public activity found from ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()}.</p>
+                <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s) from the GitHub API.${apiLimitNote}</p>
+            `;
             return;
         }
         
@@ -290,6 +296,7 @@ async function queryUser(username, fromDate, toDate) {
         detailsDiv.innerHTML = `
             <div class="date-range-info">
                 <p><strong>Date Range:</strong> ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()} (${daysDiff} days)</p>
+                <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s); ${events.length} matched the date range.</p>
             </div>
             <div class="chart-section">
                 <h4>Activity by Type</h4>
@@ -299,10 +306,15 @@ async function queryUser(username, fromDate, toDate) {
                 <h4>Top Repositories</h4>
                 <div id="query-repo-chart" class="chart"></div>
             </div>
+            <div class="daily-activity">
+                <h4>Daily Activity</h4>
+                <div id="query-daily-timeline"></div>
+            </div>
         `;
         
         displayActivityByType(processedData.summary.activityByType, 'query-type-chart');
         displayTopRepositories(processedData.summary.topRepositories, 'query-repo-chart');
+        displayDailyTimeline(processedData.dailyActivity, 'query-daily-timeline');
         
     } catch (error) {
         loadingDiv.classList.add('hidden');
@@ -317,8 +329,11 @@ async function fetchPublicEvents(username, startDate, endDate) {
     const perPage = 100;
     let allEvents = [];
     let page = 1;
+    const maxPages = 10; // GitHub public events API supports up to 10 pages (1,000 events at 100 per page)
     
-    while (page <= 3) { // Limit to 3 pages for performance
+    console.debug(`[gh-summary] Fetching events for ${username}, range: ${startDate.toISOString()} → ${endDate.toISOString()}`);
+    
+    while (page <= maxPages) {
         const url = `${API_BASE}/users/${encodeURIComponent(username)}/events/public?per_page=${perPage}&page=${page}`;
         
         const response = await fetch(url, {
@@ -337,35 +352,56 @@ async function fetchPublicEvents(username, startDate, endDate) {
         }
         
         const events = await response.json();
-        if (!Array.isArray(events) || events.length === 0) break;
+        if (!Array.isArray(events) || events.length === 0) {
+            console.debug(`[gh-summary] Page ${page}: no more events`);
+            break;
+        }
         
+        const oldest = events[events.length - 1];
+        console.debug(`[gh-summary] Page ${page}: ${events.length} events, newest: ${events[0].created_at}, oldest: ${oldest.created_at}`);
         allEvents.push(...events);
         
-        // Check if oldest event is beyond our date range
-        const oldestEvent = events[events.length - 1];
-        if (oldestEvent && new Date(oldestEvent.created_at) < startDate) break;
+        // Stop if oldest event on this page is already before our start date
+        if (oldest && new Date(oldest.created_at) < startDate) {
+            console.debug(`[gh-summary] Oldest event predates startDate – stopping pagination`);
+            break;
+        }
         
         page++;
     }
     
     // Filter events within date range
-    return allEvents.filter(e => {
+    const filtered = allEvents.filter(e => {
         const eventDate = new Date(e.created_at);
         return eventDate >= startDate && eventDate <= endDate;
     });
+    
+    console.debug(`[gh-summary] Total fetched: ${allEvents.length} (${page - 1} page(s)), matched date range: ${filtered.length}`);
+    
+    return { events: filtered, totalFetched: allEvents.length, pagesUsed: page - 1, atLimit: allEvents.length >= maxPages * perPage };
 }
 
 // Process events for display
 function processEventsForDisplay(events, username, days) {
     const repoStats = new Map();
     const typeStats = new Map();
+    const dailyMap = new Map();
     
     for (const e of events) {
         const type = classifyEvent(e);
         const repo = e.repo?.name || 'unknown';
+        const date = new Date(e.created_at).toISOString().split('T')[0];
         
         repoStats.set(repo, (repoStats.get(repo) || 0) + 1);
         typeStats.set(type, (typeStats.get(type) || 0) + 1);
+        
+        if (!dailyMap.has(date)) {
+            dailyMap.set(date, { date, total: 0, byType: {}, byRepo: {} });
+        }
+        const dayEntry = dailyMap.get(date);
+        dayEntry.total++;
+        dayEntry.byType[type] = (dayEntry.byType[type] || 0) + 1;
+        dayEntry.byRepo[repo] = (dayEntry.byRepo[repo] || 0) + 1;
     }
     
     const topRepos = Array.from(repoStats.entries())
@@ -377,11 +413,16 @@ function processEventsForDisplay(events, username, days) {
         .sort((a, b) => b[1] - a[1])
         .map(([type, count]) => ({ type, count }));
     
+    // Sort daily activity newest-first
+    const dailyActivity = Array.from(dailyMap.values())
+        .sort((a, b) => b.date.localeCompare(a.date));
+    
     return {
         user: username,
+        dailyActivity,
         summary: {
             totalEvents: events.length,
-            totalDaysWithActivity: new Set(events.map(e => new Date(e.created_at).toDateString())).size,
+            totalDaysWithActivity: dailyMap.size,
             averagePerDay: (events.length / days).toFixed(1),
             topRepositories: topRepos,
             activityByType: topTypes

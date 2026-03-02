@@ -327,6 +327,13 @@ button[type="submit"]:active {
     margin: 0;
 }
 
+.debug-info {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    margin-top: 6px;
+    font-style: italic;
+}
+
 .loading {
     display: flex;
     flex-direction: column;
