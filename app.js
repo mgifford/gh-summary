@@ -172,7 +172,7 @@ function displayDailyTimeline(dailyActivity, containerId = 'daily-timeline') {
         
         return `
             <div class="timeline-day">
-                <div class="timeline-date">${escapeHtml(day.date)}</div>
+                <div class="timeline-date">${escapeHtml(formatDateWithDayOfWeek(day.date))}</div>
                 <div class="timeline-content">
                     <div class="timeline-stat">
                         <strong>${day.total}</strong> events: ${escapeHtml(topTypes)}
@@ -456,6 +456,18 @@ function classifyEvent(e) {
 }
 
 // Utility functions
+function formatDateWithDayOfWeek(dateStr) {
+    // Parse YYYY-MM-DD in local time to avoid timezone-shift issues
+    const [year, month, day] = dateStr.split('-').map(Number);
+    const date = new Date(year, month - 1, day);
+    return new Intl.DateTimeFormat('en-GB', {
+        weekday: 'long',
+        day: '2-digit',
+        month: 'long',
+        year: 'numeric'
+    }).format(date);
+}
+
 function formatDateTime(date) {
     return new Intl.DateTimeFormat('en-US', {
         year: 'numeric',
