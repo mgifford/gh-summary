@@ -15,7 +15,7 @@ schedule:
 # Activity tracking settings
 activity:
   # Number of days to look back for activity
-  days: 31
+  days: 14
   
   # Include statistics about private repo contributions
   # Note: Only aggregated stats are shared, no private details
