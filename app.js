@@ -207,9 +207,14 @@ function setupQueryForm() {
         const toDate = toDateInput.value;
         
         if (username) {
+            // Update URL with username and date range parameters
+            const url = new URL(window.location);
+            url.searchParams.set('u', username);
+            if (fromDate) url.searchParams.set('from', fromDate);
+            if (toDate) url.searchParams.set('to', toDate);
+            window.history.pushState({}, '', url);
+
             await queryUser(username, fromDate, toDate);
-            // Update URL with the username parameter
-            updateUrlParameter('u', username);
         }
     });
 }
@@ -226,20 +231,19 @@ function checkUrlParameters() {
         // Set the username in the input field
         document.getElementById('query-username').value = username.trim();
         
-        // Get date values from the form (which have been set to defaults)
+        // Override date inputs if URL params are present
+        const fromParam = urlParams.get('from');
+        const toParam = urlParams.get('to');
+        if (fromParam) document.getElementById('query-date-from').value = fromParam;
+        if (toParam) document.getElementById('query-date-to').value = toParam;
+        
+        // Get date values (from URL params or form defaults)
         const fromDate = document.getElementById('query-date-from').value;
         const toDate = document.getElementById('query-date-to').value;
         
         // Query the user
         queryUser(username.trim(), fromDate, toDate);
     }
-}
-
-// Update URL parameter without reloading the page
-function updateUrlParameter(key, value) {
-    const url = new URL(window.location);
-    url.searchParams.set(key, value);
-    window.history.pushState({}, '', url);
 }
 
 // Query another user's public activity
@@ -268,9 +272,30 @@ async function queryUser(username, fromDate, toDate) {
         
         // Calculate number of days
         const daysDiff = Math.ceil((endDate - startDate) / (24 * 60 * 60 * 1000));
+
+        // Progressive callback: show results as soon as the first page with matches arrives
+        let partialShown = false;
+        function onPageFetched(partialEvents, pageNum, totalEventsFetched) {
+            const loadingMsg = loadingDiv.querySelector('p');
+            if (partialEvents.length > 0) {
+                if (!partialShown) {
+                    partialShown = true;
+                    // Render partial results immediately while more pages load
+                    const partial = processEventsForDisplay(partialEvents, username, daysDiff);
+                    displaySummaryStats(partial.summary, 'query-summary');
+                    detailsDiv.innerHTML = buildDetailsHtml(startDate, endDate, daysDiff, totalEventsFetched, pageNum, partialEvents.length, true);
+                    displayActivityByType(partial.summary.activityByType, 'query-type-chart');
+                    displayTopRepositories(partial.summary.topRepositories, 'query-repo-chart');
+                    displayDailyTimeline(partial.dailyActivity, 'query-daily-timeline');
+                }
+                if (loadingMsg) loadingMsg.textContent = `Fetching activity data… (page ${pageNum} done, ${partialEvents.length} events so far)`;
+            } else {
+                if (loadingMsg) loadingMsg.textContent = `Fetching activity data… (page ${pageNum} done)`;
+            }
+        }
         
         // Fetch public events for the user
-        const { events, totalFetched, pagesUsed, atLimit } = await fetchPublicEvents(username, startDate, endDate);
+        const { events, totalFetched, pagesUsed, atLimit } = await fetchPublicEvents(username, startDate, endDate, onPageFetched);
         
         // Hide loading
         loadingDiv.classList.add('hidden');
@@ -283,34 +308,18 @@ async function queryUser(username, fromDate, toDate) {
                 <p class="no-data">No public activity found from ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()}.</p>
                 <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s) from the GitHub API.${apiLimitNote}</p>
             `;
+            detailsDiv.innerHTML = '';
             return;
         }
         
-        // Process events
+        // Process events and render final (complete) results
         const processedData = processEventsForDisplay(events, username, daysDiff);
         
         // Display summary
         displaySummaryStats(processedData.summary, 'query-summary');
         
         // Display details
-        detailsDiv.innerHTML = `
-            <div class="date-range-info">
-                <p><strong>Date Range:</strong> ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()} (${daysDiff} days)</p>
-                <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s); ${events.length} matched the date range.</p>
-            </div>
-            <div class="chart-section">
-                <h4>Activity by Type</h4>
-                <div id="query-type-chart" class="chart"></div>
-            </div>
-            <div class="chart-section">
-                <h4>Top Repositories</h4>
-                <div id="query-repo-chart" class="chart"></div>
-            </div>
-            <div class="daily-activity">
-                <h4>Daily Activity</h4>
-                <div id="query-daily-timeline"></div>
-            </div>
-        `;
+        detailsDiv.innerHTML = buildDetailsHtml(startDate, endDate, daysDiff, totalFetched, pagesUsed, events.length, false);
         
         displayActivityByType(processedData.summary.activityByType, 'query-type-chart');
         displayTopRepositories(processedData.summary.topRepositories, 'query-repo-chart');
@@ -324,8 +333,31 @@ async function queryUser(username, fromDate, toDate) {
     }
 }
 
+// Build the details section HTML
+function buildDetailsHtml(startDate, endDate, daysDiff, totalFetched, pagesUsed, matchedCount, isPartial) {
+    const partialNote = isPartial ? ' <em>(loading more…)</em>' : '';
+    return `
+        <div class="date-range-info">
+            <p><strong>Date Range:</strong> ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()} (${daysDiff} days)</p>
+            <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s); ${matchedCount} matched the date range.${partialNote}</p>
+        </div>
+        <div class="chart-section">
+            <h4>Activity by Type</h4>
+            <div id="query-type-chart" class="chart"></div>
+        </div>
+        <div class="chart-section">
+            <h4>Top Repositories</h4>
+            <div id="query-repo-chart" class="chart"></div>
+        </div>
+        <div class="daily-activity">
+            <h4>Daily Activity</h4>
+            <div id="query-daily-timeline"></div>
+        </div>
+    `;
+}
+
 // Fetch public events from GitHub API
-async function fetchPublicEvents(username, startDate, endDate) {
+async function fetchPublicEvents(username, startDate, endDate, onPageFetched = null) {
     const perPage = 100;
     let allEvents = [];
     let page = 1;
@@ -365,6 +397,15 @@ async function fetchPublicEvents(username, startDate, endDate) {
         const oldest = events[events.length - 1];
         console.debug(`[gh-summary] Page ${page}: ${events.length} events, newest: ${events[0].created_at}, oldest: ${oldest.created_at}`);
         allEvents.push(...events);
+
+        // Notify caller with partial results after each page
+        if (onPageFetched) {
+            const partialFiltered = allEvents.filter(e => {
+                const eventDate = new Date(e.created_at);
+                return eventDate >= startDate && eventDate <= endDate;
+            });
+            onPageFetched(partialFiltered, page, allEvents.length);
+        }
         
         // Stop if oldest event on this page is already before our start date
         if (oldest && new Date(oldest.created_at) < startDate) {
