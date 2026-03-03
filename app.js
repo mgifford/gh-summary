@@ -198,10 +198,10 @@ function setupQueryForm() {
     // Set "to" date as today
     toDateInput.value = new Date().toISOString().split('T')[0];
     
-    // Set "from" date as 31 days ago
-    const thirtyOneDaysAgo = new Date();
-    thirtyOneDaysAgo.setDate(thirtyOneDaysAgo.getDate() - 31);
-    fromDateInput.value = thirtyOneDaysAgo.toISOString().split('T')[0];
+    // Set "from" date as 14 days ago
+    const fourteenDaysAgo = new Date();
+    fourteenDaysAgo.setDate(fourteenDaysAgo.getDate() - 14);
+    fromDateInput.value = fourteenDaysAgo.toISOString().split('T')[0];
     
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
@@ -269,7 +269,7 @@ async function queryUser(username, fromDate, toDate) {
         // Parse dates and calculate days
         // Use parseDateLocal to treat YYYY-MM-DD strings as local midnight, avoiding
         // the off-by-one display issue caused by new Date('YYYY-MM-DD') parsing as UTC.
-        const startDate = (fromDate && parseDateLocal(fromDate)) || new Date(Date.now() - 31 * 24 * 60 * 60 * 1000);
+        const startDate = (fromDate && parseDateLocal(fromDate)) || new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
         const endDate = (toDate && parseDateLocal(toDate)) || new Date();
         
         // Set end date to end of day
