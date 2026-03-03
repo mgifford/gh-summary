@@ -82,6 +82,9 @@ function displayDefaultUserActivity() {
     
     // Display daily timeline
     displayDailyTimeline(cachedActivity.dailyActivity);
+
+    // Display open contributions info for top repos (async, non-blocking)
+    displayOpenContributions(cachedActivity.summary.topRepositories, 'open-contributions');
 }
 
 // Display summary statistics
@@ -324,6 +327,9 @@ async function queryUser(username, fromDate, toDate) {
         displayActivityByType(processedData.summary.activityByType, 'query-type-chart');
         displayTopRepositories(processedData.summary.topRepositories, 'query-repo-chart');
         displayDailyTimeline(processedData.dailyActivity, 'query-daily-timeline');
+
+        // Display open contributions info for top repos (async, non-blocking)
+        displayOpenContributions(processedData.summary.topRepositories, 'query-open-contributions');
         
     } catch (error) {
         loadingDiv.classList.add('hidden');
@@ -353,6 +359,7 @@ function buildDetailsHtml(startDate, endDate, daysDiff, totalFetched, pagesUsed,
             <h4>Daily Activity</h4>
             <div id="query-daily-timeline"></div>
         </div>
+        <div id="query-open-contributions" class="open-contributions hidden"></div>
     `;
 }
 
@@ -496,7 +503,112 @@ function classifyEvent(e) {
     }
 }
 
-// Utility functions
+// ── Open Contributions Descriptor support ─────────────────────────────────────
+
+// Only allow http/https URLs to prevent javascript: protocol injection
+function safeUrl(url) {
+    try {
+        const u = new URL(url);
+        return (u.protocol === 'http:' || u.protocol === 'https:') ? url : '#';
+    } catch {
+        return '#';
+    }
+}
+
+// Fetch .well-known/open-contributions.json from a GitHub repository
+async function fetchOpenContributions(repoFullName) {
+    const parts = repoFullName.split('/');
+    if (parts.length !== 2) return null;
+    const [owner, repo] = parts;
+    const url = `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/HEAD/.well-known/open-contributions.json`;
+    try {
+        const response = await fetch(url, {
+            headers: { 'User-Agent': 'gh-summary-pages' }
+        });
+        if (!response.ok) return null;
+        return await response.json();
+    } catch {
+        return null;
+    }
+}
+
+// Render a single open-contributions card for a repository
+function renderOpenContributionCard(repoFullName, data) {
+    const repoName = repoFullName.split('/')[1];
+    // Try to find a matching project entry by repo URL or name
+    const project = Array.isArray(data.projects)
+        ? (data.projects.find(p => p.repository?.url?.includes(repoFullName)) ||
+           data.projects.find(p => p.name === repoName) ||
+           data.projects[0])
+        : null;
+    const org = data.organization;
+
+    const lines = [];
+    if (org?.description) {
+        lines.push(`<p class="open-contrib-org">${escapeHtml(org.description)}</p>`);
+    }
+    if (project?.description) {
+        lines.push(`<p>${escapeHtml(project.description)}</p>`);
+    }
+    if (project?.status) {
+        lines.push(`<span class="status-badge status-${escapeHtml(project.status)}">${escapeHtml(project.status)}</span>`);
+    }
+
+    const links = [];
+    if (project?.participate?.issues) {
+        links.push(`<a href="${escapeHtml(safeUrl(project.participate.issues))}" target="_blank" rel="noopener noreferrer">Issues</a>`);
+    }
+    if (project?.participate?.good_first_issues) {
+        links.push(`<a href="${escapeHtml(safeUrl(project.participate.good_first_issues))}" target="_blank" rel="noopener noreferrer">Good First Issues</a>`);
+    }
+    if (project?.release?.security_policy) {
+        links.push(`<a href="${escapeHtml(safeUrl(project.release.security_policy))}" target="_blank" rel="noopener noreferrer">Security Policy</a>`);
+    }
+    if (links.length > 0) {
+        lines.push(`<div class="open-contrib-links">${links.join(' · ')}</div>`);
+    }
+
+    return `
+        <div class="open-contrib-card">
+            <h4>${escapeHtml(repoFullName)}</h4>
+            ${lines.join('\n            ')}
+        </div>
+    `;
+}
+
+// Display open contributions info for up to the top 5 repositories
+async function displayOpenContributions(topRepos, containerId) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    // Only check repos with a valid owner/name pair (skip "private-repos" placeholder)
+    const reposToCheck = topRepos
+        .slice(0, 5)
+        .filter(r => r.repo && r.repo !== 'private-repos' && r.repo.includes('/'));
+
+    if (reposToCheck.length === 0) return;
+
+    // Fetch all descriptors in parallel
+    const results = await Promise.all(
+        reposToCheck.map(async r => ({ repo: r.repo, data: await fetchOpenContributions(r.repo) }))
+    );
+
+    const found = results.filter(r => r.data !== null);
+    if (found.length === 0) return;
+
+    container.classList.remove('hidden');
+    container.innerHTML = `
+        <h3>Open Contributions Info</h3>
+        <p class="info-text">
+            The following repositories publish an
+            <a href="https://www.foo.be/2026/03/open-contributions-descriptor" target="_blank" rel="noopener noreferrer">Open Contributions Descriptor</a>
+            describing how you can get involved.
+        </p>
+        ${found.map(r => renderOpenContributionCard(r.repo, r.data)).join('')}
+    `;
+}
+
+// ── Utility functions ──────────────────────────────────────────────────────────
 function formatDateWithDayOfWeek(dateStr) {
     // Parse YYYY-MM-DD in local time to avoid timezone-shift issues
     const [year, month, day] = dateStr.split('-').map(Number);
