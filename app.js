@@ -267,8 +267,10 @@ async function queryUser(username, fromDate, toDate) {
     
     try {
         // Parse dates and calculate days
-        const startDate = fromDate ? new Date(fromDate) : new Date(Date.now() - 31 * 24 * 60 * 60 * 1000);
-        const endDate = toDate ? new Date(toDate) : new Date();
+        // Use parseDateLocal to treat YYYY-MM-DD strings as local midnight, avoiding
+        // the off-by-one display issue caused by new Date('YYYY-MM-DD') parsing as UTC.
+        const startDate = (fromDate && parseDateLocal(fromDate)) || new Date(Date.now() - 31 * 24 * 60 * 60 * 1000);
+        const endDate = (toDate && parseDateLocal(toDate)) || new Date();
         
         // Set end date to end of day
         endDate.setHours(23, 59, 59, 999);
@@ -304,13 +306,17 @@ async function queryUser(username, fromDate, toDate) {
         loadingDiv.classList.add('hidden');
         
         if (events.length === 0) {
-            const apiLimitNote = atLimit
-                ? ' <strong>Note:</strong> The GitHub API returned the maximum number of available events, but none fell within this date range. For very active users, older events may not be available via the public API.'
-                : '';
-            summaryDiv.innerHTML = `
-                <p class="no-data">No public activity found from ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()}.</p>
-                <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s) from the GitHub API.${apiLimitNote}</p>
-            `;
+            if (atLimit) {
+                summaryDiv.innerHTML = `
+                    <p class="no-data">Activity data not available for ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()} via the GitHub API.</p>
+                    <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s) from the GitHub API. <strong>Note:</strong> The GitHub public events API only returns the ~300 most recent events. The requested date range is older than what the API can provide — activity may well exist in this period but cannot be retrieved this way.</p>
+                `;
+            } else {
+                summaryDiv.innerHTML = `
+                    <p class="no-data">No public activity found from ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()}.</p>
+                    <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s) from the GitHub API.</p>
+                `;
+            }
             detailsDiv.innerHTML = '';
             return;
         }
@@ -369,6 +375,7 @@ async function fetchPublicEvents(username, startDate, endDate, onPageFetched = n
     let allEvents = [];
     let page = 1;
     const maxPages = 10; // GitHub public events API supports at most 300 events (3 pages of 100); extra pages return 422
+    let hitApiLimit = false; // true when GitHub returns 422, meaning we've exhausted available history
     
     console.debug(`[gh-summary] Fetching events for ${username}, range: ${startDate.toISOString()} → ${endDate.toISOString()}`);
     
@@ -390,6 +397,7 @@ async function fetchPublicEvents(username, startDate, endDate, onPageFetched = n
             // GitHub returns 422 when requesting beyond the available pages limit
             if (response.status === 422) {
                 console.debug(`[gh-summary] Page ${page}: GitHub returned 422 (beyond available pages), stopping`);
+                hitApiLimit = true;
                 break;
             }
             throw new Error(`GitHub API error: ${response.status}`);
@@ -431,7 +439,15 @@ async function fetchPublicEvents(username, startDate, endDate, onPageFetched = n
     
     console.debug(`[gh-summary] Total fetched: ${allEvents.length} (${page - 1} page(s)), matched date range: ${filtered.length}`);
     
-    return { events: filtered, totalFetched: allEvents.length, pagesUsed: page - 1, atLimit: allEvents.length >= maxPages * perPage };
+    // atLimit is true when we hit the API hard limit (422) before finding events old enough
+    // to cover the start of the requested date range. This means activity may exist in that
+    // period but the GitHub public events API only returns the ~300 most recent events.
+    // GitHub API guarantees the created_at field on all event objects.
+    const oldestFetched = allEvents.length > 0 ? new Date(allEvents[allEvents.length - 1].created_at) : null;
+    const reachedPaginationEnd = hitApiLimit || page > maxPages;
+    const atLimit = reachedPaginationEnd && (oldestFetched === null || oldestFetched > startDate);
+    
+    return { events: filtered, totalFetched: allEvents.length, pagesUsed: page - 1, atLimit };
 }
 
 // Process events for display
@@ -609,6 +625,18 @@ async function displayOpenContributions(topRepos, containerId) {
 }
 
 // ── Utility functions ──────────────────────────────────────────────────────────
+
+// Parse a YYYY-MM-DD string as local midnight to avoid the off-by-one timezone
+// issue that occurs when new Date('YYYY-MM-DD') is treated as UTC midnight and
+// then displayed with toLocaleDateString() in a negative-offset timezone.
+function parseDateLocal(dateStr) {
+    if (!dateStr || typeof dateStr !== 'string') return null;
+    const parts = dateStr.split('-').map(Number);
+    if (parts.length !== 3 || parts.some(isNaN)) return null;
+    const [year, month, day] = parts;
+    return new Date(year, month - 1, day);
+}
+
 function formatDateWithDayOfWeek(dateStr) {
     // Parse YYYY-MM-DD in local time to avoid timezone-shift issues
     const [year, month, day] = dateStr.split('-').map(Number);
