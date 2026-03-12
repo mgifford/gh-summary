@@ -512,6 +512,13 @@ nav.page-nav a.active {
     border-bottom: 2px solid var(--primary-color);
 }
 
+nav.page-nav a.disabled {
+    color: var(--text-secondary);
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+}
+
 /* Footer */
 footer {
     background: var(--surface);

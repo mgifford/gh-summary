@@ -56,6 +56,14 @@ async function loadDefaultUserData() {
 function displayDefaultUserActivity() {
     if (!cachedActivity) return;
     
+    // Enable the Usage & AI nav link now that a user account is available
+    const usageNavLink = document.getElementById('usage-nav-link');
+    if (usageNavLink) {
+        usageNavLink.classList.remove('disabled');
+        usageNavLink.removeAttribute('aria-disabled');
+        usageNavLink.removeAttribute('tabindex');
+    }
+
     // Set username
     document.getElementById('default-username').textContent = cachedActivity.user;
     document.title = `GitHub Activity - ${cachedActivity.user}`;
