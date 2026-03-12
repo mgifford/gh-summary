@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Usage Summary</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Usage-page specific styles */
+        .info-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .info-card h3 {
+            margin-bottom: 16px;
+        }
+
+        .info-box {
+            background: #ddf4ff;
+            border: 1px solid #54aeff;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-top: 20px;
+        }
+
+        .info-box h4 {
+            margin-bottom: 8px;
+        }
+
+        .info-box p {
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+
+        .info-box a {
+            color: var(--primary-color);
+        }
+
+        .unavailable-note {
+            color: var(--text-secondary);
+            font-style: italic;
+            padding: 12px 0;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        .data-table th,
+        .data-table td {
+            text-align: left;
+            padding: 8px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .data-table th {
+            background: var(--surface);
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .data-table tbody tr:hover {
+            background: var(--surface);
+        }
+
+        .bar-success .bar-fill,
+        .bar-fill.bar-success {
+            background: var(--secondary-color);
+        }
+
+        .bar-failure .bar-fill,
+        .bar-fill.bar-failure {
+            background: var(--error);
+        }
+
+        .bar-cancelled .bar-fill,
+        .bar-fill.bar-cancelled {
+            background: #bf8700;
+        }
+
+        .bar-skipped .bar-fill,
+        .bar-fill.bar-skipped {
+            background: var(--text-secondary);
+        }
+
+        .projects-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .project-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+        }
+
+        .project-card h4 {
+            margin-bottom: 8px;
+        }
+
+        .project-card h4 a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .project-card h4 a:hover {
+            text-decoration: underline;
+        }
+
+        .project-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .project-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .status-open,
+        .status-Available { background: #d4edda; color: #155724; }
+        .status-closed    { background: #f8d7da; color: #721c24; }
+        .status-Shutdown  { background: #f8d7da; color: #721c24; }
+        .status-success   { background: #d4edda; color: #155724; }
+        .status-failure   { background: #f8d7da; color: #721c24; }
+        .status-cancelled { background: #fff3cd; color: #856404; }
+        .status-skipped   { background: #e2e3e5; color: #495057; }
+        .status-unknown   { background: #e2e3e5; color: #495057; }
+
+        .small-text {
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GitHub Usage Summary</h1>
+            <p class="subtitle">Actions, Copilot, Codespaces &amp; Projects for <span id="usage-username"></span></p>
+        </header>
+
+        <nav class="page-nav" aria-label="Site navigation">
+            <a href="index.html">Activity</a>
+            <a href="usage.html" class="active">Usage &amp; AI</a>
+        </nav>
+
+        <main id="usage-main">
+            <!-- Metadata -->
+            <div id="usage-generated" class="meta-info"></div>
+            <div id="usage-period" class="meta-info"></div>
+
+            <!-- GitHub Actions -->
+            <section id="actions-section">
+                <h2>GitHub Actions</h2>
+                <div id="actions-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Loading Actions data…</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GitHub Copilot -->
+            <section id="copilot-section">
+                <h2>GitHub Copilot</h2>
+                <div id="copilot-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Loading Copilot data…</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Codespaces -->
+            <section id="codespaces-section">
+                <h2>Codespaces</h2>
+                <div id="codespaces-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Loading Codespaces data…</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section id="projects-section">
+                <h2>Projects</h2>
+                <div id="projects-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Loading Projects data…</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                Powered by <a href="https://github.com/mgifford/gh-summary" target="_blank">gh-summary</a> |
+                <a href="https://docs.github.com/en/rest" target="_blank">GitHub API</a>
+            </p>
+            <p class="privacy-note">
+                Data is generated server-side by a scheduled workflow and cached locally.
+                Copilot usage details and energy metrics require organisation admin access and are not available via public API.
+            </p>
+        </footer>
+    </div>
+
+    <script src="usage.js"></script>
+</body>
+</html>

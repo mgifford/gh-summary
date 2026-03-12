@@ -1,0 +1,36 @@
+{
+  "generated": "2026-03-12T00:00:00.000Z",
+  "user": "mgifford",
+  "period": {
+    "days": 14,
+    "start": "2026-02-26",
+    "end": "2026-03-12"
+  },
+  "actions": {
+    "available": true,
+    "reposChecked": 0,
+    "reposWithRuns": 0,
+    "totalRuns": 0,
+    "byConclusion": {},
+    "estimatedComputeMinutes": 0,
+    "topWorkflows": []
+  },
+  "copilot": {
+    "subscription": {
+      "available": false,
+      "reason": "Run generate-usage.mjs with a GITHUB_TOKEN to populate this data"
+    },
+    "orgMetrics": {
+      "available": false,
+      "reason": "Requires manage_billing:copilot scope (org admin only)"
+    }
+  },
+  "codespaces": {
+    "available": false,
+    "reason": "Run generate-usage.mjs with a GITHUB_TOKEN that includes codespace scope"
+  },
+  "projects": {
+    "available": false,
+    "reason": "Run generate-usage.mjs with a GITHUB_TOKEN that includes read:project scope"
+  }
+}
