@@ -7,6 +7,8 @@ on:
     paths:
       - 'index.html'
       - 'app.js'
+      - 'usage.html'
+      - 'usage.js'
       - 'styles.css'
       - '_data/**'
       - '.github/workflows/pages.yml'

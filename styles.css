@@ -485,6 +485,33 @@ button[type="submit"]:active {
     color: var(--text-secondary);
 }
 
+/* Page navigation (Activity ↔ Usage) */
+nav.page-nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 40px;
+    display: flex;
+    gap: 24px;
+}
+
+nav.page-nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+
+nav.page-nav a:hover {
+    text-decoration: underline;
+}
+
+nav.page-nav a.active {
+    color: var(--text);
+    font-weight: 600;
+    border-bottom: 2px solid var(--primary-color);
+}
+
 /* Footer */
 footer {
     background: var(--surface);

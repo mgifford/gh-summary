@@ -65,6 +65,12 @@ jobs:
         run: |
           node generate-data.mjs
       
+      - name: Generate usage data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node generate-usage.mjs
+      
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
