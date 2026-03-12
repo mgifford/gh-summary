@@ -21,8 +21,9 @@ async function loadUsageData() {
         const main = document.getElementById('usage-main');
         main.innerHTML = `
             <div class="error">
-                <h3>Usage Data Not Available</h3>
-                <p>The cached usage data has not been generated yet. Run <code>node generate-usage.mjs</code> to generate it.</p>
+                <h3>No User Account Configured</h3>
+                <p>Usage &amp; AI data is only available once a default user account has been set up and cached data has been generated.</p>
+                <p>Please <a href="index.html">return to the Activity page</a> and configure a user account first, then run <code>node generate-usage.mjs</code> to generate the usage data.</p>
                 <p class="small">Technical details: ${escapeHtml(error.message)}</p>
             </div>
         `;
