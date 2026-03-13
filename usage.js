@@ -19,7 +19,7 @@ async function loadUsageData() {
         console.debug(`[gh-summary/usage] Loaded usage.json: user=${data.user} generated=${data.generated}`);
         renderUsagePage(data);
     } catch (error) {
-        console.error('[gh-summary/usage] Error loading usage data:', error);
+        console.warn('[gh-summary/usage] Usage data not available:', error?.message || error);
         console.info(
             '[gh-summary/usage] To generate usage data, run:\n' +
             '  export GITHUB_TOKEN=<your-PAT>  # or add GH_PAT secret in repo settings\n' +
