@@ -34,7 +34,7 @@ async function loadDefaultUserData() {
         // Display the data
         displayDefaultUserActivity();
     } catch (error) {
-        console.error('Error loading default user data:', error);
+        console.warn('Default user data not available:', error?.message || error);
         // Hide the default user section since we don't have data
         document.getElementById('default-user-section').style.display = 'none';
         
