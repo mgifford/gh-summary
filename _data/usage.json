@@ -18,19 +18,19 @@
   "copilot": {
     "subscription": {
       "available": false,
-      "reason": "Run generate-usage.mjs with a GITHUB_TOKEN to populate this data"
+      "reason": "Requires a Personal Access Token (PAT) with read:user scope — default GITHUB_TOKEN does not include this scope. See API-LIMITATIONS.md."
     },
     "orgMetrics": {
       "available": false,
-      "reason": "Requires manage_billing:copilot scope (org admin only)"
+      "reason": "Requires manage_billing:copilot scope (org admin only). See API-LIMITATIONS.md."
     }
   },
   "codespaces": {
     "available": false,
-    "reason": "Run generate-usage.mjs with a GITHUB_TOKEN that includes codespace scope"
+    "reason": "Requires a Personal Access Token (PAT) with codespace scope — default GITHUB_TOKEN does not include this scope. See API-LIMITATIONS.md."
   },
   "projects": {
     "available": false,
-    "reason": "Run generate-usage.mjs with a GITHUB_TOKEN that includes read:project scope"
+    "reason": "Requires a Personal Access Token (PAT) with read:project scope — default GITHUB_TOKEN does not include this scope. See API-LIMITATIONS.md."
   }
 }

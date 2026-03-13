@@ -88,6 +88,13 @@ async function ghFetch(url) {
   return { status: res.status, ok: res.ok, data: res.ok ? await res.json() : null };
 }
 
+function logTokenScopeHint(section, requiredScope) {
+  console.warn(`  ⚠ ${section}: requires "${requiredScope}" scope`);
+  console.warn(`    Locally: export GITHUB_TOKEN=<PAT-with-${requiredScope}-scope>`);
+  console.warn(`    In CI: add a GH_PAT repository secret with the "${requiredScope}" scope`);
+  console.warn(`    See API-LIMITATIONS.md for full details`);
+}
+
 // Fetch user's public repos (sorted by last push, skip archived)
 async function fetchUserRepos(username) {
   const repos = [];
@@ -131,6 +138,13 @@ async function fetchCopilotStatus() {
       reason: 'No active Copilot subscription found for this user'
     };
   }
+  if (status === 401 || status === 403) {
+    logTokenScopeHint('Copilot subscription', 'read:user');
+    return {
+      available: false,
+      reason: 'Requires a Personal Access Token (PAT) with read:user scope — default GITHUB_TOKEN does not include this scope'
+    };
+  }
   return {
     available: false,
     reason: 'Requires an authenticated token with read:user scope'
@@ -162,6 +176,7 @@ async function fetchCopilotOrgMetrics(username) {
   }
 
   if (results.length === 0) {
+    logTokenScopeHint('Copilot org metrics', 'manage_billing:copilot');
     return {
       available: false,
       reason: 'Copilot metrics require manage_billing:copilot scope (org admin only)'
@@ -191,7 +206,8 @@ async function fetchCodespaces() {
     };
   }
   if (status === 401 || status === 403) {
-    return { available: false, reason: 'Requires codespace scope in GITHUB_TOKEN' };
+    logTokenScopeHint('Codespaces', 'codespace');
+    return { available: false, reason: 'Requires a Personal Access Token (PAT) with codespace scope — default GITHUB_TOKEN does not include this scope' };
   }
   return { available: false, reason: 'Codespaces information not accessible' };
 }
@@ -217,7 +233,7 @@ async function fetchProjects(username) {
   }
   return {
     available: false,
-    reason: 'Requires read:project scope, or no public classic projects exist'
+    reason: 'Requires a Personal Access Token (PAT) with read:project scope, or no public classic projects exist'
   };
 }
 

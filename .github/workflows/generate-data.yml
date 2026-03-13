@@ -66,8 +66,17 @@ jobs:
           node generate-data.mjs
       
       - name: Generate usage data
+        # The default GITHUB_TOKEN has limited scopes and cannot access Copilot
+        # subscription status, Codespaces, or Projects.
+        # To enable those sections, add a Personal Access Token (PAT) as the
+        # repository secret GH_PAT with the following scopes:
+        #   read:user          — Copilot subscription status
+        #   codespace          — list Codespaces
+        #   read:project       — list classic Projects
+        #   manage_billing:copilot — org-level Copilot metrics (org admins only)
+        # See API-LIMITATIONS.md for full details.
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
           node generate-usage.mjs
       

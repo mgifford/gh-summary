@@ -10,20 +10,29 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Load cached usage data
 async function loadUsageData() {
     try {
+        console.debug('[gh-summary/usage] Fetching _data/usage.json…');
         const response = await fetch(`${DATA_DIR}/usage.json`);
         if (!response.ok) {
-            throw new Error('Failed to load cached usage data');
+            throw new Error(`HTTP ${response.status} loading _data/usage.json`);
         }
         const data = await response.json();
+        console.debug(`[gh-summary/usage] Loaded usage.json: user=${data.user} generated=${data.generated}`);
         renderUsagePage(data);
     } catch (error) {
-        console.error('Error loading usage data:', error);
+        console.error('[gh-summary/usage] Error loading usage data:', error);
+        console.info(
+            '[gh-summary/usage] To generate usage data, run:\n' +
+            '  export GITHUB_TOKEN=<your-PAT>  # or add GH_PAT secret in repo settings\n' +
+            '  node generate-usage.mjs\n' +
+            'See API-LIMITATIONS.md for required token scopes.'
+        );
         const main = document.getElementById('usage-main');
         main.innerHTML = `
             <div class="error">
                 <h3>No User Account Configured</h3>
                 <p>Usage &amp; AI data is only available once a default user account has been set up and cached data has been generated.</p>
                 <p>Please <a href="index.html">return to the Activity page</a> and configure a user account first, then run <code>node generate-usage.mjs</code> to generate the usage data.</p>
+                <p>See <a href="API-LIMITATIONS.md">API-LIMITATIONS.md</a> for details on required GitHub token scopes.</p>
                 <p class="small">Technical details: ${escapeHtml(error.message)}</p>
             </div>
         `;
@@ -42,11 +51,68 @@ function renderUsagePage(data) {
     document.getElementById('usage-period').innerHTML =
         `<strong>Period:</strong> ${data.period.start} to ${data.period.end} (${data.period.days} days)`;
 
+    // Log diagnostic summary for each section
+    logSectionDiagnostics(data);
+
     // Render each section
     renderActionsSection(data.actions);
     renderCopilotSection(data.copilot);
     renderCodespacesSection(data.codespaces);
     renderProjectsSection(data.projects);
+}
+
+// Log diagnostic information about what data is available and what is missing
+function logSectionDiagnostics(data) {
+    const prefix = '[gh-summary/usage]';
+    let allAvailable = true;
+
+    // Actions
+    if (data.actions?.available) {
+        console.debug(`${prefix} actions: available — ${data.actions.totalRuns} run(s) across ${data.actions.reposChecked} repo(s)`);
+    } else {
+        allAvailable = false;
+        console.info(`${prefix} actions unavailable: ${data.actions?.reason || 'no data'}`);
+    }
+
+    // Copilot subscription
+    if (data.copilot?.subscription?.available) {
+        console.debug(`${prefix} copilot.subscription: available — plan=${data.copilot.subscription.planType}`);
+    } else {
+        allAvailable = false;
+        console.info(`${prefix} copilot.subscription unavailable: ${data.copilot?.subscription?.reason || 'no data'}`);
+    }
+
+    // Copilot org metrics
+    if (data.copilot?.orgMetrics?.available) {
+        console.debug(`${prefix} copilot.orgMetrics: available — ${data.copilot.orgMetrics.orgs?.length || 0} org(s)`);
+    } else {
+        allAvailable = false;
+        console.info(`${prefix} copilot.orgMetrics unavailable: ${data.copilot?.orgMetrics?.reason || 'no data'}`);
+    }
+
+    // Codespaces
+    if (data.codespaces?.available) {
+        console.debug(`${prefix} codespaces: available — ${data.codespaces.totalCount} item(s)`);
+    } else {
+        allAvailable = false;
+        console.info(`${prefix} codespaces unavailable: ${data.codespaces?.reason || 'no data'}`);
+    }
+
+    // Projects
+    if (data.projects?.available) {
+        console.debug(`${prefix} projects: available — ${data.projects.items?.length || 0} item(s)`);
+    } else {
+        allAvailable = false;
+        console.info(`${prefix} projects unavailable: ${data.projects?.reason || 'no data'}`);
+    }
+
+    if (!allAvailable) {
+        console.info(
+            `${prefix} Tip: some sections are empty because the GITHUB_TOKEN used to generate\n` +
+            `  _data/usage.json lacked the required OAuth scopes.\n` +
+            `  See API-LIMITATIONS.md for the list of required scopes and setup instructions.`
+        );
+    }
 }
 
 // ── Actions Section ────────────────────────────────────────────────────────────
