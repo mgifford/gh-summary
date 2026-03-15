@@ -1,36 +1,113 @@
 {
-  "generated": "2026-03-12T00:00:00.000Z",
+  "generated": "2026-03-15T00:45:25.000Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-02-26",
-    "end": "2026-03-12"
+    "start": "2026-03-01",
+    "end": "2026-03-15"
   },
   "actions": {
     "available": true,
-    "reposChecked": 0,
-    "reposWithRuns": 0,
-    "totalRuns": 0,
-    "byConclusion": {},
-    "estimatedComputeMinutes": 0,
-    "topWorkflows": []
+    "reposChecked": 25,
+    "reposWithRuns": 25,
+    "totalRuns": 1493,
+    "byConclusion": {
+      "success": 1214,
+      "failure": 218,
+      "cancelled": 55,
+      "skipped": 3,
+      "action_required": 2
+    },
+    "estimatedComputeMinutes": 5751,
+    "topWorkflows": [
+      {
+        "repo": "mgifford/o-hat-scanner",
+        "workflow": "a11y-scan",
+        "runs": 85,
+        "successRate": 1,
+        "avgDurationSeconds": 288
+      },
+      {
+        "repo": "mgifford/pdf-crawler",
+        "workflow": "pages build and deployment",
+        "runs": 52,
+        "successRate": 0.67,
+        "avgDurationSeconds": 33
+      },
+      {
+        "repo": "mgifford/top-task-finder",
+        "workflow": "pages build and deployment",
+        "runs": 47,
+        "successRate": 0.96,
+        "avgDurationSeconds": 48
+      },
+      {
+        "repo": "mgifford/wcag-spine",
+        "workflow": "pages build and deployment",
+        "runs": 46,
+        "successRate": 0.96,
+        "avgDurationSeconds": 42
+      },
+      {
+        "repo": "mgifford/sam_gov_md",
+        "workflow": "pages build and deployment",
+        "runs": 41,
+        "successRate": 0.8,
+        "avgDurationSeconds": 237
+      },
+      {
+        "repo": "mgifford/daily-dap",
+        "workflow": "pages build and deployment",
+        "runs": 39,
+        "successRate": 0.95,
+        "avgDurationSeconds": 39
+      },
+      {
+        "repo": "mgifford/wcag-spine",
+        "workflow": "Running Copilot coding agent",
+        "runs": 37,
+        "successRate": 0.95,
+        "avgDurationSeconds": 680
+      },
+      {
+        "repo": "mgifford/open-scans",
+        "workflow": "pages build and deployment",
+        "runs": 35,
+        "successRate": 0.94,
+        "avgDurationSeconds": 165
+      },
+      {
+        "repo": "mgifford/ParaCharts",
+        "workflow": "pages build and deployment",
+        "runs": 31,
+        "successRate": 0.97,
+        "avgDurationSeconds": 39
+      },
+      {
+        "repo": "mgifford/accessible-buildings",
+        "workflow": "Running Copilot coding agent",
+        "runs": 28,
+        "successRate": 0.64,
+        "avgDurationSeconds": 305
+      }
+    ]
   },
   "copilot": {
     "subscription": {
       "available": false,
-      "reason": "Requires a Personal Access Token (PAT) with read:user scope — default GITHUB_TOKEN does not include this scope. See API-LIMITATIONS.md."
+      "reason": "Requires an authenticated token with read:user scope"
     },
     "orgMetrics": {
       "available": false,
-      "reason": "Requires manage_billing:copilot scope (org admin only). See API-LIMITATIONS.md."
+      "reason": "No org memberships accessible or token lacks read:org scope"
     }
   },
   "codespaces": {
     "available": false,
-    "reason": "Requires a Personal Access Token (PAT) with codespace scope — default GITHUB_TOKEN does not include this scope. See API-LIMITATIONS.md."
+    "reason": "Requires a Personal Access Token (PAT) with codespace scope — default GITHUB_TOKEN does not include this scope"
   },
   "projects": {
     "available": false,
-    "reason": "Requires a Personal Access Token (PAT) with read:project scope — default GITHUB_TOKEN does not include this scope. See API-LIMITATIONS.md."
+    "reason": "Requires a Personal Access Token (PAT) with read:project scope, or no public classic projects exist"
   }
 }
