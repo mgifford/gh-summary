@@ -1,2029 +1,2094 @@
 {
   "user": "mgifford",
-  "generated": "2026-03-15T00:44:35.534Z",
+  "generated": "2026-03-31T00:46:47.892Z",
   "period": {
     "days": 14,
-    "start": "2026-03-01",
-    "end": "2026-03-15"
+    "start": "2026-03-17",
+    "end": "2026-03-31"
   },
   "summary": {
     "totalEvents": 300,
-    "totalDaysWithActivity": 4,
+    "totalDaysWithActivity": 2,
     "averagePerDay": "21.4",
     "topRepositories": [
       {
-        "repo": "mgifford/pdf-crawler",
-        "count": 72
+        "repo": "mgifford/ParaCharts",
+        "count": 121
       },
       {
         "repo": "mgifford/open-scans",
-        "count": 56
-      },
-      {
-        "repo": "mgifford/ParaCharts",
-        "count": 39
-      },
-      {
-        "repo": "mgifford/SUSTAINABILITY.md",
-        "count": 21
+        "count": 59
       },
       {
         "repo": "mgifford/daily-dap",
-        "count": 18
+        "count": 28
       },
       {
-        "repo": "mgifford/ai-browser-test",
-        "count": 17
+        "repo": "mgifford/EchoLocate",
+        "count": 19
       },
       {
-        "repo": "mgifford/wcag-spine",
+        "repo": "mgifford/wai-yaml-ld",
         "count": 11
       },
       {
-        "repo": "mgifford/o-hat-scanner",
-        "count": 10
+        "repo": "mgifford/sam_gov_md",
+        "count": 11
       },
       {
-        "repo": "mgifford/top-task-finder",
+        "repo": "mgifford/ACCESSIBILITY.md",
+        "count": 9
+      },
+      {
+        "repo": "mgifford/whisper-slides",
+        "count": 7
+      },
+      {
+        "repo": "mgifford/eu-plus-government-scans",
         "count": 6
       },
       {
-        "repo": "mgifford/gh-open-dash",
+        "repo": "mgifford/open-site-review",
         "count": 6
       }
     ],
     "activityByType": [
       {
-        "type": "commit",
-        "count": 175
-      },
-      {
         "type": "issue",
-        "count": 100
+        "count": 110
       },
       {
         "type": "delete",
-        "count": 9
+        "count": 101
       },
       {
         "type": "issue comment",
-        "count": 9
+        "count": 47
       },
       {
-        "type": "pull request",
-        "count": 2
-      },
-      {
-        "type": "fork",
-        "count": 2
-      },
-      {
-        "type": "watch",
-        "count": 2
-      },
-      {
-        "type": "create",
-        "count": 1
+        "type": "commit",
+        "count": 42
       }
     ]
   },
   "dailyActivity": [
     {
-      "date": "Wednesday, 2026-03-11",
-      "total": 58,
+      "date": "Sunday, 2026-03-29",
+      "total": 96,
       "byType": {
-        "issue": 23,
-        "commit": 34,
-        "create": 1
+        "commit": 5,
+        "issue": 3,
+        "delete": 88
       },
       "byRepo": {
-        "mgifford/open-scans": 2,
-        "mgifford/ai-browser-test": 10,
-        "mgifford/pdf-crawler": 28,
-        "mgifford/SUSTAINABILITY.md": 17,
-        "mgifford/wcag-spine": 1
+        "mgifford/EchoLocate": 3,
+        "mgifford/ParaCharts": 7,
+        "mgifford/open-scans": 58,
+        "mgifford/daily-dap": 28
       },
       "events": [
         {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T03:07:15Z"
+        },
+        {
           "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T03:04:18Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 76,
+          "url": "https://github.com/mgifford/ParaCharts/issues/76"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T03:04:18Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 76,
+          "url": "https://github.com/mgifford/ParaCharts/issues/76"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T03:03:51Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T03:03:52Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T03:03:52Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 77,
+          "url": "https://github.com/mgifford/ParaCharts/issues/77"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T03:03:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T03:03:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T02:56:40Z"
+        },
+        {
+          "type": "delete",
           "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-11T20:49:11Z",
-          "title": "SCAN: Mgov — ALL",
-          "number": 122,
-          "url": "https://github.com/mgifford/open-scans/issues/122"
+          "timestamp": "2026-03-30T02:23:36Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T20:11:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T19:56:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T19:42:46Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T19:36:30Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T19:36:23Z",
-          "title": "SCAN: https://mn.gov/portal/",
-          "number": 64,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/64"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T19:25:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T19:23:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T19:11:04Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T19:09:41Z",
-          "title": "SCAN: https://www.texas.gov",
-          "number": 63,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/63"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T19:08:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T19:07:45Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T19:00:46Z",
-          "title": "Validate if Number works and explore fine tuning",
-          "number": 49,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/49"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T18:45:17Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T18:45:17Z",
-          "title": "Include better sustainability testing",
-          "number": 59,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/59"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T18:29:14Z",
-          "title": "Include better sustainability testing",
-          "number": 59,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/59"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T18:29:14Z",
-          "title": "Include better sustainability testing",
-          "number": 59,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/59"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T18:29:07Z",
-          "title": "Include better sustainability testing",
-          "number": 59,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/59"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T18:12:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T17:58:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T17:50:22Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-11T17:40:28Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T17:29:54Z",
-          "title": "SCAN: https://edf-feph.org",
-          "number": 58,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/58"
-        },
-        {
-          "type": "issue",
+          "type": "delete",
           "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-11T17:28:40Z",
-          "title": "SCAN: edf-feph.org",
-          "number": 121,
-          "url": "https://github.com/mgifford/open-scans/issues/121"
+          "timestamp": "2026-03-30T02:23:35Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:34Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:34Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:30Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:30Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:28Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:28Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:28Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:27Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:27Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:25Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:24Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:22Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:21Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:19Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:18Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:16Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:14Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:13Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:06Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:04Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:03Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:02Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:23:01Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:59Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:59Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:57Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:55Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:55Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:54Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:51Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:51Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:50Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:49Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:49Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:48Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:47Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:47Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:45Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:44Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:43Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:43Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:41Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:39Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:38Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:38Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:37Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:36Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:35Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:35Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:32Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:31Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:30Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:30Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:29Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:27Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T02:22:26Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T16:59:07Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T01:49:37Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T16:45:50Z"
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:45Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T16:44:55Z"
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:44Z"
         },
         {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:44Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:43Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:43Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:42Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:41Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:41Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:39Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:39Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:38Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:37Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:36Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:36Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:35Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:34Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:33Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:33Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:32Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:32Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:27Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:24Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:24Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:23Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:48:22Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:47:59Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:47:56Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-dap",
+          "timestamp": "2026-03-30T01:47:56Z"
+        }
+      ]
+    },
+    {
+      "date": "Monday, 2026-03-30",
+      "total": 204,
+      "byType": {
+        "commit": 37,
+        "issue": 107,
+        "delete": 13,
+        "issue comment": 47
+      },
+      "byRepo": {
+        "mgifford/ACCESSIBILITY.md": 9,
+        "mgifford/EchoLocate": 16,
+        "mgifford/eu-plus-government-scans": 6,
+        "mgifford/STYLES.md": 5,
+        "mgifford/open-site-review": 6,
+        "mgifford/alt-text-scan": 1,
+        "mgifford/open-scans": 1,
+        "mgifford/contrast-plus": 6,
+        "mgifford/pdf-crawler": 2,
+        "mgifford/open-susty-scans": 1,
+        "mgifford/ParaCharts": 114,
+        "mgifford/openapi-reference": 1,
+        "w3c/sustainableweb-wsg": 4,
+        "mgifford/whisper-slides": 7,
+        "mgifford/wai-yaml-ld": 11,
+        "mgifford/sam_gov_md": 11,
+        "mgifford/wsg-mooc": 2,
+        "FOSDEM/website": 1
+      },
+      "events": [
+        {
           "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T16:14:03Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-31T00:32:25Z"
         },
         {
           "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T16:04:57Z",
-          "title": "SCAN: https://www.calgary.ca/",
-          "number": 54,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/54"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T16:03:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T15:58:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T15:43:40Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T15:43:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T15:27:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T14:58:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T14:57:41Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-31T00:32:26Z",
+          "title": "I need a new example on image alt text",
+          "number": 100,
+          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/100"
         },
         {
           "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:47:05Z",
-          "title": "SCAN: https://www.ed.gov",
-          "number": 6,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/6"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-31T00:27:29Z",
+          "title": "Will accessing the accessibility tree provide better results for actual user barriers?",
+          "number": 71,
+          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/71"
         },
         {
           "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:46:53Z",
-          "title": "SCAN: https://www.ed.gov",
-          "number": 6,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/6"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-31T00:27:29Z",
+          "title": "Will accessing the accessibility tree provide better results for actual user barriers?",
+          "number": 71,
+          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/71"
         },
         {
           "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:46:18Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-31T00:24:23Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-31T00:24:23Z",
+          "title": "Screen width is way too wide",
+          "number": 7,
+          "url": "https://github.com/mgifford/EchoLocate/issues/7"
         },
         {
           "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T14:41:07Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-31T00:24:07Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-03-31T00:23:28Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T14:40:38Z"
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-03-31T00:23:22Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-31T00:22:09Z",
+          "title": "I need a new example on image alt text",
+          "number": 100,
+          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/100"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-31T00:22:09Z",
+          "title": "I need a new example on image alt text",
+          "number": 100,
+          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/100"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-31T00:22:01Z",
+          "title": "I need a new example on image alt text",
+          "number": 100,
+          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/100"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-31T00:03:56Z",
+          "title": "Screen width is way too wide",
+          "number": 7,
+          "url": "https://github.com/mgifford/EchoLocate/issues/7"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-31T00:03:56Z",
+          "title": "Screen width is way too wide",
+          "number": 7,
+          "url": "https://github.com/mgifford/EchoLocate/issues/7"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/STYLES.md",
+          "timestamp": "2026-03-31T00:02:32Z",
+          "title": "I want design direction on menus and site navigation added here",
+          "number": 17,
+          "url": "https://github.com/mgifford/STYLES.md/issues/17"
         },
         {
           "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T14:40:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T14:39:33Z"
+          "repo": "mgifford/STYLES.md",
+          "timestamp": "2026-03-31T00:02:31Z"
         },
         {
           "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:38:15Z",
-          "title": "SCAN: https://vancouver.ca/",
-          "number": 51,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/51"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:38:10Z",
-          "title": "SCAN: https://vancouver.ca/",
-          "number": 51,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/51"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:29:47Z",
-          "title": "SCAN: https://vancouver.ca/",
-          "number": 51,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/51"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:27:34Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T14:23:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T14:15:55Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:14:54Z",
-          "title": "SCAN: adem.public.lu",
-          "number": 45,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/45"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:09:57Z",
-          "title": "SCAN: adem.public.lu",
-          "number": 44,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/44"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-11T14:09:56Z",
-          "title": "SCAN: adem.public.lu",
-          "number": 44,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/44"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T13:59:53Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T13:59:54Z",
-          "title": "default to code not ai",
-          "number": 9,
-          "url": "https://github.com/mgifford/SUSTAINABILITY.md/issues/9"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-11T13:50:40Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T13:49:40Z",
-          "title": "default to code not ai",
-          "number": 9,
-          "url": "https://github.com/mgifford/SUSTAINABILITY.md/issues/9"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T13:49:40Z",
-          "title": "default to code not ai",
-          "number": 9,
-          "url": "https://github.com/mgifford/SUSTAINABILITY.md/issues/9"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-11T13:47:40Z",
-          "title": "disclose ai usage",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-31T00:02:18Z",
+          "title": "Add a STYLE.md file",
           "number": 8,
-          "url": "https://github.com/mgifford/SUSTAINABILITY.md/issues/8"
-        }
-      ]
-    },
-    {
-      "date": "Thursday, 2026-03-12",
-      "total": 105,
-      "byType": {
-        "issue": 40,
-        "commit": 51,
-        "fork": 2,
-        "watch": 2,
-        "issue comment": 5,
-        "delete": 4,
-        "pull request": 1
-      },
-      "byRepo": {
-        "mgifford/pdf-crawler": 36,
-        "mgifford/daily-dap": 12,
-        "fizzstudio/ParaCharts": 2,
-        "fizzstudio/paracharts-info": 1,
-        "mgifford/gh-open-dash": 3,
-        "mgifford/wcag-spine": 10,
-        "mgifford/open-scans": 15,
-        "alphagov/accessibility-tool-audit": 1,
-        "w3c/webai": 1,
-        "mgifford/gh-summary": 2,
-        "mgifford/iv-cbv-payroll": 2,
-        "mgifford/SUSTAINABILITY.md": 4,
-        "mgifford/uswds-site": 4,
-        "mgifford/uswds": 4,
-        "DSACMS/iv-cbv-payroll": 1,
-        "mgifford/ai-browser-test": 7
-      },
-      "events": [
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T01:38:36Z",
-          "title": "SCAN: https://pl.mn.gov/",
-          "number": 86,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/86"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-13T01:35:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-13T01:35:20Z"
-        },
-        {
-          "type": "fork",
-          "repo": "fizzstudio/ParaCharts",
-          "timestamp": "2026-03-13T00:11:21Z"
-        },
-        {
-          "type": "watch",
-          "repo": "fizzstudio/ParaCharts",
-          "timestamp": "2026-03-13T00:04:28Z"
-        },
-        {
-          "type": "watch",
-          "repo": "fizzstudio/paracharts-info",
-          "timestamp": "2026-03-13T00:04:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:51:55Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:51:55Z",
-          "title": "Axe errors and Functional Performance Critiera",
-          "number": 25,
-          "url": "https://github.com/mgifford/daily-dap/issues/25"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:51:09Z",
-          "title": "SCAN: https://va.gov",
-          "number": 88,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/88"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:46:43Z",
-          "title": "SCAN:",
-          "number": 70,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/70"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:46:14Z",
-          "title": "SCAN: www.canada.ca",
-          "number": 15,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/15"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:46:14Z",
-          "title": "SCAN: www.canada.ca",
-          "number": 15,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/15"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:45:59Z",
-          "title": "SCAN: https://www.louvre.fr/",
-          "number": 72,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/72"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:45:56Z",
-          "title": "SCAN: https://www.louvre.fr/",
-          "number": 72,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/72"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:44:49Z",
-          "title": "SCAN: https://va.gov",
-          "number": 88,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/88"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:44:38Z",
-          "title": "SCAN: https://va.gov",
-          "number": 88,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/88"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:44:16Z",
-          "title": "SCAN: https://mn.gov/portal/",
-          "number": 64,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/64"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-03-12T21:44:03Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:43:13Z",
-          "title": "SCAN: https://mn.gov/portal/",
-          "number": 64,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/64"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:40:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:40:17Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T21:39:22Z",
-          "title": "SCAN: https://www.wellsfargo.com/assets/pdf/commercial/insights/business-viewpoints/the-psychological-frontline-the-human-element-in-cyber-defense.pdf",
-          "number": 90,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/90"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:31:55Z",
-          "title": "Axe errors and Functional Performance Critiera",
-          "number": 25,
-          "url": "https://github.com/mgifford/daily-dap/issues/25"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:31:55Z",
-          "title": "Axe errors and Functional Performance Critiera",
-          "number": 25,
-          "url": "https://github.com/mgifford/daily-dap/issues/25"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:27:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:25:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:25:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:21:51Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:16:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T21:15:48Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-12T21:15:07Z",
-          "title": "Axe errors and Functional Performance Critiera",
-          "number": 25,
-          "url": "https://github.com/mgifford/daily-dap/issues/25"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T21:00:19Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:55:39Z",
-          "title": "SCAN: https://www.wellsfargo.com/",
-          "number": 93,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/93"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:55:13Z",
-          "title": "SCAN: https://www.wellsfargo.com/assets/pdf/commercial/insights/business-viewpoints/the-psychological-frontline-the-human-element-in-cyber-defense.pdf",
-          "number": 90,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/90"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:52:45Z",
-          "title": "SCAN: https://www.redtag.ca/",
-          "number": 83,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/83"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:45:21Z",
-          "title": "SCAN: https://mn.gov/portal/",
-          "number": 64,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/64"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:45:21Z",
-          "title": "SCAN: https://mn.gov/portal/",
-          "number": 64,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/64"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:44:27Z",
-          "title": "SCAN:",
-          "number": 70,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/70"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:44:07Z",
-          "title": "SCAN: https://pl.mn.gov/",
-          "number": 86,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/86"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:43:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T20:31:21Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:30:42Z",
-          "title": "SCAN: https://va.gov",
-          "number": 88,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/88"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T20:28:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T20:16:45Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T20:15:30Z",
-          "title": "SCAN: Preserve.eco ALL",
-          "number": 129,
-          "url": "https://github.com/mgifford/open-scans/issues/129"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T20:00:26Z"
-        },
-        {
-          "type": "issue",
-          "repo": "alphagov/accessibility-tool-audit",
-          "timestamp": "2026-03-12T19:53:21Z",
-          "title": "Time for a refresh",
-          "number": 64,
-          "url": "https://github.com/alphagov/accessibility-tool-audit/issues/64"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T19:37:01Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T19:32:31Z",
-          "title": "Check out kilotest",
-          "number": 130,
-          "url": "https://github.com/mgifford/open-scans/issues/130"
-        },
-        {
-          "type": "issue comment",
-          "repo": "w3c/webai",
-          "timestamp": "2026-03-12T19:26:25Z",
-          "title": "AI and accessibility: opportunities and risks",
-          "number": 14,
-          "url": "https://github.com/w3c/webai/issues/14"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-03-12T17:14:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-summary",
-          "timestamp": "2026-03-12T16:43:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T16:42:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/iv-cbv-payroll",
-          "timestamp": "2026-03-12T16:39:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-12T16:31:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-03-12T16:30:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-summary",
-          "timestamp": "2026-03-12T16:29:43Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T16:12:44Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T16:12:43Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T16:12:42Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T16:12:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-03-12T16:12:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/iv-cbv-payroll",
-          "timestamp": "2026-03-12T14:46:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/uswds-site",
-          "timestamp": "2026-03-12T14:28:56Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/uswds-site",
-          "timestamp": "2026-03-12T14:28:31Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/uswds",
-          "timestamp": "2026-03-12T14:27:55Z",
-          "number": 1
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/uswds",
-          "timestamp": "2026-03-12T14:27:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/uswds-site",
-          "timestamp": "2026-03-12T14:11:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/uswds-site",
-          "timestamp": "2026-03-12T14:09:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/uswds",
-          "timestamp": "2026-03-12T14:06:56Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/uswds",
-          "timestamp": "2026-03-12T13:42:35Z"
-        },
-        {
-          "type": "fork",
-          "repo": "DSACMS/iv-cbv-payroll",
-          "timestamp": "2026-03-12T13:41:55Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:40:41Z",
-          "title": "SCAN: https://mn.gov/portal/",
-          "number": 64,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/64"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:40:41Z",
-          "title": "SCAN: https://mn.gov/portal/",
-          "number": 64,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/64"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:40:37Z",
-          "title": "SCAN: https://mn.gov/portal/",
-          "number": 64,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/64"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:39:38Z",
-          "title": "SCAN: https://www.ul.ie",
-          "number": 67,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/67"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:39:10Z",
-          "title": "SCAN: https://www.ble.de/",
-          "number": 66,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/66"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:39:08Z",
-          "title": "SCAN: https://www.ble.de/",
-          "number": 66,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/66"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:39:01Z",
-          "title": "SCAN: https://www.ble.de/",
-          "number": 66,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/66"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:38:40Z",
-          "title": "SCAN: https://www.ul.ie",
-          "number": 67,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/67"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:38:39Z",
-          "title": "SCAN: https://www.ul.ie",
-          "number": 67,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/67"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T13:37:13Z",
-          "title": "SCAN: Mgov — ALL",
-          "number": 122,
-          "url": "https://github.com/mgifford/open-scans/issues/122"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T13:36:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-12T13:32:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-12T13:32:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-03-12T13:31:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:31:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:30:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-12T13:16:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-12T13:04:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-12T13:02:58Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T13:02:32Z",
-          "title": "SCAN: Mgov — ALL",
-          "number": 122,
-          "url": "https://github.com/mgifford/open-scans/issues/122"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T13:02:08Z",
-          "title": "SCAN: Mgov — ALL",
-          "number": 122,
-          "url": "https://github.com/mgifford/open-scans/issues/122"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T13:01:58Z",
-          "title": "SCAN: Mgov — ALL",
-          "number": 122,
-          "url": "https://github.com/mgifford/open-scans/issues/122"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T13:01:45Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T13:01:45Z",
-          "title": "Feature: Add WCAG or best practice criteria to the report",
-          "number": 123,
-          "url": "https://github.com/mgifford/open-scans/issues/123"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-12T12:42:04Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T12:41:00Z",
-          "title": "Feature: Add WCAG or best practice criteria to the report",
-          "number": 123,
-          "url": "https://github.com/mgifford/open-scans/issues/123"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T12:41:00Z",
-          "title": "Feature: Add WCAG or best practice criteria to the report",
-          "number": 123,
-          "url": "https://github.com/mgifford/open-scans/issues/123"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T12:39:58Z",
-          "title": "Feature: Add WCAG or best practice criteria to the report",
-          "number": 123,
-          "url": "https://github.com/mgifford/open-scans/issues/123"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-12T12:35:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-12T12:30:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-12T12:26:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-12T12:14:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-03-12T12:08:18Z"
-        }
-      ]
-    },
-    {
-      "date": "Friday, 2026-03-13",
-      "total": 67,
-      "byType": {
-        "pull request": 1,
-        "issue comment": 2,
-        "commit": 33,
-        "issue": 30,
-        "delete": 1
-      },
-      "byRepo": {
-        "DPGAlliance/dpg-resources": 1,
-        "w3c/wcag": 2,
-        "mgifford/daily-dap": 3,
-        "mgifford/ACCESSIBILITY.md": 4,
-        "mgifford/open-scans": 25,
-        "mgifford/ParaCharts": 12,
-        "mgifford/CKEditor5-A11yFirst": 1,
-        "mgifford/top-task-finder": 5,
-        "mgifford/gh-open-dash": 2,
-        "mgifford/gh-summary": 2,
-        "mgifford/a11y-mermaid-studio": 1,
-        "mgifford/w3c-a11y-maturity-model": 1,
-        "mgifford/pdf-crawler": 8
-      },
-      "events": [
-        {
-          "type": "pull request",
-          "repo": "DPGAlliance/dpg-resources",
-          "timestamp": "2026-03-13T23:14:06Z",
-          "number": 34
-        },
-        {
-          "type": "issue comment",
-          "repo": "w3c/wcag",
-          "timestamp": "2026-03-13T22:31:37Z",
-          "title": "Focus obscured and semi-transparent/blurred overlays - reword, and DO make it fail at AAA",
-          "number": 4824,
-          "url": "https://github.com/w3c/wcag/pull/4824"
-        },
-        {
-          "type": "issue comment",
-          "repo": "w3c/wcag",
-          "timestamp": "2026-03-13T22:24:26Z",
-          "title": "Remove note in F24 about css background images",
-          "number": 4823,
-          "url": "https://github.com/w3c/wcag/pull/4823"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-13T22:09:51Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-03-13T22:09:22Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T19:07:30Z",
-          "title": "SCAN: welcometofrance.com — TIME:5",
-          "number": 145,
-          "url": "https://github.com/mgifford/open-scans/issues/145"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T19:07:29Z",
-          "title": "SCAN: welcometofrance.com — TIME:5",
-          "number": 145,
-          "url": "https://github.com/mgifford/open-scans/issues/145"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T19:04:34Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-03-13T19:01:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-03-13T18:49:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T18:40:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-03-13T18:32:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T18:28:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T17:47:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T17:37:55Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T17:33:46Z",
-          "title": "SCAN:PEI Gov — ALL",
-          "number": 150,
-          "url": "https://github.com/mgifford/open-scans/issues/150"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T17:32:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T17:29:49Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T17:17:21Z",
-          "title": "SCAN: gnb.ca — ALL TIME:2",
-          "number": 148,
-          "url": "https://github.com/mgifford/open-scans/issues/148"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T17:14:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T17:12:40Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T16:41:11Z",
-          "title": "SCAN: MN.gov",
-          "number": 146,
-          "url": "https://github.com/mgifford/open-scans/issues/146"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T16:40:05Z",
-          "title": "SCAN: welcometofrance.com — TIME:5",
-          "number": 145,
-          "url": "https://github.com/mgifford/open-scans/issues/145"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-03-13T16:37:35Z",
-          "title": "Add information about SCULPT",
-          "number": 25,
-          "url": "https://github.com/mgifford/CKEditor5-A11yFirst/issues/25"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T16:33:30Z",
-          "title": "Add a configurable delay of 2 seconds after the page loads",
-          "number": 143,
-          "url": "https://github.com/mgifford/open-scans/issues/143"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T16:33:29Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T16:02:53Z",
-          "title": "Add a configurable delay of 2 seconds after the page loads",
-          "number": 143,
-          "url": "https://github.com/mgifford/open-scans/issues/143"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T16:02:53Z",
-          "title": "Add a configurable delay of 2 seconds after the page loads",
-          "number": 143,
-          "url": "https://github.com/mgifford/open-scans/issues/143"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T16:02:47Z",
-          "title": "Improving the \"number of issues\" info at the top",
-          "number": 141,
-          "url": "https://github.com/mgifford/open-scans/issues/141"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T16:02:46Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/top-task-finder",
-          "timestamp": "2026-03-13T15:27:08Z",
-          "title": "What to do if a single URL is returned",
-          "number": 35,
-          "url": "https://github.com/mgifford/top-task-finder/issues/35"
+          "url": "https://github.com/mgifford/EchoLocate/issues/8"
         },
         {
           "type": "commit",
-          "repo": "mgifford/top-task-finder",
-          "timestamp": "2026-03-13T15:27:07Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T15:25:41Z",
-          "title": "Add a configurable delay of 2 seconds after the page loads",
-          "number": 143,
-          "url": "https://github.com/mgifford/open-scans/issues/143"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T15:22:25Z",
-          "title": "Improving the \"number of issues\" info at the top",
-          "number": 141,
-          "url": "https://github.com/mgifford/open-scans/issues/141"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T15:22:25Z",
-          "title": "Improving the \"number of issues\" info at the top",
-          "number": 141,
-          "url": "https://github.com/mgifford/open-scans/issues/141"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T15:22:17Z",
-          "title": "Improving the \"number of issues\" info at the top",
-          "number": 141,
-          "url": "https://github.com/mgifford/open-scans/issues/141"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-31T00:02:17Z"
         },
         {
           "type": "issue",
-          "repo": "mgifford/top-task-finder",
-          "timestamp": "2026-03-13T15:08:06Z",
-          "title": "What to do if a single URL is returned",
-          "number": 35,
-          "url": "https://github.com/mgifford/top-task-finder/issues/35"
+          "repo": "mgifford/STYLES.md",
+          "timestamp": "2026-03-30T23:57:22Z",
+          "title": "I want design direction on menus and site navigation added here",
+          "number": 17,
+          "url": "https://github.com/mgifford/STYLES.md/issues/17"
         },
         {
           "type": "issue",
-          "repo": "mgifford/top-task-finder",
-          "timestamp": "2026-03-13T15:08:06Z",
-          "title": "What to do if a single URL is returned",
-          "number": 35,
-          "url": "https://github.com/mgifford/top-task-finder/issues/35"
+          "repo": "mgifford/STYLES.md",
+          "timestamp": "2026-03-30T23:57:22Z",
+          "title": "I want design direction on menus and site navigation added here",
+          "number": 17,
+          "url": "https://github.com/mgifford/STYLES.md/issues/17"
         },
         {
           "type": "issue",
-          "repo": "mgifford/top-task-finder",
-          "timestamp": "2026-03-13T15:08:00Z",
-          "title": "What to do if a single URL is returned",
-          "number": 35,
-          "url": "https://github.com/mgifford/top-task-finder/issues/35"
+          "repo": "mgifford/STYLES.md",
+          "timestamp": "2026-03-30T23:57:14Z",
+          "title": "I want design direction on menus and site navigation added here",
+          "number": 17,
+          "url": "https://github.com/mgifford/STYLES.md/issues/17"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T14:30:40Z",
-          "title": "SCAN: fosdem.org",
-          "number": 138,
-          "url": "https://github.com/mgifford/open-scans/issues/138"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T14:29:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T14:24:02Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T23:49:43Z",
+          "title": "Add a STYLE.md file",
+          "number": 8,
+          "url": "https://github.com/mgifford/EchoLocate/issues/8"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T14:20:12Z",
-          "title": "SCAN: Texas.gov — ALL",
-          "number": 137,
-          "url": "https://github.com/mgifford/open-scans/issues/137"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T14:15:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T13:53:30Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-13T13:52:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-13T13:52:11Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T23:49:43Z",
+          "title": "Add a STYLE.md file",
+          "number": 8,
+          "url": "https://github.com/mgifford/EchoLocate/issues/8"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T13:43:58Z",
-          "title": "SCAN: DGS digital.georgia.gov",
-          "number": 136,
-          "url": "https://github.com/mgifford/open-scans/issues/136"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T13:41:41Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T23:49:34Z",
+          "title": "Add a STYLE.md file",
+          "number": 8,
+          "url": "https://github.com/mgifford/EchoLocate/issues/8"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T13:39:49Z"
-        },
-        {
           "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T13:33:42Z",
-          "title": "Scan: NFP.org",
-          "number": 134,
-          "url": "https://github.com/mgifford/open-scans/issues/134"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-03-13T13:33:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-13T13:31:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-13T13:16:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-summary",
-          "timestamp": "2026-03-13T12:52:46Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/a11y-mermaid-studio",
-          "timestamp": "2026-03-13T12:46:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-03-13T12:44:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-summary",
-          "timestamp": "2026-03-13T12:38:36Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T23:46:19Z",
+          "title": "Screen width is way too wide",
+          "number": 7,
+          "url": "https://github.com/mgifford/EchoLocate/issues/7"
         },
         {
           "type": "commit",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-03-13T12:21:47Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T12:13:11Z",
-          "title": "SCAN: https://www.louvre.fr/",
-          "number": 72,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/72"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T12:12:43Z",
-          "title": "SCAN: https://va.gov",
-          "number": 88,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/88"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T12:12:24Z",
-          "title": "SCAN: https://www.hud.gov",
-          "number": 87,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/87"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T12:12:20Z",
-          "title": "SCAN: https://www.hud.gov",
-          "number": 87,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/87"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T12:12:18Z",
-          "title": "SCAN: https://www.hud.gov",
-          "number": 87,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/87"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T12:12:06Z",
-          "title": "SCAN: https://www.ctoec.org",
-          "number": 97,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/97"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T12:12:05Z",
-          "title": "SCAN: https://www.ctoec.org",
-          "number": 97,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/97"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T23:35:41Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-03-13T12:11:48Z"
-        }
-      ]
-    },
-    {
-      "date": "Saturday, 2026-03-14",
-      "total": 70,
-      "byType": {
-        "commit": 57,
-        "issue": 7,
-        "delete": 4,
-        "issue comment": 2
-      },
-      "byRepo": {
-        "mgifford/o-hat-scanner": 10,
-        "mgifford/sam_gov_md": 1,
-        "CivicActions/SOO-Wizard": 1,
-        "mgifford/a11y-svg": 2,
-        "mgifford/contrast-plus": 1,
-        "mgifford/tune-my-repos": 1,
-        "mgifford/accessible-buildings": 2,
-        "mgifford/daily-dap": 3,
-        "mgifford/top-task-finder": 1,
-        "mgifford/open-scans": 14,
-        "mgifford/drupal-open-dash": 1,
-        "mgifford/wai-yaml-ld": 1,
-        "mgifford/inclusive-emergency-readiness": 1,
-        "mgifford/ox.ca": 2,
-        "mgifford/gh-open-dash": 1,
-        "mgifford/ParaCharts": 27,
-        "mgifford/ACCESSIBILITY.md": 1
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T22:44:42Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T22:44:29Z",
-          "title": "Accessibility issue: All page content should be contained by landmarks on /o-hat-scanner/runs/*",
-          "number": 37,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/37"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T22:44:27Z",
-          "title": "Accessibility issue: Links must have discernible text on /o-hat-scanner/runs/*",
-          "number": 36,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/36"
+          "repo": "mgifford/open-site-review",
+          "timestamp": "2026-03-30T23:24:34Z"
         },
         {
           "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T22:44:26Z",
-          "title": "Accessibility issue: Links must be distinguishable without relying on color on /o-hat-scanner/runs/*",
-          "number": 35,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/35"
+          "repo": "mgifford/open-site-review",
+          "timestamp": "2026-03-30T23:24:34Z",
+          "title": "The main page is missing a form to submit an issue",
+          "number": 38,
+          "url": "https://github.com/mgifford/open-site-review/issues/38"
         },
         {
           "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T22:44:26Z",
-          "title": "Accessibility issue: Document should have one main landmark on /o-hat-scanner/runs/*",
+          "repo": "mgifford/alt-text-scan",
+          "timestamp": "2026-03-30T23:23:29Z",
+          "title": "SCAN: https://oregon.gov/",
           "number": 34,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/34"
+          "url": "https://github.com/mgifford/alt-text-scan/issues/34"
         },
         {
           "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T22:44:23Z",
-          "title": "Accessibility issue: Elements must meet minimum color contrast ratio thresholds on /o-hat-scanner/runs/*",
-          "number": 32,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/32"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-03-14T22:41:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "CivicActions/SOO-Wizard",
-          "timestamp": "2026-03-14T22:41:05Z"
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-03-30T23:23:03Z",
+          "title": "SCAN: https://oregon.gov/",
+          "number": 228,
+          "url": "https://github.com/mgifford/open-scans/issues/228"
         },
         {
           "type": "delete",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T22:40:28Z"
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-03-30T23:20:36Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T22:40:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/a11y-svg",
-          "timestamp": "2026-03-14T22:40:05Z"
+          "type": "issue",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-03-30T23:20:36Z",
+          "title": "Table extends the container",
+          "number": 23,
+          "url": "https://github.com/mgifford/contrast-plus/issues/23"
         },
         {
           "type": "commit",
           "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-03-14T22:39:31Z"
+          "timestamp": "2026-03-30T23:20:35Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/tune-my-repos",
-          "timestamp": "2026-03-14T22:39:07Z"
+          "repo": "mgifford/pdf-crawler",
+          "timestamp": "2026-03-30T23:17:25Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-03-30T20:59:59Z",
+          "title": "Table extends the container",
+          "number": 23,
+          "url": "https://github.com/mgifford/contrast-plus/issues/23"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-03-30T20:59:59Z",
+          "title": "Table extends the container",
+          "number": 23,
+          "url": "https://github.com/mgifford/contrast-plus/issues/23"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-03-30T20:59:18Z",
+          "title": "Table extends the container",
+          "number": 23,
+          "url": "https://github.com/mgifford/contrast-plus/issues/23"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/pdf-crawler",
+          "timestamp": "2026-03-30T20:51:19Z",
+          "title": "SCAN: https://oregon.gov",
+          "number": 197,
+          "url": "https://github.com/mgifford/pdf-crawler/issues/197"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-site-review",
+          "timestamp": "2026-03-30T20:50:31Z",
+          "title": "The main page is missing a form to submit an issue",
+          "number": 38,
+          "url": "https://github.com/mgifford/open-site-review/issues/38"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-site-review",
+          "timestamp": "2026-03-30T20:50:31Z",
+          "title": "The main page is missing a form to submit an issue",
+          "number": 38,
+          "url": "https://github.com/mgifford/open-site-review/issues/38"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-site-review",
+          "timestamp": "2026-03-30T20:49:59Z",
+          "title": "The main page is missing a form to submit an issue",
+          "number": 38,
+          "url": "https://github.com/mgifford/open-site-review/issues/38"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-site-review",
+          "timestamp": "2026-03-30T20:47:53Z",
+          "title": "SCAN: oregon.gov",
+          "number": 37,
+          "url": "https://github.com/mgifford/open-site-review/issues/37"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-susty-scans",
+          "timestamp": "2026-03-30T20:42:56Z",
+          "title": "SCAN: Oregon.gov",
+          "number": 28,
+          "url": "https://github.com/mgifford/open-susty-scans/issues/28"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T19:14:23Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/accessible-buildings",
-          "timestamp": "2026-03-14T22:38:45Z"
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T19:14:21Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-14T22:37:42Z"
+          "repo": "mgifford/openapi-reference",
+          "timestamp": "2026-03-30T19:09:18Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T19:04:15Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/top-task-finder",
-          "timestamp": "2026-03-14T22:37:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T22:36:41Z"
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T19:04:14Z"
         },
         {
           "type": "issue comment",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T22:13:50Z",
-          "title": "SCAN: bayern.de",
-          "number": 102,
-          "url": "https://github.com/mgifford/open-scans/issues/102"
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:18Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 12,
+          "url": "https://github.com/mgifford/ParaCharts/issues/12"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:18Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 12,
+          "url": "https://github.com/mgifford/ParaCharts/issues/12"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:16Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/",
+          "number": 13,
+          "url": "https://github.com/mgifford/ParaCharts/issues/13"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:17Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/",
+          "number": 13,
+          "url": "https://github.com/mgifford/ParaCharts/issues/13"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:15Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 14,
+          "url": "https://github.com/mgifford/ParaCharts/issues/14"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:15Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 14,
+          "url": "https://github.com/mgifford/ParaCharts/issues/14"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:14Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 15,
+          "url": "https://github.com/mgifford/ParaCharts/issues/15"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:12Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 16,
+          "url": "https://github.com/mgifford/ParaCharts/issues/16"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:13Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 15,
+          "url": "https://github.com/mgifford/ParaCharts/issues/15"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:13Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 16,
+          "url": "https://github.com/mgifford/ParaCharts/issues/16"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:11Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 17,
+          "url": "https://github.com/mgifford/ParaCharts/issues/17"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:11Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 18,
+          "url": "https://github.com/mgifford/ParaCharts/issues/18"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:11Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 17,
+          "url": "https://github.com/mgifford/ParaCharts/issues/17"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:10Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 18,
+          "url": "https://github.com/mgifford/ParaCharts/issues/18"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:08Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 19,
+          "url": "https://github.com/mgifford/ParaCharts/issues/19"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:09Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 19,
+          "url": "https://github.com/mgifford/ParaCharts/issues/19"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:07Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/accessibility.html",
+          "number": 20,
+          "url": "https://github.com/mgifford/ParaCharts/issues/20"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:07Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/accessibility.html",
+          "number": 20,
+          "url": "https://github.com/mgifford/ParaCharts/issues/20"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:06Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 22,
+          "url": "https://github.com/mgifford/ParaCharts/issues/22"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:06Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 22,
+          "url": "https://github.com/mgifford/ParaCharts/issues/22"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:04Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/",
+          "number": 23,
+          "url": "https://github.com/mgifford/ParaCharts/issues/23"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:05Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/",
+          "number": 23,
+          "url": "https://github.com/mgifford/ParaCharts/issues/23"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:03Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 24,
+          "url": "https://github.com/mgifford/ParaCharts/issues/24"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:03Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 24,
+          "url": "https://github.com/mgifford/ParaCharts/issues/24"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:02Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 25,
+          "url": "https://github.com/mgifford/ParaCharts/issues/25"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:02Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 25,
+          "url": "https://github.com/mgifford/ParaCharts/issues/25"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:00Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 26,
+          "url": "https://github.com/mgifford/ParaCharts/issues/26"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:59Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 27,
+          "url": "https://github.com/mgifford/ParaCharts/issues/27"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:00Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 27,
+          "url": "https://github.com/mgifford/ParaCharts/issues/27"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:58:00Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 26,
+          "url": "https://github.com/mgifford/ParaCharts/issues/26"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:57Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 28,
+          "url": "https://github.com/mgifford/ParaCharts/issues/28"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:58Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 28,
+          "url": "https://github.com/mgifford/ParaCharts/issues/28"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:56Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 29,
+          "url": "https://github.com/mgifford/ParaCharts/issues/29"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:56Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 29,
+          "url": "https://github.com/mgifford/ParaCharts/issues/29"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:54Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 33,
+          "url": "https://github.com/mgifford/ParaCharts/issues/33"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:54Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 33,
+          "url": "https://github.com/mgifford/ParaCharts/issues/33"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:52Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/",
+          "number": 34,
+          "url": "https://github.com/mgifford/ParaCharts/issues/34"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:53Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/",
+          "number": 34,
+          "url": "https://github.com/mgifford/ParaCharts/issues/34"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:51Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 35,
+          "url": "https://github.com/mgifford/ParaCharts/issues/35"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:52Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 35,
+          "url": "https://github.com/mgifford/ParaCharts/issues/35"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:51Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 36,
+          "url": "https://github.com/mgifford/ParaCharts/issues/36"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:50Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 36,
+          "url": "https://github.com/mgifford/ParaCharts/issues/36"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:48Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 37,
+          "url": "https://github.com/mgifford/ParaCharts/issues/37"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:48Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 37,
+          "url": "https://github.com/mgifford/ParaCharts/issues/37"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:47Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 38,
+          "url": "https://github.com/mgifford/ParaCharts/issues/38"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:47Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 38,
+          "url": "https://github.com/mgifford/ParaCharts/issues/38"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:46Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 39,
+          "url": "https://github.com/mgifford/ParaCharts/issues/39"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:45Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 39,
+          "url": "https://github.com/mgifford/ParaCharts/issues/39"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:44Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 41,
+          "url": "https://github.com/mgifford/ParaCharts/issues/41"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:43Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 42,
+          "url": "https://github.com/mgifford/ParaCharts/issues/42"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:44Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 41,
+          "url": "https://github.com/mgifford/ParaCharts/issues/41"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:44Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 42,
+          "url": "https://github.com/mgifford/ParaCharts/issues/42"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:42Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 43,
+          "url": "https://github.com/mgifford/ParaCharts/issues/43"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:41Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 43,
+          "url": "https://github.com/mgifford/ParaCharts/issues/43"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:40Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 44,
+          "url": "https://github.com/mgifford/ParaCharts/issues/44"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:40Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 44,
+          "url": "https://github.com/mgifford/ParaCharts/issues/44"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:39Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/accessibility.html",
+          "number": 45,
+          "url": "https://github.com/mgifford/ParaCharts/issues/45"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:37Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 46,
+          "url": "https://github.com/mgifford/ParaCharts/issues/46"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:38Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/accessibility.html",
+          "number": 45,
+          "url": "https://github.com/mgifford/ParaCharts/issues/45"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:38Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 46,
+          "url": "https://github.com/mgifford/ParaCharts/issues/46"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:36Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 47,
+          "url": "https://github.com/mgifford/ParaCharts/issues/47"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:36Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 47,
+          "url": "https://github.com/mgifford/ParaCharts/issues/47"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:35Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 48,
+          "url": "https://github.com/mgifford/ParaCharts/issues/48"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:35Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 48,
+          "url": "https://github.com/mgifford/ParaCharts/issues/48"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:33Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 49,
+          "url": "https://github.com/mgifford/ParaCharts/issues/49"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:32Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/accessibility.html",
+          "number": 50,
+          "url": "https://github.com/mgifford/ParaCharts/issues/50"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:33Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 49,
+          "url": "https://github.com/mgifford/ParaCharts/issues/49"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:33Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/accessibility.html",
+          "number": 50,
+          "url": "https://github.com/mgifford/ParaCharts/issues/50"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:31Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 52,
+          "url": "https://github.com/mgifford/ParaCharts/issues/52"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:31Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 52,
+          "url": "https://github.com/mgifford/ParaCharts/issues/52"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:29Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 54,
+          "url": "https://github.com/mgifford/ParaCharts/issues/54"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:28Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 55,
+          "url": "https://github.com/mgifford/ParaCharts/issues/55"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:29Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 55,
+          "url": "https://github.com/mgifford/ParaCharts/issues/55"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:29Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 54,
+          "url": "https://github.com/mgifford/ParaCharts/issues/54"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:26Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 56,
+          "url": "https://github.com/mgifford/ParaCharts/issues/56"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:27Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 56,
+          "url": "https://github.com/mgifford/ParaCharts/issues/56"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:25Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 57,
+          "url": "https://github.com/mgifford/ParaCharts/issues/57"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:25Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/exampleGallery.html",
+          "number": 57,
+          "url": "https://github.com/mgifford/ParaCharts/issues/57"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:24Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 58,
+          "url": "https://github.com/mgifford/ParaCharts/issues/58"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:24Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 58,
+          "url": "https://github.com/mgifford/ParaCharts/issues/58"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:22Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 59,
+          "url": "https://github.com/mgifford/ParaCharts/issues/59"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:21Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 63,
+          "url": "https://github.com/mgifford/ParaCharts/issues/63"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:22Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 59,
+          "url": "https://github.com/mgifford/ParaCharts/issues/59"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:22Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 63,
+          "url": "https://github.com/mgifford/ParaCharts/issues/63"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:20Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 65,
+          "url": "https://github.com/mgifford/ParaCharts/issues/65"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:20Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 65,
+          "url": "https://github.com/mgifford/ParaCharts/issues/65"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:18Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 66,
+          "url": "https://github.com/mgifford/ParaCharts/issues/66"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:19Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 66,
+          "url": "https://github.com/mgifford/ParaCharts/issues/66"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:18Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 69,
+          "url": "https://github.com/mgifford/ParaCharts/issues/69"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:17Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 69,
+          "url": "https://github.com/mgifford/ParaCharts/issues/69"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:13Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:12Z",
+          "title": "Add a haptics page",
+          "number": 10,
+          "url": "https://github.com/mgifford/ParaCharts/issues/10"
         },
         {
           "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-14T22:11:49Z"
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:57:11Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:56:57Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T21:58:10Z"
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:56:55Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:56:56Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 67,
+          "url": "https://github.com/mgifford/ParaCharts/issues/67"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:03:39Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 67,
+          "url": "https://github.com/mgifford/ParaCharts/issues/67"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:03:39Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/exampleGallery.html",
+          "number": 67,
+          "url": "https://github.com/mgifford/ParaCharts/issues/67"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:03:19Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:03:19Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 70,
+          "url": "https://github.com/mgifford/ParaCharts/issues/70"
         },
         {
           "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-03-14T21:42:11Z"
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T18:03:18Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T21:40:51Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T17:57:38Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/drupal-open-dash",
-          "timestamp": "2026-03-14T21:35:27Z"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T17:56:28Z"
+        },
+        {
+          "type": "issue",
+          "repo": "w3c/sustainableweb-wsg",
+          "timestamp": "2026-03-30T16:43:38Z",
+          "title": "[DRAFT] Review of 4.5 Avoid maintaining unnecessary virtualized environments or containers",
+          "number": 307,
+          "url": "https://github.com/w3c/sustainableweb-wsg/issues/307"
+        },
+        {
+          "type": "issue",
+          "repo": "w3c/sustainableweb-wsg",
+          "timestamp": "2026-03-30T16:42:24Z",
+          "title": "[DRAFT] Review of 4.4 Setup necessary error pages and redirection links",
+          "number": 306,
+          "url": "https://github.com/w3c/sustainableweb-wsg/issues/306"
+        },
+        {
+          "type": "issue",
+          "repo": "w3c/sustainableweb-wsg",
+          "timestamp": "2026-03-30T16:41:23Z",
+          "title": "[DRAFT] Review of 4.3 Reduce data transfer with compression",
+          "number": 305,
+          "url": "https://github.com/w3c/sustainableweb-wsg/issues/305"
+        },
+        {
+          "type": "issue",
+          "repo": "w3c/sustainableweb-wsg",
+          "timestamp": "2026-03-30T16:39:50Z",
+          "title": "[DRAFT] Review of 4.2 Optimize caching and support offline access",
+          "number": 304,
+          "url": "https://github.com/w3c/sustainableweb-wsg/issues/304"
         },
         {
           "type": "commit",
-          "repo": "mgifford/a11y-svg",
-          "timestamp": "2026-03-14T21:32:55Z"
+          "repo": "mgifford/whisper-slides",
+          "timestamp": "2026-03-30T16:07:52Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/whisper-slides",
+          "timestamp": "2026-03-30T16:07:52Z",
+          "title": "Red Dots aren't Stop",
+          "number": 27,
+          "url": "https://github.com/mgifford/whisper-slides/issues/27"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/whisper-slides",
+          "timestamp": "2026-03-30T15:58:57Z"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/whisper-slides",
+          "timestamp": "2026-03-30T15:54:59Z",
+          "title": "Red Dots aren't Stop",
+          "number": 27,
+          "url": "https://github.com/mgifford/whisper-slides/issues/27"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/whisper-slides",
+          "timestamp": "2026-03-30T15:54:14Z",
+          "title": "Red Dots aren't Stop",
+          "number": 27,
+          "url": "https://github.com/mgifford/whisper-slides/issues/27"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/whisper-slides",
+          "timestamp": "2026-03-30T15:54:14Z",
+          "title": "Red Dots aren't Stop",
+          "number": 27,
+          "url": "https://github.com/mgifford/whisper-slides/issues/27"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/whisper-slides",
+          "timestamp": "2026-03-30T15:54:10Z",
+          "title": "Red Dots aren't Stop",
+          "number": 27,
+          "url": "https://github.com/mgifford/whisper-slides/issues/27"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:36:47Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 70,
+          "url": "https://github.com/mgifford/ParaCharts/issues/70"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:36:47Z",
+          "title": "Accessibility issue: Links must be distinguishable without relying on color on /ParaCharts/accessibility.html",
+          "number": 70,
+          "url": "https://github.com/mgifford/ParaCharts/issues/70"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:36:40Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/",
+          "number": 73,
+          "url": "https://github.com/mgifford/ParaCharts/issues/73"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:36:40Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/accessibility.html",
+          "number": 71,
+          "url": "https://github.com/mgifford/ParaCharts/issues/71"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:36:24Z",
+          "title": "Accessibility issue: All page content should be contained by landmarks on /ParaCharts/",
+          "number": 75,
+          "url": "https://github.com/mgifford/ParaCharts/issues/75"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:36:08Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/accessibility.html",
+          "number": 79,
+          "url": "https://github.com/mgifford/ParaCharts/issues/79"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:30:03Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/wai-yaml-ld",
-          "timestamp": "2026-03-14T21:32:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessible-buildings",
-          "timestamp": "2026-03-14T21:31:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/inclusive-emergency-readiness",
-          "timestamp": "2026-03-14T21:30:32Z"
+          "timestamp": "2026-03-30T15:30:02Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-03-14T21:30:03Z"
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:27:45Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:27:45Z",
+          "title": "W3C standards source change detected (2026-03-30)",
+          "number": 38,
+          "url": "https://github.com/mgifford/wai-yaml-ld/issues/38"
         },
         {
           "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-03-14T21:30:02Z"
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:27:44Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T21:29:44Z"
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:27:16Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-03-14T21:29:43Z"
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:27:14Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T15:26:17Z",
+          "title": "Aim for an A. This code gets a B.",
+          "number": 112,
+          "url": "https://github.com/mgifford/sam_gov_md/issues/112"
         },
         {
           "type": "commit",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-03-14T21:29:20Z"
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T15:26:16Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T21:28:14Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-30T15:25:48Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-03-30T15:25:34Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:21:18Z",
+          "title": "W3C standards source change detected (2026-03-30)",
+          "number": 38,
+          "url": "https://github.com/mgifford/wai-yaml-ld/issues/38"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:21:18Z",
+          "title": "W3C standards source change detected (2026-03-30)",
+          "number": 38,
+          "url": "https://github.com/mgifford/wai-yaml-ld/issues/38"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:21:03Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-03-30T15:21:01Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:20:24Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:20:22Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/ParaCharts",
+          "timestamp": "2026-03-30T15:20:22Z",
+          "title": "Accessibility issue: Document should have one main landmark on /ParaCharts/exampleGallery.html",
+          "number": 76,
+          "url": "https://github.com/mgifford/ParaCharts/issues/76"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/wsg-mooc",
+          "timestamp": "2026-03-30T15:19:54Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wsg-mooc",
+          "timestamp": "2026-03-30T15:19:53Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-03-30T15:11:47Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-03-30T15:11:37Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-03-30T15:09:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-03-30T15:09:17Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T15:05:31Z",
+          "title": "Aim for an A. This code gets a B.",
+          "number": 112,
+          "url": "https://github.com/mgifford/sam_gov_md/issues/112"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T15:05:31Z",
+          "title": "Aim for an A. This code gets a B.",
+          "number": 112,
+          "url": "https://github.com/mgifford/sam_gov_md/issues/112"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T15:05:24Z",
+          "title": "Aim for an A. This code gets a B.",
+          "number": 112,
+          "url": "https://github.com/mgifford/sam_gov_md/issues/112"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T14:59:39Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T14:59:39Z",
+          "title": "Improve Python Code",
+          "number": 110,
+          "url": "https://github.com/mgifford/sam_gov_md/issues/110"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T14:51:22Z",
+          "title": "Improve Python Code",
+          "number": 110,
+          "url": "https://github.com/mgifford/sam_gov_md/issues/110"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T14:51:20Z",
+          "title": "Improve Python Code",
+          "number": 110,
+          "url": "https://github.com/mgifford/sam_gov_md/issues/110"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T14:51:20Z",
+          "title": "Improve Python Code",
+          "number": 110,
+          "url": "https://github.com/mgifford/sam_gov_md/issues/110"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sam_gov_md",
+          "timestamp": "2026-03-30T14:50:14Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T14:24:27Z"
         },
         {
           "type": "issue comment",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T21:27:52Z",
-          "title": "Add accessible SVG disability category icons to interactive report rule cards",
-          "number": 158,
-          "url": "https://github.com/mgifford/open-scans/pull/158"
+          "repo": "FOSDEM/website",
+          "timestamp": "2026-03-30T14:21:29Z",
+          "title": "Can I update the HTML & CSS on the website?",
+          "number": 261,
+          "url": "https://github.com/FOSDEM/website/issues/261"
         },
         {
           "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T21:18:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T21:02:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T21:02:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T20:17:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T20:15:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T20:14:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T20:07:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T19:59:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T19:50:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T19:47:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T19:45:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T19:36:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T19:24:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:46:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:42:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:40:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:39:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:36:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:28:11Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T18:25:10Z",
-          "title": "SCAN: California",
-          "number": 51,
-          "url": "https://github.com/mgifford/open-scans/issues/51"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:18:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:14:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:10:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T18:03:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T17:57:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T17:44:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T17:37:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T17:37:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T17:31:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T17:21:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ParaCharts",
-          "timestamp": "2026-03-14T17:15:59Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T17:14:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T17:12:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T17:06:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-03-14T16:55:20Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-03-14T13:30:30Z",
-          "title": "possible evaluation methodology ",
-          "number": 61,
-          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/61"
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-03-30T12:46:39Z"
         }
       ]
     }

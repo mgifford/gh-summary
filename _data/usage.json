@@ -1,94 +1,94 @@
 {
-  "generated": "2026-03-15T00:45:25.000Z",
+  "generated": "2026-03-31T00:47:37.622Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-03-01",
-    "end": "2026-03-15"
+    "start": "2026-03-17",
+    "end": "2026-03-31"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
-    "reposWithRuns": 25,
-    "totalRuns": 1493,
+    "reposWithRuns": 24,
+    "totalRuns": 1581,
     "byConclusion": {
-      "success": 1214,
-      "failure": 218,
-      "cancelled": 55,
-      "skipped": 3,
-      "action_required": 2
+      "success": 1320,
+      "failure": 149,
+      "cancelled": 90,
+      "action_required": 10,
+      "skipped": 9
     },
-    "estimatedComputeMinutes": 5751,
+    "estimatedComputeMinutes": 11947,
     "topWorkflows": [
-      {
-        "repo": "mgifford/o-hat-scanner",
-        "workflow": "a11y-scan",
-        "runs": 85,
-        "successRate": 1,
-        "avgDurationSeconds": 288
-      },
       {
         "repo": "mgifford/pdf-crawler",
         "workflow": "pages build and deployment",
-        "runs": 52,
-        "successRate": 0.67,
-        "avgDurationSeconds": 33
-      },
-      {
-        "repo": "mgifford/top-task-finder",
-        "workflow": "pages build and deployment",
-        "runs": 47,
-        "successRate": 0.96,
-        "avgDurationSeconds": 48
-      },
-      {
-        "repo": "mgifford/wcag-spine",
-        "workflow": "pages build and deployment",
-        "runs": 46,
-        "successRate": 0.96,
-        "avgDurationSeconds": 42
-      },
-      {
-        "repo": "mgifford/sam_gov_md",
-        "workflow": "pages build and deployment",
-        "runs": 41,
-        "successRate": 0.8,
-        "avgDurationSeconds": 237
+        "runs": 50,
+        "successRate": 0.78,
+        "avgDurationSeconds": 41
       },
       {
         "repo": "mgifford/daily-dap",
         "workflow": "pages build and deployment",
-        "runs": 39,
-        "successRate": 0.95,
-        "avgDurationSeconds": 39
+        "runs": 49,
+        "successRate": 0.98,
+        "avgDurationSeconds": 27
       },
       {
-        "repo": "mgifford/wcag-spine",
-        "workflow": "Running Copilot coding agent",
-        "runs": 37,
-        "successRate": 0.95,
-        "avgDurationSeconds": 680
+        "repo": "mgifford/open-site-review",
+        "workflow": "Site Review",
+        "runs": 48,
+        "successRate": 0.94,
+        "avgDurationSeconds": 43
+      },
+      {
+        "repo": "mgifford/daily-cap",
+        "workflow": "pages build and deployment",
+        "runs": 46,
+        "successRate": 1,
+        "avgDurationSeconds": 36
+      },
+      {
+        "repo": "mgifford/daily-cap",
+        "workflow": "Daily CAP Scan",
+        "runs": 35,
+        "successRate": 0.46,
+        "avgDurationSeconds": 2296
       },
       {
         "repo": "mgifford/open-scans",
         "workflow": "pages build and deployment",
-        "runs": 35,
-        "successRate": 0.94,
-        "avgDurationSeconds": 165
+        "runs": 33,
+        "successRate": 0.97,
+        "avgDurationSeconds": 193
       },
       {
-        "repo": "mgifford/ParaCharts",
+        "repo": "mgifford/AirScript",
         "workflow": "pages build and deployment",
         "runs": 31,
-        "successRate": 0.97,
-        "avgDurationSeconds": 39
+        "successRate": 0.81,
+        "avgDurationSeconds": 34
       },
       {
-        "repo": "mgifford/accessible-buildings",
+        "repo": "mgifford/daily-dap",
         "workflow": "Running Copilot coding agent",
+        "runs": 30,
+        "successRate": 1,
+        "avgDurationSeconds": 712
+      },
+      {
+        "repo": "mgifford/open-susty-scans",
+        "workflow": "pages build and deployment",
         "runs": 28,
-        "successRate": 0.64,
-        "avgDurationSeconds": 305
+        "successRate": 1,
+        "avgDurationSeconds": 27
+      },
+      {
+        "repo": "mgifford/alt-text-scan",
+        "workflow": "Scan All Open SCAN Issues",
+        "runs": 27,
+        "successRate": 0.74,
+        "avgDurationSeconds": 3546
       }
     ]
   },
