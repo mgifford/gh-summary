@@ -446,4 +446,162 @@ describe('processEvents', () => {
     strictEqual(ev.number, 42);
     strictEqual(ev.url, 'https://github.com/a/b/issues/42');
   });
+
+  it('includes PR title, number and URL in event detail records', () => {
+    const events = [
+      {
+        type: 'PullRequestEvent',
+        created_at: '2024-03-15T10:00:00Z',
+        repo: { name: 'a/b' },
+        public: true,
+        payload: {
+          pull_request: {
+            title: 'Add feature',
+            number: 7,
+            html_url: 'https://github.com/a/b/pull/7',
+          },
+        },
+      },
+    ];
+    const result = processEvents(events, tz, false);
+    const ev = result.dailyActivity[0].events[0];
+    strictEqual(ev.title, 'Add feature');
+    strictEqual(ev.number, 7);
+    strictEqual(ev.url, 'https://github.com/a/b/pull/7');
+  });
+
+  it('includes discussion title and URL in event detail records', () => {
+    const events = [
+      {
+        type: 'DiscussionEvent',
+        created_at: '2024-03-15T10:00:00Z',
+        repo: { name: 'a/b' },
+        public: true,
+        payload: {
+          discussion: {
+            title: 'How to contribute?',
+            html_url: 'https://github.com/a/b/discussions/3',
+          },
+        },
+      },
+    ];
+    const result = processEvents(events, tz, false);
+    const ev = result.dailyActivity[0].events[0];
+    strictEqual(ev.title, 'How to contribute?');
+    strictEqual(ev.url, 'https://github.com/a/b/discussions/3');
+  });
+
+  it('handles commit events with no sha gracefully', () => {
+    const events = [
+      {
+        type: 'PushEvent',
+        created_at: '2024-03-15T10:00:00Z',
+        repo: { name: 'a/b' },
+        public: true,
+        payload: {
+          commits: [{ message: 'Fix typo' }],  // no sha field
+        },
+      },
+    ];
+    const result = processEvents(events, tz, false);
+    const ev = result.dailyActivity[0].events[0];
+    strictEqual(ev.commits[0].message, 'Fix typo');
+    strictEqual(ev.commits[0].sha, undefined);
+  });
+
+  it('does not filter events when includeTypes is an empty array', () => {
+    // Empty array means no filter (different from a non-empty array filter)
+    const events = [
+      { type: 'PushEvent', created_at: '2024-03-15T10:00:00Z', repo: { name: 'a/b' }, public: true },
+      { type: 'IssuesEvent', created_at: '2024-03-15T11:00:00Z', repo: { name: 'a/b' }, public: true },
+    ];
+    const result = processEvents(events, tz, false, []);
+    // Both events should be included since includeTypes.length === 0
+    strictEqual(result.summary.totalEvents, 2);
+  });
+
+  it('preserves the user field from the parameter', () => {
+    const result = processEvents([], tz, false, null, 'myuser');
+    strictEqual(result.user, 'myuser');
+  });
+
+  it('accumulates total count per day correctly across event types', () => {
+    const events = [
+      { type: 'PushEvent', created_at: '2024-03-15T08:00:00Z', repo: { name: 'a/b' }, public: true },
+      { type: 'IssuesEvent', created_at: '2024-03-15T09:00:00Z', repo: { name: 'a/b' }, public: true },
+      { type: 'PullRequestEvent', created_at: '2024-03-15T10:00:00Z', repo: { name: 'a/b' }, public: true },
+    ];
+    const result = processEvents(events, tz, false);
+    strictEqual(result.dailyActivity[0].total, 3);
+  });
+
+  it('does not add event detail for private-aggregated events', () => {
+    const events = [
+      {
+        type: 'PushEvent',
+        created_at: '2024-03-15T10:00:00Z',
+        repo: { name: 'alice/secret' },
+        public: false,
+      },
+    ];
+    const result = processEvents(events, tz, true);
+    // When aggregated, no event detail records should appear
+    strictEqual(result.dailyActivity[0].events.length, 0);
+  });
+});
+
+// ── authHeaders ───────────────────────────────────────────────────────────────
+// Parameterized version of authHeaders from generate-data.mjs so it can be
+// tested in isolation without the module-level GITHUB_TOKEN variable.
+
+function authHeaders(token = '') {
+  const headers = {
+    'Accept': 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'User-Agent': 'gh-summary-pages',
+  };
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+  return headers;
+}
+
+describe('authHeaders', () => {
+  it('always includes Accept header', () => {
+    const h = authHeaders();
+    strictEqual(h['Accept'], 'application/vnd.github+json');
+  });
+
+  it('always includes X-GitHub-Api-Version header', () => {
+    const h = authHeaders();
+    strictEqual(h['X-GitHub-Api-Version'], '2022-11-28');
+  });
+
+  it('always includes User-Agent header', () => {
+    const h = authHeaders();
+    strictEqual(h['User-Agent'], 'gh-summary-pages');
+  });
+
+  it('does NOT include Authorization header when token is empty', () => {
+    const h = authHeaders('');
+    ok(!Object.prototype.hasOwnProperty.call(h, 'Authorization'), 'Authorization should be absent when token is empty');
+  });
+
+  it('does NOT include Authorization header when no token is provided', () => {
+    const h = authHeaders();
+    ok(!Object.prototype.hasOwnProperty.call(h, 'Authorization'));
+  });
+
+  it('includes Authorization header with Bearer prefix when token is provided', () => {
+    const h = authHeaders('ghp_testtoken123');
+    strictEqual(h['Authorization'], 'Bearer ghp_testtoken123');
+  });
+
+  it('returns exactly 3 headers without a token', () => {
+    const h = authHeaders();
+    strictEqual(Object.keys(h).length, 3);
+  });
+
+  it('returns exactly 4 headers with a token', () => {
+    const h = authHeaders('mytoken');
+    strictEqual(Object.keys(h).length, 4);
+  });
 });
