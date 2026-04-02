@@ -13,7 +13,7 @@
 */
 
 function normalizeDashes(token) {
-  return token.replace(/[-83D]/g, '-');
+  return token.replace(/[\u2010-\u2015\u2212\uFE58\uFE63\uFF0D]/g, '-');
 }
 
 function parseArgs(argv) {
