@@ -1,0 +1,12 @@
+{
+  "name": "gh-summary",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GitHub Activity Summarizer",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
