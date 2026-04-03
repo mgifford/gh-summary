@@ -221,3 +221,306 @@ describe('parseLinkHeader (org version)', () => {
     });
   });
 });
+
+// ── Org-version summarize and detailed ──────────────────────────────────────
+// The org summary functions differ from the user summary functions in that they
+// use `https://github.com/<repo>` as the map key rather than the raw repo name.
+// Copied verbatim from gh-org-summary.mjs with INCLUDE_TYPES parameterised.
+
+function classifyEvent(e) {
+  switch (e.type) {
+    case 'PushEvent': return 'commit';
+    case 'IssuesEvent': return 'issue';
+    case 'IssueCommentEvent': return 'issue comment';
+    case 'PullRequestEvent': return 'pull request';
+    case 'PullRequestReviewEvent': return 'pr review';
+    case 'PullRequestReviewCommentEvent': return 'pr review comment';
+    case 'CommitCommentEvent': return 'commit comment';
+    case 'DiscussionEvent': return 'discussion';
+    case 'DiscussionCommentEvent': return 'discussion comment';
+    case 'GollumEvent': return 'wiki';
+    case 'CreateEvent': return 'create';
+    case 'DeleteEvent': return 'delete';
+    case 'ReleaseEvent': return 'release';
+    default: return e.type.replace(/Event$/, '').toLowerCase();
+  }
+}
+
+function dfmt(dt, tz) {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: tz,
+    weekday: 'long',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(dt);
+}
+
+function summarizeOrg(events, tz, includeTypes = null) {
+  const map = new Map();
+  for (const e of events) {
+    const type = classifyEvent(e);
+    if (includeTypes && !includeTypes.includes(type)) continue;
+    const d = dfmt(new Date(e.created_at), tz);
+    if (!map.has(d)) map.set(d, {});
+    const repo = e.repo?.name || 'unknown';
+    const repoUrl = `https://github.com/${repo}`;
+    const key = `${repoUrl}::${type}`;
+    map.get(d)[key] = (map.get(d)[key] || 0) + 1;
+  }
+  return map;
+}
+
+function detailedOrg(events, tz, includeTypes = null) {
+  const map = new Map();
+  for (const e of events) {
+    const type = classifyEvent(e);
+    if (includeTypes && !includeTypes.includes(type)) continue;
+    const d = dfmt(new Date(e.created_at), tz);
+    if (!map.has(d)) map.set(d, new Map());
+    const repo = e.repo?.name || 'unknown';
+    const repoUrl = `https://github.com/${repo}`;
+    if (!map.get(d).has(repoUrl)) map.get(d).set(repoUrl, []);
+
+    let desc = type;
+    if (type === 'commit') {
+      const commits = e.payload?.commits || [];
+      for (const c of commits) {
+        const commitUrl = c.url ? `\n    ${c.url}` : '';
+        map.get(d).get(repoUrl).push(`commit: ${c.message?.split('\n')[0] || '(no message)'}${commitUrl}`);
+      }
+      continue;
+    }
+
+    let itemUrl = '';
+    if (e.payload?.issue) {
+      itemUrl = `\n    ${e.payload.issue.html_url || ''}`;
+      desc += `: ${e.payload.issue.title}`;
+    }
+    if (e.payload?.pull_request) {
+      itemUrl = `\n    ${e.payload.pull_request.html_url || ''}`;
+      desc += `: ${e.payload.pull_request.title}`;
+    }
+    if (e.payload?.discussion) {
+      itemUrl = `\n    ${e.payload.discussion.html_url || ''}`;
+      desc += `: ${e.payload.discussion.title}`;
+    }
+
+    map.get(d).get(repoUrl).push(`${desc}${itemUrl}`);
+  }
+  return map;
+}
+
+describe('summarize (org version)', () => {
+  const tz = 'UTC';
+
+  it('returns an empty map for empty events array', () => {
+    strictEqual(summarizeOrg([], tz).size, 0);
+  });
+
+  it('uses full GitHub URL as map key instead of bare repo name', () => {
+    const events = [
+      {
+        type: 'PushEvent',
+        created_at: '2024-03-15T10:00:00Z',
+        repo: { name: 'myorg/my-repo' },
+      },
+    ];
+    const result = summarizeOrg(events, tz);
+    const counts = [...result.values()][0];
+    // Key must use the full URL, not just the repo name
+    ok(Object.keys(counts).some(k => k.startsWith('https://github.com/myorg/my-repo')),
+      'key should start with https://github.com/myorg/my-repo');
+    strictEqual(counts['https://github.com/myorg/my-repo::commit'], 1);
+  });
+
+  it('aggregates multiple events of the same type on the same day', () => {
+    const events = [
+      { type: 'PushEvent', created_at: '2024-03-15T08:00:00Z', repo: { name: 'org/repo' } },
+      { type: 'PushEvent', created_at: '2024-03-15T09:00:00Z', repo: { name: 'org/repo' } },
+    ];
+    const result = summarizeOrg(events, tz);
+    const counts = [...result.values()][0];
+    strictEqual(counts['https://github.com/org/repo::commit'], 2);
+  });
+
+  it('separates events from different repos on the same day', () => {
+    const events = [
+      { type: 'PushEvent', created_at: '2024-03-15T08:00:00Z', repo: { name: 'org/repo-a' } },
+      { type: 'PushEvent', created_at: '2024-03-15T09:00:00Z', repo: { name: 'org/repo-b' } },
+    ];
+    const result = summarizeOrg(events, tz);
+    const counts = [...result.values()][0];
+    strictEqual(counts['https://github.com/org/repo-a::commit'], 1);
+    strictEqual(counts['https://github.com/org/repo-b::commit'], 1);
+  });
+
+  it('separates events from different days', () => {
+    const events = [
+      { type: 'PushEvent', created_at: '2024-03-15T08:00:00Z', repo: { name: 'org/repo' } },
+      { type: 'PushEvent', created_at: '2024-03-16T08:00:00Z', repo: { name: 'org/repo' } },
+    ];
+    strictEqual(summarizeOrg(events, tz).size, 2);
+  });
+
+  it('uses "unknown" key segment when event has no repo', () => {
+    const events = [{ type: 'PushEvent', created_at: '2024-03-15T08:00:00Z' }];
+    const result = summarizeOrg(events, tz);
+    const counts = [...result.values()][0];
+    strictEqual(counts['https://github.com/unknown::commit'], 1);
+  });
+
+  it('filters events when includeTypes is provided', () => {
+    const events = [
+      { type: 'PushEvent', created_at: '2024-03-15T08:00:00Z', repo: { name: 'org/repo' } },
+      { type: 'IssuesEvent', created_at: '2024-03-15T09:00:00Z', repo: { name: 'org/repo' } },
+    ];
+    const result = summarizeOrg(events, tz, ['commit']);
+    const counts = [...result.values()][0];
+    strictEqual(counts['https://github.com/org/repo::commit'], 1);
+    strictEqual(counts['https://github.com/org/repo::issue'], undefined);
+  });
+});
+
+describe('detailed (org version)', () => {
+  const tz = 'UTC';
+
+  it('returns an empty map for empty events array', () => {
+    strictEqual(detailedOrg([], tz).size, 0);
+  });
+
+  it('uses full GitHub URL as repo key', () => {
+    const events = [
+      {
+        type: 'IssuesEvent',
+        created_at: '2024-03-15T08:00:00Z',
+        repo: { name: 'org/repo' },
+        payload: { issue: { title: 'A bug', html_url: 'https://github.com/org/repo/issues/1' } },
+      },
+    ];
+    const result = detailedOrg(events, tz);
+    const dayMap = [...result.values()][0];
+    ok(dayMap.has('https://github.com/org/repo'), 'repo key should be the full URL');
+  });
+
+  it('groups commit messages by full repo URL key', () => {
+    const events = [
+      {
+        type: 'PushEvent',
+        created_at: '2024-03-15T08:00:00Z',
+        repo: { name: 'org/repo' },
+        payload: { commits: [{ message: 'Fix bug\nDetails' }, { message: 'Add feature' }] },
+      },
+    ];
+    const result = detailedOrg(events, tz);
+    const dayMap = [...result.values()][0];
+    const entries = dayMap.get('https://github.com/org/repo');
+    ok(Array.isArray(entries));
+    strictEqual(entries.length, 2);
+    strictEqual(entries[0], 'commit: Fix bug');
+    strictEqual(entries[1], 'commit: Add feature');
+  });
+
+  it('appends issue title and URL to issue event description', () => {
+    const events = [
+      {
+        type: 'IssuesEvent',
+        created_at: '2024-03-15T08:00:00Z',
+        repo: { name: 'org/repo' },
+        payload: {
+          issue: { title: 'Crash on startup', html_url: 'https://github.com/org/repo/issues/5' },
+        },
+      },
+    ];
+    const result = detailedOrg(events, tz);
+    const entries = [...result.values()][0].get('https://github.com/org/repo');
+    ok(entries[0].includes('Crash on startup'));
+    ok(entries[0].includes('https://github.com/org/repo/issues/5'));
+  });
+
+  it('appends PR title and URL to pull request event description', () => {
+    const events = [
+      {
+        type: 'PullRequestEvent',
+        created_at: '2024-03-15T08:00:00Z',
+        repo: { name: 'org/repo' },
+        payload: {
+          pull_request: { title: 'New feature', html_url: 'https://github.com/org/repo/pull/10' },
+        },
+      },
+    ];
+    const result = detailedOrg(events, tz);
+    const entries = [...result.values()][0].get('https://github.com/org/repo');
+    ok(entries[0].includes('New feature'));
+    ok(entries[0].includes('https://github.com/org/repo/pull/10'));
+  });
+
+  it('appends discussion title and URL to discussion event description', () => {
+    const events = [
+      {
+        type: 'DiscussionEvent',
+        created_at: '2024-03-15T08:00:00Z',
+        repo: { name: 'org/repo' },
+        payload: {
+          discussion: { title: 'Roadmap?', html_url: 'https://github.com/org/repo/discussions/2' },
+        },
+      },
+    ];
+    const result = detailedOrg(events, tz);
+    const entries = [...result.values()][0].get('https://github.com/org/repo');
+    ok(entries[0].includes('Roadmap?'));
+    ok(entries[0].includes('https://github.com/org/repo/discussions/2'));
+  });
+
+  it('appends commit URL when present on the commit object', () => {
+    const events = [
+      {
+        type: 'PushEvent',
+        created_at: '2024-03-15T08:00:00Z',
+        repo: { name: 'org/repo' },
+        payload: {
+          commits: [{ message: 'Add tests', url: 'https://api.github.com/repos/org/repo/commits/abc' }],
+        },
+      },
+    ];
+    const result = detailedOrg(events, tz);
+    const entries = [...result.values()][0].get('https://github.com/org/repo');
+    ok(entries[0].includes('Add tests'));
+    ok(entries[0].includes('https://api.github.com/repos/org/repo/commits/abc'));
+  });
+
+  it('filters events when includeTypes is provided', () => {
+    const events = [
+      {
+        type: 'PushEvent',
+        created_at: '2024-03-15T08:00:00Z',
+        repo: { name: 'org/repo' },
+        payload: { commits: [{ message: 'Fix' }] },
+      },
+      {
+        type: 'IssuesEvent',
+        created_at: '2024-03-15T09:00:00Z',
+        repo: { name: 'org/repo' },
+        payload: { issue: { title: 'Bug', html_url: '' } },
+      },
+    ];
+    const result = detailedOrg(events, tz, ['commit']);
+    const dayMap = [...result.values()][0];
+    const entries = dayMap.get('https://github.com/org/repo');
+    strictEqual(entries.length, 1);
+    strictEqual(entries[0], 'commit: Fix');
+  });
+
+  it('uses "unknown" key when event has no repo', () => {
+    const events = [
+      {
+        type: 'IssuesEvent',
+        created_at: '2024-03-15T08:00:00Z',
+        payload: { issue: { title: 'Orphan', html_url: '' } },
+      },
+    ];
+    const result = detailedOrg(events, tz);
+    const dayMap = [...result.values()][0];
+    ok(dayMap.has('https://github.com/unknown'));
+  });
+});
