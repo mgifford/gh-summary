@@ -1,94 +1,93 @@
 {
-  "generated": "2026-04-15T00:49:58.059Z",
+  "generated": "2026-04-30T00:59:12.218Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-04-01",
-    "end": "2026-04-15"
+    "start": "2026-04-16",
+    "end": "2026-04-30"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
     "reposWithRuns": 25,
-    "totalRuns": 1241,
+    "totalRuns": 1254,
     "byConclusion": {
-      "success": 1082,
-      "cancelled": 41,
-      "failure": 110,
-      "skipped": 4,
-      "action_required": 1
+      "success": 1087,
+      "cancelled": 70,
+      "failure": 47,
+      "skipped": 48
     },
-    "estimatedComputeMinutes": 8523,
+    "estimatedComputeMinutes": 14126,
     "topWorkflows": [
       {
         "repo": "mgifford/o-hat-scanner",
         "workflow": "Accessibility Scanner (GitHub Pages)",
-        "runs": 45,
-        "successRate": 1,
-        "avgDurationSeconds": 79
+        "runs": 48,
+        "successRate": 0.98,
+        "avgDurationSeconds": 131
       },
       {
         "repo": "mgifford/o-hat-scanner",
         "workflow": "a11y-scan",
-        "runs": 45,
-        "successRate": 1,
-        "avgDurationSeconds": 376
-      },
-      {
-        "repo": "mgifford/open-scans",
-        "workflow": "pages build and deployment",
-        "runs": 37,
-        "successRate": 0.89,
-        "avgDurationSeconds": 206
-      },
-      {
-        "repo": "mgifford/daily-nsf",
-        "workflow": "pages build and deployment",
-        "runs": 33,
-        "successRate": 1,
-        "avgDurationSeconds": 24
-      },
-      {
-        "repo": "mgifford/sam_gov_md",
-        "workflow": "pages build and deployment",
-        "runs": 31,
-        "successRate": 0.84,
-        "avgDurationSeconds": 816
+        "runs": 47,
+        "successRate": 0.98,
+        "avgDurationSeconds": 323
       },
       {
         "repo": "mgifford/eu-plus-government-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 30,
-        "successRate": 0.93,
-        "avgDurationSeconds": 36
+        "runs": 40,
+        "successRate": 0.97,
+        "avgDurationSeconds": 60
       },
       {
-        "repo": "mgifford/daily-hhs",
+        "repo": "mgifford/edu-scans",
+        "workflow": "Issue-Triggered Validation",
+        "runs": 40,
+        "successRate": 0.97,
+        "avgDurationSeconds": 50
+      },
+      {
+        "repo": "mgifford/dot-gov-scans",
+        "workflow": "Monitor Workflow Health",
+        "runs": 34,
+        "successRate": 0,
+        "avgDurationSeconds": 1
+      },
+      {
+        "repo": "mgifford/open-scans",
         "workflow": "pages build and deployment",
-        "runs": 30,
-        "successRate": 1,
-        "avgDurationSeconds": 24
+        "runs": 31,
+        "successRate": 0.97,
+        "avgDurationSeconds": 238
       },
       {
-        "repo": "mgifford/daily-dap",
-        "workflow": "pages build and deployment",
-        "runs": 30,
-        "successRate": 1,
-        "avgDurationSeconds": 26
-      },
-      {
-        "repo": "mgifford/DigitalPolicies",
-        "workflow": "Build and deploy Jekyll site to GitHub Pages",
-        "runs": 29,
-        "successRate": 0.48,
-        "avgDurationSeconds": 28
-      },
-      {
-        "repo": "mgifford/mgifford.github.io",
-        "workflow": "pages build and deployment",
+        "repo": "mgifford/markdown-slides-editor",
+        "workflow": "Running Copilot cloud agent",
         "runs": 27,
-        "successRate": 0.96,
-        "avgDurationSeconds": 44
+        "successRate": 1,
+        "avgDurationSeconds": 474
+      },
+      {
+        "repo": "mgifford/dot-gov-scans",
+        "workflow": "Issue-Triggered Validation",
+        "runs": 26,
+        "successRate": 1,
+        "avgDurationSeconds": 32
+      },
+      {
+        "repo": "mgifford/sam_gov_md",
+        "workflow": "pages build and deployment",
+        "runs": 26,
+        "successRate": 0.88,
+        "avgDurationSeconds": 1066
+      },
+      {
+        "repo": "mgifford/pdf-crawler",
+        "workflow": "pages build and deployment",
+        "runs": 26,
+        "successRate": 0.65,
+        "avgDurationSeconds": 42
       }
     ]
   },
