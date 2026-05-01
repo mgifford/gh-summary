@@ -359,7 +359,7 @@ function buildDetailsHtml(startDate, endDate, daysDiff, totalFetched, pagesUsed,
     const limitBanner = atLimit ? `
         <div class="limit-warning">
             <strong>⚠️ GitHub API limit reached:</strong> The GitHub public events API only returns your ~300 most recent public events.
-            Results shown cover part of the requested range but <strong>earlier activity (before approximately ${startDate.toLocaleDateString()}) could not be retrieved</strong> — not because nothing happened, but because older events are no longer available via this API.
+            Results shown are <strong>incomplete</strong> — earlier activity within the requested date range could not be retrieved, not because nothing happened, but because older events are no longer available via this API.
             To see earlier activity, try a shorter or more recent date range.
         </div>` : '';
     return `
@@ -478,7 +478,7 @@ function processEventsForDisplay(events, username, days) {
         // local date rather than UTC (avoids showing future-dated activity for
         // users in negative UTC offsets like ET).
         const eventDate = new Date(e.created_at);
-        const date = `${eventDate.getFullYear()}-${String(eventDate.getMonth() + 1).padStart(2, '0')}-${String(eventDate.getDate()).padStart(2, '0')}`;
+        const date = formatLocalDate(eventDate);
         
         repoStats.set(repo, (repoStats.get(repo) || 0) + 1);
         typeStats.set(type, (typeStats.get(type) || 0) + 1);
@@ -644,6 +644,15 @@ async function displayOpenContributions(topRepos, containerId) {
 }
 
 // ── Utility functions ──────────────────────────────────────────────────────────
+
+// Format a Date object as a YYYY-MM-DD string using the local timezone.
+// Used to group events by the user's local date rather than UTC.
+function formatLocalDate(date) {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+}
 
 // Parse a YYYY-MM-DD string as local midnight to avoid the off-by-one timezone
 // issue that occurs when new Date('YYYY-MM-DD') is treated as UTC midnight and
