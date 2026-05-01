@@ -81,7 +81,7 @@
   },
   "dailyActivity": [
     {
-      "date": "Friday, 2026-04-24",
+      "date": "2026-04-24",
       "total": 91,
       "byType": {
         "delete": 18,
@@ -627,7 +627,7 @@
       ]
     },
     {
-      "date": "Saturday, 2026-04-25",
+      "date": "2026-04-25",
       "total": 29,
       "byType": {
         "commit": 12,
@@ -815,7 +815,7 @@
       ]
     },
     {
-      "date": "Sunday, 2026-04-26",
+      "date": "2026-04-26",
       "total": 14,
       "byType": {
         "delete": 3,
@@ -913,7 +913,7 @@
       ]
     },
     {
-      "date": "Monday, 2026-04-27",
+      "date": "2026-04-27",
       "total": 95,
       "byType": {
         "delete": 18,
@@ -1533,7 +1533,7 @@
       ]
     },
     {
-      "date": "Tuesday, 2026-04-28",
+      "date": "2026-04-28",
       "total": 33,
       "byType": {
         "commit": 12,
@@ -1763,7 +1763,7 @@
       ]
     },
     {
-      "date": "Wednesday, 2026-04-29",
+      "date": "2026-04-29",
       "total": 37,
       "byType": {
         "delete": 6,

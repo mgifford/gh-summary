@@ -158,7 +158,6 @@ function classifyEvent(e) {
 function dfmt(dt, tz) {
   return new Intl.DateTimeFormat('en-CA', { 
     timeZone: tz, 
-    weekday: 'long', 
     year: 'numeric', 
     month: '2-digit', 
     day: '2-digit' 
