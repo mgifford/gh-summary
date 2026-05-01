@@ -334,6 +334,17 @@ button[type="submit"]:active {
     font-style: italic;
 }
 
+.limit-warning {
+    background: #fffbe6;
+    border: 1px solid #f5c518;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-top: 12px;
+    font-size: 0.9em;
+    color: #5a4a00;
+    line-height: 1.5;
+}
+
 .loading {
     display: flex;
     flex-direction: column;
