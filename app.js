@@ -336,7 +336,7 @@ async function queryUser(username, fromDate, toDate) {
         displaySummaryStats(processedData.summary, 'query-summary');
         
         // Display details
-        detailsDiv.innerHTML = buildDetailsHtml(startDate, endDate, daysDiff, totalFetched, pagesUsed, events.length, false);
+        detailsDiv.innerHTML = buildDetailsHtml(startDate, endDate, daysDiff, totalFetched, pagesUsed, events.length, false, atLimit);
         
         displayActivityByType(processedData.summary.activityByType, 'query-type-chart');
         displayTopRepositories(processedData.summary.topRepositories, 'query-repo-chart');
@@ -354,12 +354,19 @@ async function queryUser(username, fromDate, toDate) {
 }
 
 // Build the details section HTML
-function buildDetailsHtml(startDate, endDate, daysDiff, totalFetched, pagesUsed, matchedCount, isPartial) {
+function buildDetailsHtml(startDate, endDate, daysDiff, totalFetched, pagesUsed, matchedCount, isPartial, atLimit = false) {
     const partialNote = isPartial ? ' <em>(loading more…)</em>' : '';
+    const limitBanner = atLimit ? `
+        <div class="limit-warning">
+            <strong>⚠️ GitHub API limit reached:</strong> The GitHub public events API only returns your ~300 most recent public events.
+            Results shown cover part of the requested range but <strong>earlier activity (before approximately ${startDate.toLocaleDateString()}) could not be retrieved</strong> — not because nothing happened, but because older events are no longer available via this API.
+            To see earlier activity, try a shorter or more recent date range.
+        </div>` : '';
     return `
         <div class="date-range-info">
             <p><strong>Date Range:</strong> ${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()} (${daysDiff} days)</p>
             <p class="debug-info">Fetched ${totalFetched} event(s) across ${pagesUsed} page(s); ${matchedCount} matched the date range.${partialNote}</p>
+            ${limitBanner}
         </div>
         <div class="chart-section">
             <h4>Activity by Type</h4>
@@ -467,7 +474,11 @@ function processEventsForDisplay(events, username, days) {
     for (const e of events) {
         const type = classifyEvent(e);
         const repo = e.repo?.name || 'unknown';
-        const date = new Date(e.created_at).toISOString().split('T')[0];
+        // Use local-timezone date components so events are grouped by the user's
+        // local date rather than UTC (avoids showing future-dated activity for
+        // users in negative UTC offsets like ET).
+        const eventDate = new Date(e.created_at);
+        const date = `${eventDate.getFullYear()}-${String(eventDate.getMonth() + 1).padStart(2, '0')}-${String(eventDate.getDate()).padStart(2, '0')}`;
         
         repoStats.set(repo, (repoStats.get(repo) || 0) + 1);
         typeStats.set(type, (typeStats.get(type) || 0) + 1);
