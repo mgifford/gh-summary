@@ -1,92 +1,93 @@
 {
-  "generated": "2026-04-30T00:59:12.218Z",
+  "generated": "2026-05-15T00:57:45.498Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-04-16",
-    "end": "2026-04-30"
+    "start": "2026-05-01",
+    "end": "2026-05-15"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
-    "reposWithRuns": 25,
-    "totalRuns": 1254,
+    "reposWithRuns": 24,
+    "totalRuns": 1068,
     "byConclusion": {
-      "success": 1087,
-      "cancelled": 70,
-      "failure": 47,
-      "skipped": 48
+      "success": 893,
+      "cancelled": 66,
+      "failure": 62,
+      "action_required": 5,
+      "skipped": 38
     },
-    "estimatedComputeMinutes": 14126,
+    "estimatedComputeMinutes": 16751,
     "topWorkflows": [
       {
         "repo": "mgifford/o-hat-scanner",
         "workflow": "Accessibility Scanner (GitHub Pages)",
-        "runs": 48,
-        "successRate": 0.98,
-        "avgDurationSeconds": 131
+        "runs": 47,
+        "successRate": 1,
+        "avgDurationSeconds": 135
       },
       {
         "repo": "mgifford/o-hat-scanner",
         "workflow": "a11y-scan",
         "runs": 47,
-        "successRate": 0.98,
-        "avgDurationSeconds": 323
+        "successRate": 1,
+        "avgDurationSeconds": 403
       },
       {
         "repo": "mgifford/eu-plus-government-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 40,
+        "runs": 36,
         "successRate": 0.97,
-        "avgDurationSeconds": 60
+        "avgDurationSeconds": 46
       },
       {
         "repo": "mgifford/edu-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 40,
-        "successRate": 0.97,
-        "avgDurationSeconds": 50
+        "runs": 35,
+        "successRate": 1,
+        "avgDurationSeconds": 35
       },
       {
         "repo": "mgifford/dot-gov-scans",
         "workflow": "Monitor Workflow Health",
-        "runs": 34,
+        "runs": 33,
         "successRate": 0,
         "avgDurationSeconds": 1
+      },
+      {
+        "repo": "mgifford/drupal-core",
+        "workflow": "pages build and deployment",
+        "runs": 31,
+        "successRate": 0,
+        "avgDurationSeconds": 62
       },
       {
         "repo": "mgifford/open-scans",
         "workflow": "pages build and deployment",
         "runs": 31,
-        "successRate": 0.97,
-        "avgDurationSeconds": 238
-      },
-      {
-        "repo": "mgifford/markdown-slides-editor",
-        "workflow": "Running Copilot cloud agent",
-        "runs": 27,
-        "successRate": 1,
-        "avgDurationSeconds": 474
-      },
-      {
-        "repo": "mgifford/dot-gov-scans",
-        "workflow": "Issue-Triggered Validation",
-        "runs": 26,
-        "successRate": 1,
-        "avgDurationSeconds": 32
+        "successRate": 0.94,
+        "avgDurationSeconds": 322
       },
       {
         "repo": "mgifford/sam_gov_md",
         "workflow": "pages build and deployment",
-        "runs": 26,
-        "successRate": 0.88,
-        "avgDurationSeconds": 1066
+        "runs": 23,
+        "successRate": 0.87,
+        "avgDurationSeconds": 1271
       },
       {
-        "repo": "mgifford/pdf-crawler",
-        "workflow": "pages build and deployment",
-        "runs": 26,
-        "successRate": 0.65,
+        "repo": "mgifford/eu-plus-government-scans",
+        "workflow": "Scan Social Media Links",
+        "runs": 22,
+        "successRate": 0.5,
+        "avgDurationSeconds": 4140
+      },
+      {
+        "repo": "mgifford/dot-gov-scans",
+        "workflow": "Issue-Triggered Validation",
+        "runs": 22,
+        "successRate": 1,
         "avgDurationSeconds": 42
       }
     ]
