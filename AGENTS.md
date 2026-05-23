@@ -22,6 +22,6 @@ Security must be considered for every meaningful change, especially changes touc
 
 ## References
 
-- `/home/runner/work/gh-summary/gh-summary/CONTRIBUTING.md` (Privacy and Security Guidelines)
-- `/home/runner/work/gh-summary/gh-summary/API-LIMITATIONS.md`
-- `/home/runner/work/gh-summary/gh-summary/SBOM.md`
+- `CONTRIBUTING.md` (Privacy and Security Guidelines)
+- `API-LIMITATIONS.md`
+- `SBOM.md`
