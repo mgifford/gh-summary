@@ -1,1970 +1,1856 @@
 {
   "user": "mgifford",
-  "generated": "2026-05-15T00:57:09.089Z",
+  "generated": "2026-05-31T01:11:22.722Z",
   "period": {
     "days": 14,
-    "start": "2026-05-01",
-    "end": "2026-05-15"
+    "start": "2026-05-17",
+    "end": "2026-05-31"
   },
   "summary": {
     "totalEvents": 300,
-    "totalDaysWithActivity": 10,
+    "totalDaysWithActivity": 6,
     "averagePerDay": "21.4",
     "topRepositories": [
       {
-        "repo": "mgifford/sam_gov_md",
-        "count": 35
+        "repo": "mgifford/vital-core",
+        "count": 90
       },
       {
-        "repo": "mgifford/drupal-core",
-        "count": 25
+        "repo": "mgifford/OSW_plus",
+        "count": 56
       },
       {
-        "repo": "mgifford/open-scans",
-        "count": 23
+        "repo": "mgifford/markdown-slides-editor",
+        "count": 55
       },
       {
-        "repo": "mgifford/w3c-a11y-maturity-model",
-        "count": 22
+        "repo": "mgifford/drupal-diff",
+        "count": 37
       },
       {
-        "repo": "mgifford/cribbage-grid",
-        "count": 20
-      },
-      {
-        "repo": "w3c/wai-arrm",
-        "count": 18
-      },
-      {
-        "repo": "mgifford/ai-browser-test",
-        "count": 13
-      },
-      {
-        "repo": "mgifford/ACCESSIBILITY.md",
+        "repo": "mgifford/accessibility-tools",
         "count": 12
       },
       {
-        "repo": "mgifford/daily-cap",
-        "count": 9
+        "repo": "mgifford/ox.ca",
+        "count": 10
       },
       {
-        "repo": "mgifford/alt-text-scan",
-        "count": 9
+        "repo": "mgifford/eu-plus-government-scans",
+        "count": 8
+      },
+      {
+        "repo": "mgifford/dpg-dpi-govstack-map",
+        "count": 7
+      },
+      {
+        "repo": "mgifford/edu-scans",
+        "count": 4
+      },
+      {
+        "repo": "mgifford/dot-gov-scans",
+        "count": 4
       }
     ],
     "activityByType": [
       {
         "type": "commit",
-        "count": 154
+        "count": 182
       },
       {
         "type": "delete",
-        "count": 80
+        "count": 60
       },
       {
         "type": "issue",
-        "count": 61
+        "count": 51
       },
       {
         "type": "create",
-        "count": 2
-      },
-      {
-        "type": "issue comment",
-        "count": 2
+        "count": 3
       },
       {
         "type": "pull request",
+        "count": 2
+      },
+      {
+        "type": "fork",
+        "count": 1
+      },
+      {
+        "type": "watch",
         "count": 1
       }
     ]
   },
   "dailyActivity": [
     {
-      "date": "2026-05-05",
-      "total": 47,
+      "date": "2026-05-25",
+      "total": 33,
       "byType": {
-        "delete": 11,
+        "commit": 17,
+        "delete": 9,
+        "issue": 7
+      },
+      "byRepo": {
+        "mgifford/ox.ca": 8,
+        "mgifford/markdown-slides-editor": 23,
+        "mgifford/accessibility-tools": 2
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T01:23:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T01:22:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T01:22:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T01:21:45Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T01:21:11Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T01:12:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T01:12:35Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T01:12:35Z",
+          "title": "Bottom line cut off",
+          "number": 137,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/137"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-26T01:05:47Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-26T01:05:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T01:03:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T01:02:59Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T00:55:07Z",
+          "title": "Bottom line cut off",
+          "number": 137,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/137"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T00:55:07Z",
+          "title": "Bottom line cut off",
+          "number": 137,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/137"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T00:54:59Z",
+          "title": "Bottom line cut off",
+          "number": 137,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/137"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T00:50:46Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T00:50:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T00:49:05Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T00:19:33Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T00:19:32Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T23:07:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T23:07:27Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T22:43:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T22:43:09Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T22:35:52Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T22:35:51Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T22:28:42Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T22:28:40Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T19:51:32Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T19:51:31Z",
+          "title": "Some text cut off in PDF",
+          "number": 129,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/129"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T19:51:30Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T19:46:00Z",
+          "title": "Some text cut off in PDF",
+          "number": 129,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/129"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-25T19:46:00Z",
+          "title": "Some text cut off in PDF",
+          "number": 129,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/129"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "total": 41,
+      "byType": {
         "commit": 13,
-        "issue": 23
+        "delete": 10,
+        "issue": 16,
+        "pull request": 1,
+        "watch": 1
       },
       "byRepo": {
-        "mgifford/o-hat-scanner": 5,
-        "mgifford/ai-browser-test": 9,
-        "mgifford/dot-gov-scans": 2,
-        "mgifford/edu-scans": 2,
-        "mgifford/cribbage-grid": 20,
-        "mgifford/daily-cap": 7,
-        "mgifford/codenames-game": 2
-      },
-      "events": [
-        {
-          "type": "delete",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-05-06T02:21:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-05-06T02:21:35Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-05-06T02:21:35Z",
-          "title": "Accessibility issue: Heading levels should only increase by one on /o-hat-scanner/runs/www-government-bg/www-government-bg--2026-05-05T07-38-45-141Z--bulgaria-weekly-desktop-light-chromium/index.html",
-          "number": 149,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/149"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-05-06T01:45:43Z",
-          "title": "Accessibility issue: Heading levels should only increase by one on /o-hat-scanner/runs/www-government-bg/www-government-bg--2026-05-05T07-38-45-141Z--bulgaria-weekly-desktop-light-chromium/index.html",
-          "number": 149,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/149"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-05-06T01:45:43Z",
-          "title": "Accessibility issue: Heading levels should only increase by one on /o-hat-scanner/runs/www-government-bg/www-government-bg--2026-05-05T07-38-45-141Z--bulgaria-weekly-desktop-light-chromium/index.html",
-          "number": 149,
-          "url": "https://github.com/mgifford/o-hat-scanner/issues/149"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-06T01:42:55Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-06T01:42:54Z",
-          "title": "Tests not working as expected",
-          "number": 26,
-          "url": "https://github.com/mgifford/ai-browser-test/issues/26"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-06T01:42:53Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/dot-gov-scans",
-          "timestamp": "2026-05-06T01:42:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/dot-gov-scans",
-          "timestamp": "2026-05-06T01:42:23Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/edu-scans",
-          "timestamp": "2026-05-06T01:42:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/edu-scans",
-          "timestamp": "2026-05-06T01:41:58Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T01:41:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T01:41:29Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T01:41:29Z",
-          "title": "Not all hands will be able to be played.",
-          "number": 30,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/30"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T01:40:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T01:31:47Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T00:15:28Z",
-          "title": "Not all hands will be able to be played.",
-          "number": 30,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/30"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T00:15:28Z",
-          "title": "Not all hands will be able to be played.",
-          "number": 30,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/30"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T00:15:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T00:15:16Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-06T00:15:16Z",
-          "title": "player CPU ",
-          "number": 28,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/28"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-06T00:14:39Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-06T00:14:38Z",
-          "title": "Accessibility issue: All page content should be contained by landmarks on /daily-cap/docs/reports/",
-          "number": 46,
-          "url": "https://github.com/mgifford/daily-cap/issues/46"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-06T00:14:37Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-05T23:54:51Z",
-          "title": "Accessibility issue: All page content should be contained by landmarks on /daily-cap/docs/reports/",
-          "number": 46,
-          "url": "https://github.com/mgifford/daily-cap/issues/46"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-05T23:54:51Z",
-          "title": "Accessibility issue: All page content should be contained by landmarks on /daily-cap/docs/reports/",
-          "number": 46,
-          "url": "https://github.com/mgifford/daily-cap/issues/46"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-05T23:53:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-05T23:53:35Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T23:43:14Z",
-          "title": "Not all hands will be able to be played.",
-          "number": 30,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/30"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T23:40:51Z",
-          "title": "player CPU ",
-          "number": 28,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/28"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T23:40:51Z",
-          "title": "player CPU ",
-          "number": 28,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/28"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T23:38:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T23:38:43Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T23:38:43Z",
-          "title": "accessibility ",
-          "number": 26,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/26"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/codenames-game",
-          "timestamp": "2026-05-05T23:38:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/codenames-game",
-          "timestamp": "2026-05-05T23:38:02Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-05T23:37:30Z",
-          "title": "Tests not working as expected",
-          "number": 26,
-          "url": "https://github.com/mgifford/ai-browser-test/issues/26"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-05T23:37:30Z",
-          "title": "Tests not working as expected",
-          "number": 26,
-          "url": "https://github.com/mgifford/ai-browser-test/issues/26"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-05T23:37:22Z",
-          "title": "Tests not working as expected",
-          "number": 26,
-          "url": "https://github.com/mgifford/ai-browser-test/issues/26"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-05T23:04:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-05T23:04:58Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-05T23:04:58Z",
-          "title": "Add a simulator tab",
-          "number": 23,
-          "url": "https://github.com/mgifford/ai-browser-test/issues/23"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T22:57:08Z",
-          "title": "player CPU ",
-          "number": 28,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/28"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T22:50:20Z",
-          "title": "accessibility ",
-          "number": 26,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/26"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T22:50:20Z",
-          "title": "accessibility ",
-          "number": 26,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/26"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/cribbage-grid",
-          "timestamp": "2026-05-05T22:50:12Z",
-          "title": "accessibility ",
-          "number": 26,
-          "url": "https://github.com/mgifford/cribbage-grid/issues/26"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-06",
-      "total": 42,
-      "byType": {
-        "commit": 32,
-        "delete": 10
-      },
-      "byRepo": {
-        "mgifford/drupal-open-dash": 1,
-        "mgifford/connect": 2,
-        "mgifford/wcag-spine": 2,
-        "mgifford/w3c-a11y-maturity-model": 11,
-        "mgifford/octicons": 1,
-        "mgifford/openapi-reference": 2,
-        "mgifford/a11y-svg": 2,
-        "mgifford/daily-dap": 2,
-        "mgifford/AirScript": 2,
-        "mgifford/drupal-core": 17
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-open-dash",
-          "timestamp": "2026-05-07T02:28:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/connect",
-          "timestamp": "2026-05-07T02:28:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/connect",
-          "timestamp": "2026-05-07T02:28:04Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-05-07T02:27:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-05-07T02:27:31Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:27:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:27:18Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:26:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:26:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:26:50Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:26:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:26:12Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:26:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:26:01Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:25:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-07T02:25:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/octicons",
-          "timestamp": "2026-05-07T02:23:43Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-05-07T02:22:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-05-07T02:22:26Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/a11y-svg",
-          "timestamp": "2026-05-07T02:22:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/a11y-svg",
-          "timestamp": "2026-05-07T02:22:15Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-05-07T02:22:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-05-07T02:22:04Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/AirScript",
-          "timestamp": "2026-05-07T02:21:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/AirScript",
-          "timestamp": "2026-05-07T02:21:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T21:29:46Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T19:59:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T19:30:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T18:51:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T18:45:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T18:34:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T18:07:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T18:06:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T18:05:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T16:51:46Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T16:45:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T16:44:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T16:34:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T16:32:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T15:36:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T15:29:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-06T14:04:02Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-07",
-      "total": 21,
-      "byType": {
-        "commit": 21
-      },
-      "byRepo": {
-        "mgifford/drupal-core": 3,
-        "w3c/wai-arrm": 17,
-        "mgifford/ACCESSIBILITY.md": 1
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-07T20:11:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T19:14:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T19:11:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T18:56:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T18:55:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T18:54:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T18:53:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T18:52:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T18:46:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:50:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:46:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:43:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:41:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:39:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:38:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:36:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:28:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-07T16:18:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-07T13:58:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-07T13:20:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-07T12:51:37Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-08",
-      "total": 45,
-      "byType": {
-        "commit": 9,
-        "issue comment": 1,
-        "issue": 32,
-        "delete": 3
-      },
-      "byRepo": {
-        "mgifford/drupal-core": 2,
-        "mgifford/sam_gov_md": 26,
-        "github/opensource.guide": 1,
-        "coder-ddev-com/access-requests": 1,
-        "mgifford/alt-text-scan": 5,
-        "mgifford/accessibility-skills": 2,
-        "mgifford/ACCESSIBILITY.md": 1,
-        "mgifford/CKEditor5-A11yFirst": 5,
-        "mgifford/open-scans": 2
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-08T22:53:40Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-08T22:50:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T21:51:39Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "github/opensource.guide",
-          "timestamp": "2026-05-08T21:39:15Z",
-          "title": "Restores underlines to links in the content",
-          "number": 3656,
-          "url": "https://github.com/github/opensource.guide/pull/3656"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:15Z",
-          "title": "High-value SAM.gov matches 2026-05-07",
-          "number": 182,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/182"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:15Z",
-          "title": "High-value SAM.gov matches 2026-05-06",
-          "number": 181,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/181"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:13Z",
-          "title": "High-value SAM.gov matches 2026-05-05",
-          "number": 180,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/180"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:13Z",
-          "title": "High-value SAM.gov matches 2026-05-04",
-          "number": 179,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/179"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:13Z",
-          "title": "High-value SAM.gov matches 2026-05-01",
-          "number": 178,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/178"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:13Z",
-          "title": "High-value SAM.gov matches 2026-04-30",
-          "number": 177,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/177"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:11Z",
-          "title": "High-value SAM.gov matches 2026-04-29",
-          "number": 176,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/176"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:11Z",
-          "title": "High-value SAM.gov matches 2026-04-28",
-          "number": 175,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/175"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:11Z",
-          "title": "High-value SAM.gov matches 2026-04-27",
-          "number": 174,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/174"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:10Z",
-          "title": "High-value SAM.gov matches 2026-04-23",
-          "number": 170,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/170"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:10Z",
-          "title": "High-value SAM.gov matches 2026-04-22",
-          "number": 169,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/169"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:10Z",
-          "title": "High-value SAM.gov matches 2026-04-26",
-          "number": 173,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/173"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:10Z",
-          "title": "High-value SAM.gov matches 2026-04-24",
-          "number": 172,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/172"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:07Z",
-          "title": "High-value SAM.gov matches 2026-04-19",
-          "number": 162,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/162"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:07Z",
-          "title": "High-value SAM.gov matches 2026-04-21",
-          "number": 168,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/168"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:07Z",
-          "title": "High-value SAM.gov matches 2026-04-20",
-          "number": 166,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/166"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:07Z",
-          "title": "High-value SAM.gov matches 2026-04-17",
-          "number": 161,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/161"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:05Z",
-          "title": "High-value SAM.gov matches 2026-03-24",
-          "number": 55,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/55"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:05Z",
-          "title": "High-value SAM.gov matches 2026-04-15",
-          "number": 154,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/154"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:05Z",
-          "title": "High-value SAM.gov matches 2026-03-23",
-          "number": 53,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/53"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:05Z",
-          "title": "High-value SAM.gov matches 2026-04-16",
-          "number": 158,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/158"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:03Z",
-          "title": "High-value SAM.gov matches 2026-03-20",
-          "number": 33,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/33"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:03Z",
-          "title": "High-value SAM.gov matches 2026-03-19",
-          "number": 32,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/32"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:03Z",
-          "title": "High-value SAM.gov matches 2026-03-18",
-          "number": 30,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/30"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-08T20:22:03Z",
-          "title": "High-value SAM.gov matches 2026-03-17",
-          "number": 29,
-          "url": "https://github.com/mgifford/sam_gov_md/issues/29"
-        },
-        {
-          "type": "issue",
-          "repo": "coder-ddev-com/access-requests",
-          "timestamp": "2026-05-08T18:11:06Z",
-          "title": "Access request: mgifford",
-          "number": 4,
-          "url": "https://github.com/coder-ddev-com/access-requests/issues/4"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-08T12:28:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-08T12:28:27Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-08T12:28:27Z",
-          "title": "MONDAY: https://www.adlnet.gov/",
-          "number": 4,
-          "url": "https://github.com/mgifford/alt-text-scan/issues/4"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-05-08T12:23:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-08T12:22:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-05-08T12:22:03Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-05-08T10:37:46Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-05-08T10:37:45Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-05-08T10:37:45Z",
-          "title": "Accessibility issue: Aria input fields must have an accessible name on /CKEditor5-A11yFirst/demo/ckeditor5-a11yfirst.html",
-          "number": 49,
-          "url": "https://github.com/mgifford/CKEditor5-A11yFirst/issues/49"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-08T10:37:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-08T10:37:21Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-08T10:26:51Z",
-          "title": "MONDAY: https://www.adlnet.gov/",
-          "number": 4,
-          "url": "https://github.com/mgifford/alt-text-scan/issues/4"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-08T10:26:51Z",
-          "title": "MONDAY: https://www.adlnet.gov/",
-          "number": 4,
-          "url": "https://github.com/mgifford/alt-text-scan/issues/4"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-05-08T10:24:01Z",
-          "title": "Accessibility issue: Aria input fields must have an accessible name on /CKEditor5-A11yFirst/demo/ckeditor5-a11yfirst.html",
-          "number": 49,
-          "url": "https://github.com/mgifford/CKEditor5-A11yFirst/issues/49"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-05-08T10:24:01Z",
-          "title": "Accessibility issue: Aria input fields must have an accessible name on /CKEditor5-A11yFirst/demo/ckeditor5-a11yfirst.html",
-          "number": 49,
-          "url": "https://github.com/mgifford/CKEditor5-A11yFirst/issues/49"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
-      "total": 1,
-      "byType": {
-        "commit": 1
-      },
-      "byRepo": {
-        "mgifford/sam_gov_md": 1
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-09T21:35:37Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-10",
-      "total": 13,
-      "byType": {
-        "delete": 2,
-        "commit": 10,
-        "create": 1
-      },
-      "byRepo": {
-        "mgifford/ACCESSIBILITY.md": 8,
-        "mgifford/drupal-cms": 3,
-        "mgifford/accessibility-skills": 2
-      },
-      "events": [
-        {
-          "type": "delete",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-11T02:57:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-11T02:57:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-cms",
-          "timestamp": "2026-05-11T02:36:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-cms",
-          "timestamp": "2026-05-11T01:33:31Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/drupal-cms",
-          "timestamp": "2026-05-10T19:53:21Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-10T16:12:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-10T16:12:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-10T13:32:46Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-10T13:32:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-05-10T13:19:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-10T13:18:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-05-10T13:12:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-10T13:10:58Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-11",
-      "total": 31,
-      "byType": {
-        "delete": 11,
-        "commit": 14,
-        "issue": 5,
-        "pull request": 1
-      },
-      "byRepo": {
-        "mgifford/open-scans": 17,
-        "mgifford/sam_gov_md": 8,
-        "mgifford/eu-plus-government-scans": 2,
+        "mgifford/astro": 1,
+        "mgifford/gc-digital-talent": 1,
+        "mgifford/markdown-slides-editor": 28,
+        "mgifford/accessibility-tools": 6,
         "mgifford/ox.ca": 2,
-        "mgifford/CKEditor5-A11yFirst": 1,
-        "w3c/wcag": 1
+        "mgifford/eu-plus-government-scans": 2,
+        "Steady5063/Semantica11y": 1
       },
       "events": [
         {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T23:35:48Z"
+          "type": "commit",
+          "repo": "mgifford/astro",
+          "timestamp": "2026-05-26T20:11:54Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T23:35:46Z"
+          "repo": "mgifford/gc-digital-talent",
+          "timestamp": "2026-05-26T20:11:23Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T21:12:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T21:12:08Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T19:08:21Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-11T19:40:23Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T19:08:21Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-11T19:40:22Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T19:08:20Z"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T19:21:23Z",
-          "title": "SCAN: NSF.gov — ALFA AXE",
-          "number": 169,
-          "url": "https://github.com/mgifford/open-scans/issues/169"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-11T17:03:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-11T17:03:39Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T16:48:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T16:48:36Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-05-11T15:18:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-05-11T15:18:10Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T15:13:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T15:13:00Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T15:12:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T15:12:34Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T19:08:20Z",
+          "title": "Progress Bars (slides and time)",
+          "number": 148,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/148"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T15:12:35Z",
-          "title": "Add generic Playwright tests",
-          "number": 290,
-          "url": "https://github.com/mgifford/open-scans/issues/290"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T17:21:45Z",
+          "title": "Progress Bars (slides and time)",
+          "number": 148,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/148"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T14:59:14Z",
-          "title": "Add generic Playwright tests",
-          "number": 290,
-          "url": "https://github.com/mgifford/open-scans/issues/290"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T17:21:45Z",
+          "title": "Progress Bars (slides and time)",
+          "number": 148,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/148"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-26T17:21:23Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-26T17:21:22Z"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T14:59:12Z",
-          "title": "Add generic Playwright tests",
-          "number": 290,
-          "url": "https://github.com/mgifford/open-scans/issues/290"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T14:59:09Z",
-          "title": "Add generic Playwright tests",
-          "number": 290,
-          "url": "https://github.com/mgifford/open-scans/issues/290"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T14:55:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-11T14:55:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-05-11T13:57:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-05-11T13:54:00Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-11T13:32:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-11T13:32:42Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-11T13:32:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/sam_gov_md",
-          "timestamp": "2026-05-11T13:32:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-05-11T09:26:37Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T17:13:19Z",
+          "title": "Progress Bars (slides and time)",
+          "number": 148,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/148"
         },
         {
           "type": "pull request",
-          "repo": "w3c/wcag",
-          "timestamp": "2026-05-11T09:08:25Z",
-          "number": 3613
-        }
-      ]
-    },
-    {
-      "date": "2026-05-12",
-      "total": 4,
-      "byType": {
-        "delete": 1,
-        "commit": 2,
-        "issue comment": 1
-      },
-      "byRepo": {
-        "mgifford/daily-hhs": 2,
-        "UKHomeOffice/design-system": 1,
-        "w3c/wai-arrm": 1
-      },
-      "events": [
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-05-12T19:00:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-05-12T18:59:59Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "UKHomeOffice/design-system",
-          "timestamp": "2026-05-12T18:27:01Z",
-          "title": "Improve accessibility of status message component",
-          "number": 607,
-          "url": "https://github.com/UKHomeOffice/design-system/issues/607"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-05-12T15:19:27Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-13",
-      "total": 94,
-      "byType": {
-        "commit": 51,
-        "delete": 42,
-        "create": 1
-      },
-      "byRepo": {
-        "mgifford/A11yFirst-CKEditor5-Plugin": 5,
-        "mgifford/open-susty-scans": 4,
-        "mgifford/o-hat-scanner": 2,
-        "mgifford/whisper-slides": 1,
-        "mgifford/CKEditor5-A11yFirst": 2,
-        "mgifford/eu-plus-government-scans": 4,
-        "mgifford/markdown-slides-editor": 2,
-        "mgifford/daily-cap": 2,
-        "mgifford/alt-text-scan": 4,
-        "mgifford/ai-browser-test": 4,
-        "mgifford/drupal-core": 2,
-        "mgifford/w3c-a11y-maturity-model": 11,
-        "mgifford/daily-dap": 4,
-        "mgifford/dot-gov-scans": 4,
-        "mgifford/edu-scans": 6,
-        "mgifford/openapi-reference": 4,
-        "mgifford/content-first-wireframe": 2,
-        "mgifford/open-scans": 4,
-        "mgifford/daily-nsf": 4,
-        "mgifford/wcag-spine": 4,
-        "mgifford/contrast-plus": 4,
-        "mgifford/gh-open-dash": 2,
-        "mgifford/ACCESSIBILITY.md": 2,
-        "mgifford/SUSTAINABILITY.md": 2,
-        "mgifford/drupal-open-dash": 1,
-        "mgifford/mgifford.github.io": 2,
-        "mgifford/ox.ca": 2,
-        "mgifford/daily-hhs": 4
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/A11yFirst-CKEditor5-Plugin",
-          "timestamp": "2026-05-14T02:41:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/A11yFirst-CKEditor5-Plugin",
-          "timestamp": "2026-05-13T20:53:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/A11yFirst-CKEditor5-Plugin",
-          "timestamp": "2026-05-13T20:51:39Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-05-13T20:44:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-05-13T20:44:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/A11yFirst-CKEditor5-Plugin",
-          "timestamp": "2026-05-13T19:43:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-05-13T19:07:09Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/A11yFirst-CKEditor5-Plugin",
-          "timestamp": "2026-05-13T19:23:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/whisper-slides",
-          "timestamp": "2026-05-13T19:07:53Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/o-hat-scanner",
-          "timestamp": "2026-05-13T19:07:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-05-13T19:04:40Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-05-13T19:04:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-05-13T15:10:26Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-05-13T12:07:40Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-05-13T12:07:38Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T13:16:18Z",
+          "number": 147
         },
         {
           "type": "delete",
           "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-05-13T15:32:57Z"
+          "timestamp": "2026-05-26T13:15:19Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-05-13T15:32:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-13T11:51:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-13T11:43:02Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-13T11:40:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-13T11:40:06Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:32:50Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-05-13T15:11:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-05-13T15:11:10Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/CKEditor5-A11yFirst",
-          "timestamp": "2026-05-13T15:10:27Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/dot-gov-scans",
-          "timestamp": "2026-05-13T15:09:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/dot-gov-scans",
-          "timestamp": "2026-05-13T15:09:52Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-05-13T11:25:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-05-13T11:25:29Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/edu-scans",
-          "timestamp": "2026-05-13T12:11:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/edu-scans",
-          "timestamp": "2026-05-13T12:11:42Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-05-13T12:10:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-05-13T12:10:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/content-first-wireframe",
-          "timestamp": "2026-05-13T12:10:13Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-13T12:09:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-13T12:09:50Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-13T12:09:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-13T12:09:29Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-nsf",
-          "timestamp": "2026-05-13T12:08:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-nsf",
-          "timestamp": "2026-05-13T12:08:49Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-05-13T12:08:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-05-13T12:08:25Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/edu-scans",
-          "timestamp": "2026-05-13T12:08:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/edu-scans",
-          "timestamp": "2026-05-13T12:08:01Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-05-13T12:07:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-05-13T12:07:15Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:54:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:53:59Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-13T11:52:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-13T11:52:45Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-cap",
-          "timestamp": "2026-05-13T11:52:00Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-05-13T11:51:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-05-13T11:51:32Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-13T11:44:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-05-13T11:44:23Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-05-13T11:43:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/content-first-wireframe",
-          "timestamp": "2026-05-13T11:42:37Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-05-13T11:42:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-05-13T11:42:07Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-05-13T11:41:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-05-13T11:41:23Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-05-13T11:40:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-05-13T11:40:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-05-13T11:40:19Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-13T11:40:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-open-dash",
-          "timestamp": "2026-05-13T11:39:51Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/mgifford.github.io",
-          "timestamp": "2026-05-13T11:39:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/mgifford.github.io",
-          "timestamp": "2026-05-13T11:39:04Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-05-13T11:36:05Z"
+          "timestamp": "2026-05-26T13:15:18Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/ox.ca",
-          "timestamp": "2026-05-13T11:36:03Z"
+          "timestamp": "2026-05-26T13:03:47Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-05-13T11:35:06Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T12:57:25Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-05-13T11:35:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:32:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:32:37Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T12:57:23Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:31:38Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T11:48:24Z"
         },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:31:37Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:31:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:31:26Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:31:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-05-13T11:31:15Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/dot-gov-scans",
-          "timestamp": "2026-05-13T11:31:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/dot-gov-scans",
-          "timestamp": "2026-05-13T11:31:02Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/edu-scans",
-          "timestamp": "2026-05-13T11:27:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/edu-scans",
-          "timestamp": "2026-05-13T11:27:14Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-05-13T11:26:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-05-13T11:26:41Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-nsf",
-          "timestamp": "2026-05-13T11:25:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-nsf",
-          "timestamp": "2026-05-13T11:25:56Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-05-13T11:24:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-05-13T11:24:17Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-05-13T11:18:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-05-13T11:18:22Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-13T10:02:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-05-13T10:02:15Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-14",
-      "total": 2,
-      "byType": {
-        "issue": 1,
-        "commit": 1
-      },
-      "byRepo": {
-        "mgifford/markdown-slides-editor": 1,
-        "mgifford/drupal-core": 1
-      },
-      "events": [
         {
           "type": "issue",
           "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-05-14T16:18:55Z",
-          "title": "mdxeditor.dev",
-          "number": 89,
-          "url": "https://github.com/mgifford/markdown-slides-editor/issues/89"
+          "timestamp": "2026-05-26T11:48:24Z",
+          "title": "When there is an H1 & H2, keep the H2 a constant distance from the H1",
+          "number": 142,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/142"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T11:48:23Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T10:11:14Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T10:11:13Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-26T10:10:47Z",
+          "title": "SCAN: marksutcliffe.ca",
+          "number": 29,
+          "url": "https://github.com/mgifford/accessibility-tools/issues/29"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-26T10:10:46Z",
+          "title": "SCAN: marksutcliffe.ca",
+          "number": 29,
+          "url": "https://github.com/mgifford/accessibility-tools/issues/29"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-26T10:09:35Z",
+          "title": "SCAN: leiper2026.ca",
+          "number": 28,
+          "url": "https://github.com/mgifford/accessibility-tools/issues/28"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-26T10:09:34Z",
+          "title": "SCAN: leiper2026.ca",
+          "number": 28,
+          "url": "https://github.com/mgifford/accessibility-tools/issues/28"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-05-26T10:07:34Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-05-26T10:07:32Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T10:01:06Z",
+          "title": "When there is an H1 & H2, keep the H2 a constant distance from the H1",
+          "number": 142,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/142"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T10:01:06Z",
+          "title": "When there is an H1 & H2, keep the H2 a constant distance from the H1",
+          "number": 142,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/142"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T10:00:39Z",
+          "title": "When there is an H1 & H2, keep the H2 a constant distance from the H1",
+          "number": 142,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/142"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ox.ca",
+          "timestamp": "2026-05-26T09:55:48Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T09:52:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T09:52:44Z"
+        },
+        {
+          "type": "watch",
+          "repo": "Steady5063/Semantica11y",
+          "timestamp": "2026-05-26T09:48:22Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T09:17:58Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T09:17:57Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T09:17:57Z",
+          "title": "Avoid shifting words with transitions",
+          "number": 139,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/139"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T09:11:07Z",
+          "title": "Avoid shifting words with transitions",
+          "number": 139,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/139"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T09:11:05Z",
+          "title": "Avoid shifting words with transitions",
+          "number": 139,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/139"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-26T09:06:13Z",
+          "title": "Avoid shifting words with transitions",
+          "number": 139,
+          "url": "https://github.com/mgifford/markdown-slides-editor/issues/139"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "total": 51,
+      "byType": {
+        "commit": 31,
+        "create": 2,
+        "delete": 17,
+        "pull request": 1
+      },
+      "byRepo": {
+        "mgifford/drupal-diff": 10,
+        "mgifford/OSW_plus": 30,
+        "mgifford/markdown-slides-editor": 2,
+        "uswds/uswds": 1,
+        "mgifford/accessibility-tools": 4,
+        "mgifford/eu-plus-government-scans": 4
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T01:29:50Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T01:28:18Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T01:20:06Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T01:08:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-27T22:16:31Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-27T22:09:31Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-27T21:51:04Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-27T21:49:07Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-27T21:47:55Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-27T21:44:20Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T21:27:16Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T21:27:15Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T19:24:52Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T19:24:52Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T19:19:38Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T19:15:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T19:15:54Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-27T19:09:20Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-27T19:09:19Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-05-27T18:58:27Z",
+          "number": 6655
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T18:14:16Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T18:10:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T18:10:36Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T17:49:54Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T17:49:52Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T17:29:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T17:29:38Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:46:37Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:46:36Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:46:18Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:46:16Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:36:22Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:36:21Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:25:55Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:25:54Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:18:11Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:18:10Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:07:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T15:07:18Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T14:26:43Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T14:26:42Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T14:01:42Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-27T13:48:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-27T13:48:07Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-27T13:47:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/accessibility-tools",
+          "timestamp": "2026-05-27T13:47:57Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-05-27T13:47:31Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-05-27T13:47:29Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-27T13:46:27Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-05-27T12:39:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-05-27T12:39:30Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "total": 76,
+      "byType": {
+        "delete": 21,
+        "commit": 50,
+        "issue": 4,
+        "fork": 1
+      },
+      "byRepo": {
+        "mgifford/OSW_plus": 26,
+        "mgifford/drupal-diff": 26,
+        "mgifford/edu-scans": 2,
+        "mgifford/markdown-slides-editor": 2,
+        "mgifford/open-scans": 2,
+        "mgifford/drupal-core": 4,
+        "mgifford/alt-text-scan": 2,
+        "mgifford/dpg-dpi-govstack-map": 7,
+        "mgifford/inclusive-design-personas": 2,
+        "mgifford/eu-plus-government-scans": 2,
+        "contractwatch/contractwatch": 1
+      },
+      "events": [
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-29T01:13:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-29T01:13:08Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-29T01:12:15Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-29T00:59:11Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-29T00:59:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-29T00:54:55Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T23:53:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T21:31:41Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T21:23:04Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T19:56:37Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T19:56:35Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/edu-scans",
+          "timestamp": "2026-05-28T18:46:12Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/edu-scans",
+          "timestamp": "2026-05-28T18:46:11Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T18:45:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T18:45:28Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T18:29:01Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T18:22:16Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T18:22:15Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T18:16:09Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T17:53:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T17:41:40Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T17:31:23Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T17:31:22Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-28T17:23:42Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-05-28T17:23:41Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T17:18:39Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T17:04:57Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-05-28T16:58:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-05-28T16:58:31Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-05-28T16:58:20Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-05-14T11:35:18Z"
+          "timestamp": "2026-05-28T16:58:18Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-05-28T16:58:04Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-05-28T16:58:03Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/alt-text-scan",
+          "timestamp": "2026-05-28T16:57:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/alt-text-scan",
+          "timestamp": "2026-05-28T16:57:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T16:57:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T16:53:45Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T16:14:09Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T16:07:08Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T16:07:06Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T16:02:38Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T15:23:14Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T15:23:13Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T14:43:58Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T14:35:35Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T14:35:34Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-05-28T14:34:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-05-28T14:33:08Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T14:33:05Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T14:27:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T14:03:55Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-05-28T13:56:55Z",
+          "title": "DPGA Maturity Indicators",
+          "number": 7,
+          "url": "https://github.com/mgifford/dpg-dpi-govstack-map/issues/7"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-05-28T13:56:53Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-05-28T13:47:24Z",
+          "title": "DPGA Maturity Indicators",
+          "number": 7,
+          "url": "https://github.com/mgifford/dpg-dpi-govstack-map/issues/7"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-05-28T13:47:23Z",
+          "title": "DPGA Maturity Indicators",
+          "number": 7,
+          "url": "https://github.com/mgifford/dpg-dpi-govstack-map/issues/7"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-05-28T13:46:30Z",
+          "title": "DPGA Maturity Indicators",
+          "number": 7,
+          "url": "https://github.com/mgifford/dpg-dpi-govstack-map/issues/7"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T13:37:36Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T13:16:00Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T13:15:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T13:12:53Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T13:03:53Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T13:03:54Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T12:57:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T12:57:25Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/inclusive-design-personas",
+          "timestamp": "2026-05-28T12:53:12Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/inclusive-design-personas",
+          "timestamp": "2026-05-28T12:53:11Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T12:52:54Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-05-28T12:08:12Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-05-28T12:08:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T12:08:07Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T11:38:37Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T11:38:36Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T11:34:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OSW_plus",
+          "timestamp": "2026-05-28T11:34:55Z"
+        },
+        {
+          "type": "fork",
+          "repo": "contractwatch/contractwatch",
+          "timestamp": "2026-05-28T11:30:20Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-28T10:06:29Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "total": 74,
+      "byType": {
+        "commit": 49,
+        "issue": 24,
+        "create": 1
+      },
+      "byRepo": {
+        "mgifford/vital-core": 71,
+        "mgifford/filescan-server": 1,
+        "mgifford/filescan": 1,
+        "mgifford/drupal-diff": 1
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T02:42:56Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T02:30:37Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:37:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:32:41Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:28:15Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:25:50Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:23:53Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:20:35Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:17:58Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:14:07Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:08:47Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:04:43Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T01:02:42Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:52:35Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:50:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:48:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:47:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:43:44Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:41:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:38:44Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:33:08Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:32:21Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:31:09Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:28:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:23:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T00:15:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T23:24:39Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T23:23:33Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T23:19:21Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T23:10:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T23:07:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T21:31:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T21:26:55Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:52:20Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:49:59Z",
+          "title": "Phase 6",
+          "number": 8,
+          "url": "https://github.com/mgifford/vital-core/issues/8"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:49:58Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:45:55Z",
+          "title": "Phase 6",
+          "number": 8,
+          "url": "https://github.com/mgifford/vital-core/issues/8"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:45:55Z",
+          "title": "Phase 6",
+          "number": 8,
+          "url": "https://github.com/mgifford/vital-core/issues/8"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:45:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:45:03Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:45:03Z",
+          "title": "Phase 5",
+          "number": 7,
+          "url": "https://github.com/mgifford/vital-core/issues/7"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:38:08Z",
+          "title": "Phase 5",
+          "number": 7,
+          "url": "https://github.com/mgifford/vital-core/issues/7"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:38:08Z",
+          "title": "Phase 5",
+          "number": 7,
+          "url": "https://github.com/mgifford/vital-core/issues/7"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:37:40Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:37:40Z",
+          "title": "Phase 4",
+          "number": 5,
+          "url": "https://github.com/mgifford/vital-core/issues/5"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:09:05Z",
+          "title": "Phase 4",
+          "number": 5,
+          "url": "https://github.com/mgifford/vital-core/issues/5"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:09:05Z",
+          "title": "Phase 4",
+          "number": 5,
+          "url": "https://github.com/mgifford/vital-core/issues/5"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:08:35Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T19:08:36Z",
+          "title": "Phase 3",
+          "number": 4,
+          "url": "https://github.com/mgifford/vital-core/issues/4"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:43:37Z",
+          "title": "Phase 3",
+          "number": 4,
+          "url": "https://github.com/mgifford/vital-core/issues/4"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:43:35Z",
+          "title": "Phase 3",
+          "number": 4,
+          "url": "https://github.com/mgifford/vital-core/issues/4"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:43:17Z",
+          "title": "Phase 2",
+          "number": 3,
+          "url": "https://github.com/mgifford/vital-core/issues/3"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:43:14Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:40:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:36:27Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:35:49Z",
+          "title": "Phase 2",
+          "number": 3,
+          "url": "https://github.com/mgifford/vital-core/issues/3"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:35:49Z",
+          "title": "Phase 2",
+          "number": 3,
+          "url": "https://github.com/mgifford/vital-core/issues/3"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:34:37Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:34:37Z",
+          "title": "Phase 1",
+          "number": 2,
+          "url": "https://github.com/mgifford/vital-core/issues/2"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:34:15Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:32:48Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:29:53Z",
+          "title": "Phase 6",
+          "number": 8,
+          "url": "https://github.com/mgifford/vital-core/issues/8"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:28:51Z",
+          "title": "Phase 5",
+          "number": 7,
+          "url": "https://github.com/mgifford/vital-core/issues/7"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:28:33Z",
+          "title": "Phase 1",
+          "number": 2,
+          "url": "https://github.com/mgifford/vital-core/issues/2"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:28:33Z",
+          "title": "Phase 1",
+          "number": 2,
+          "url": "https://github.com/mgifford/vital-core/issues/2"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:28:23Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:27:23Z",
+          "title": "Phase 4",
+          "number": 5,
+          "url": "https://github.com/mgifford/vital-core/issues/5"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:26:17Z",
+          "title": "Phase 3",
+          "number": 4,
+          "url": "https://github.com/mgifford/vital-core/issues/4"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:25:28Z",
+          "title": "Phase 2",
+          "number": 3,
+          "url": "https://github.com/mgifford/vital-core/issues/3"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:24:38Z",
+          "title": "Phase 1",
+          "number": 2,
+          "url": "https://github.com/mgifford/vital-core/issues/2"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-29T17:22:39Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/filescan-server",
+          "timestamp": "2026-05-29T13:51:13Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/filescan",
+          "timestamp": "2026-05-29T13:50:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-diff",
+          "timestamp": "2026-05-29T11:02:08Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "total": 25,
+      "byType": {
+        "commit": 22,
+        "delete": 3
+      },
+      "byRepo": {
+        "mgifford/vital-core": 19,
+        "mgifford/edu-scans": 2,
+        "mgifford/dot-gov-scans": 4
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T21:49:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T21:45:00Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T21:38:21Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T21:27:14Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T20:33:41Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/edu-scans",
+          "timestamp": "2026-05-30T20:33:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/edu-scans",
+          "timestamp": "2026-05-30T20:32:59Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/dot-gov-scans",
+          "timestamp": "2026-05-30T20:31:33Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/dot-gov-scans",
+          "timestamp": "2026-05-30T20:31:32Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/dot-gov-scans",
+          "timestamp": "2026-05-30T20:06:35Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/dot-gov-scans",
+          "timestamp": "2026-05-30T20:06:34Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T19:50:56Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T19:47:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T17:57:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T16:57:18Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T16:41:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T16:36:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T16:31:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T16:20:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T16:13:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T15:08:33Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T15:03:27Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T14:33:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T14:05:45Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-05-30T14:03:59Z"
         }
       ]
     }

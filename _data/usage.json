@@ -1,94 +1,94 @@
 {
-  "generated": "2026-05-15T00:57:45.498Z",
+  "generated": "2026-05-31T01:12:08.007Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-05-01",
-    "end": "2026-05-15"
+    "start": "2026-05-17",
+    "end": "2026-05-31"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
     "reposWithRuns": 24,
-    "totalRuns": 1068,
+    "totalRuns": 1494,
     "byConclusion": {
-      "success": 893,
-      "cancelled": 66,
-      "failure": 62,
-      "action_required": 5,
-      "skipped": 38
+      "success": 1173,
+      "skipped": 56,
+      "cancelled": 112,
+      "failure": 140,
+      "action_required": 5
     },
-    "estimatedComputeMinutes": 16751,
+    "estimatedComputeMinutes": 21585,
     "topWorkflows": [
       {
-        "repo": "mgifford/o-hat-scanner",
-        "workflow": "Accessibility Scanner (GitHub Pages)",
-        "runs": 47,
-        "successRate": 1,
-        "avgDurationSeconds": 135
+        "repo": "mgifford/markdown-slides-editor",
+        "workflow": "Running Copilot cloud agent",
+        "runs": 62,
+        "successRate": 0.98,
+        "avgDurationSeconds": 365
       },
       {
-        "repo": "mgifford/o-hat-scanner",
-        "workflow": "a11y-scan",
-        "runs": 47,
-        "successRate": 1,
-        "avgDurationSeconds": 403
-      },
-      {
-        "repo": "mgifford/eu-plus-government-scans",
-        "workflow": "Issue-Triggered Validation",
-        "runs": 36,
-        "successRate": 0.97,
-        "avgDurationSeconds": 46
-      },
-      {
-        "repo": "mgifford/edu-scans",
-        "workflow": "Issue-Triggered Validation",
-        "runs": 35,
-        "successRate": 1,
-        "avgDurationSeconds": 35
-      },
-      {
-        "repo": "mgifford/dot-gov-scans",
-        "workflow": "Monitor Workflow Health",
-        "runs": 33,
+        "repo": "mgifford/accessibility-tools",
+        "workflow": "Web Accessibility Scan + Pages",
+        "runs": 52,
         "successRate": 0,
-        "avgDurationSeconds": 1
+        "avgDurationSeconds": 6195
       },
       {
-        "repo": "mgifford/drupal-core",
-        "workflow": "pages build and deployment",
-        "runs": 31,
-        "successRate": 0,
-        "avgDurationSeconds": 62
+        "repo": "mgifford/accessibility-tools",
+        "workflow": "Queue Scan Request",
+        "runs": 48,
+        "successRate": 1,
+        "avgDurationSeconds": 10
       },
       {
-        "repo": "mgifford/open-scans",
-        "workflow": "pages build and deployment",
-        "runs": 31,
-        "successRate": 0.94,
-        "avgDurationSeconds": 322
+        "repo": "mgifford/vital-core",
+        "workflow": "Monitor Workflow Failures",
+        "runs": 38,
+        "successRate": 0.82,
+        "avgDurationSeconds": 6
       },
       {
         "repo": "mgifford/sam_gov_md",
         "workflow": "pages build and deployment",
-        "runs": 23,
-        "successRate": 0.87,
-        "avgDurationSeconds": 1271
+        "runs": 37,
+        "successRate": 0.95,
+        "avgDurationSeconds": 1477
       },
       {
-        "repo": "mgifford/eu-plus-government-scans",
-        "workflow": "Scan Social Media Links",
-        "runs": 22,
-        "successRate": 0.5,
-        "avgDurationSeconds": 4140
-      },
-      {
-        "repo": "mgifford/dot-gov-scans",
+        "repo": "mgifford/edu-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 22,
+        "runs": 33,
         "successRate": 1,
-        "avgDurationSeconds": 42
+        "avgDurationSeconds": 32
+      },
+      {
+        "repo": "mgifford/drupal-diff",
+        "workflow": "pages build and deployment",
+        "runs": 33,
+        "successRate": 0.97,
+        "avgDurationSeconds": 131
+      },
+      {
+        "repo": "mgifford/OSW_plus",
+        "workflow": "Deploy to GitHub Pages",
+        "runs": 33,
+        "successRate": 0.88,
+        "avgDurationSeconds": 66
+      },
+      {
+        "repo": "mgifford/OSW_plus",
+        "workflow": "Running Copilot cloud agent",
+        "runs": 32,
+        "successRate": 1,
+        "avgDurationSeconds": 371
+      },
+      {
+        "repo": "mgifford/aedesproject-uif",
+        "workflow": "Surveillance Dashboard",
+        "runs": 30,
+        "successRate": 0.77,
+        "avgDurationSeconds": 149
       }
     ]
   },
