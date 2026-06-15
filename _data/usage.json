@@ -1,94 +1,93 @@
 {
-  "generated": "2026-05-31T01:12:08.007Z",
+  "generated": "2026-06-15T01:14:08.200Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-05-17",
-    "end": "2026-05-31"
+    "start": "2026-06-01",
+    "end": "2026-06-15"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
-    "reposWithRuns": 24,
-    "totalRuns": 1494,
+    "reposWithRuns": 22,
+    "totalRuns": 842,
     "byConclusion": {
-      "success": 1173,
-      "skipped": 56,
-      "cancelled": 112,
-      "failure": 140,
-      "action_required": 5
+      "success": 704,
+      "failure": 49,
+      "skipped": 49,
+      "cancelled": 38
     },
-    "estimatedComputeMinutes": 21585,
+    "estimatedComputeMinutes": 10748,
     "topWorkflows": [
       {
-        "repo": "mgifford/markdown-slides-editor",
-        "workflow": "Running Copilot cloud agent",
-        "runs": 62,
-        "successRate": 0.98,
-        "avgDurationSeconds": 365
-      },
-      {
-        "repo": "mgifford/accessibility-tools",
-        "workflow": "Web Accessibility Scan + Pages",
-        "runs": 52,
-        "successRate": 0,
-        "avgDurationSeconds": 6195
-      },
-      {
-        "repo": "mgifford/accessibility-tools",
-        "workflow": "Queue Scan Request",
-        "runs": 48,
-        "successRate": 1,
-        "avgDurationSeconds": 10
-      },
-      {
-        "repo": "mgifford/vital-core",
-        "workflow": "Monitor Workflow Failures",
-        "runs": 38,
-        "successRate": 0.82,
-        "avgDurationSeconds": 6
-      },
-      {
-        "repo": "mgifford/sam_gov_md",
+        "repo": "mgifford/wsg-webmcp-experiment",
         "workflow": "pages build and deployment",
-        "runs": 37,
-        "successRate": 0.95,
-        "avgDurationSeconds": 1477
+        "runs": 54,
+        "successRate": 0.87,
+        "avgDurationSeconds": 58
       },
       {
         "repo": "mgifford/edu-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 33,
+        "runs": 36,
         "successRate": 1,
-        "avgDurationSeconds": 32
+        "avgDurationSeconds": 40
       },
       {
-        "repo": "mgifford/drupal-diff",
-        "workflow": "pages build and deployment",
+        "repo": "mgifford/dot-gov-scans",
+        "workflow": "Monitor Workflow Health",
         "runs": 33,
-        "successRate": 0.97,
-        "avgDurationSeconds": 131
+        "successRate": 0,
+        "avgDurationSeconds": 2
+      },
+      {
+        "repo": "mgifford/vital-core",
+        "workflow": "Monitor Workflow Failures",
+        "runs": 32,
+        "successRate": 0.94,
+        "avgDurationSeconds": 10
+      },
+      {
+        "repo": "mgifford/open-scans",
+        "workflow": "pages build and deployment",
+        "runs": 32,
+        "successRate": 0.81,
+        "avgDurationSeconds": 357
+      },
+      {
+        "repo": "mgifford/open-scans",
+        "workflow": "Scan Request",
+        "runs": 25,
+        "successRate": 0.6,
+        "avgDurationSeconds": 1512
+      },
+      {
+        "repo": "mgifford/edu-scans",
+        "workflow": "Scan Social Media Links",
+        "runs": 21,
+        "successRate": 0.95,
+        "avgDurationSeconds": 1072
+      },
+      {
+        "repo": "mgifford/dot-gov-scans",
+        "workflow": "Issue-Triggered Validation",
+        "runs": 21,
+        "successRate": 1,
+        "avgDurationSeconds": 37
       },
       {
         "repo": "mgifford/OSW_plus",
         "workflow": "Deploy to GitHub Pages",
-        "runs": 33,
-        "successRate": 0.88,
-        "avgDurationSeconds": 66
+        "runs": 20,
+        "successRate": 0.9,
+        "avgDurationSeconds": 64
       },
       {
-        "repo": "mgifford/OSW_plus",
-        "workflow": "Running Copilot cloud agent",
-        "runs": 32,
+        "repo": "mgifford/susty-house",
+        "workflow": "Deploy to GitHub Pages",
+        "runs": 20,
         "successRate": 1,
-        "avgDurationSeconds": 371
-      },
-      {
-        "repo": "mgifford/aedesproject-uif",
-        "workflow": "Surveillance Dashboard",
-        "runs": 30,
-        "successRate": 0.77,
-        "avgDurationSeconds": 149
+        "avgDurationSeconds": 20
       }
     ]
   },
