@@ -1,93 +1,95 @@
 {
-  "generated": "2026-06-15T01:14:08.200Z",
+  "generated": "2026-06-30T01:06:49.352Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-06-01",
-    "end": "2026-06-15"
+    "start": "2026-06-16",
+    "end": "2026-06-30"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
-    "reposWithRuns": 22,
-    "totalRuns": 842,
+    "reposWithRuns": 23,
+    "totalRuns": 794,
     "byConclusion": {
-      "success": 704,
-      "failure": 49,
-      "skipped": 49,
-      "cancelled": 38
+      "success": 635,
+      "cancelled": 32,
+      "skipped": 46,
+      "failure": 74,
+      "startup_failure": 2,
+      "action_required": 2
     },
-    "estimatedComputeMinutes": 10748,
+    "estimatedComputeMinutes": 11986,
     "topWorkflows": [
       {
-        "repo": "mgifford/wsg-webmcp-experiment",
-        "workflow": "pages build and deployment",
-        "runs": 54,
-        "successRate": 0.87,
-        "avgDurationSeconds": 58
+        "repo": "mgifford/vital-core",
+        "workflow": "scan",
+        "runs": 64,
+        "successRate": 0.89,
+        "avgDurationSeconds": 4298
       },
       {
         "repo": "mgifford/edu-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 36,
+        "runs": 34,
         "successRate": 1,
-        "avgDurationSeconds": 40
+        "avgDurationSeconds": 50
       },
       {
         "repo": "mgifford/dot-gov-scans",
         "workflow": "Monitor Workflow Health",
-        "runs": 33,
+        "runs": 34,
         "successRate": 0,
         "avgDurationSeconds": 2
       },
       {
-        "repo": "mgifford/vital-core",
-        "workflow": "Monitor Workflow Failures",
-        "runs": 32,
-        "successRate": 0.94,
-        "avgDurationSeconds": 10
+        "repo": "mgifford/ox.ca",
+        "workflow": "QA",
+        "runs": 24,
+        "successRate": 0,
+        "avgDurationSeconds": 88
       },
       {
-        "repo": "mgifford/open-scans",
-        "workflow": "pages build and deployment",
-        "runs": 32,
-        "successRate": 0.81,
-        "avgDurationSeconds": 357
-      },
-      {
-        "repo": "mgifford/open-scans",
-        "workflow": "Scan Request",
-        "runs": 25,
-        "successRate": 0.6,
-        "avgDurationSeconds": 1512
+        "repo": "mgifford/ox.ca",
+        "workflow": "Quality Checks",
+        "runs": 24,
+        "successRate": 0,
+        "avgDurationSeconds": 37
       },
       {
         "repo": "mgifford/edu-scans",
         "workflow": "Scan Social Media Links",
-        "runs": 21,
-        "successRate": 0.95,
-        "avgDurationSeconds": 1072
+        "runs": 22,
+        "successRate": 0.91,
+        "avgDurationSeconds": 939
+      },
+      {
+        "repo": "mgifford/ox.ca",
+        "workflow": "pages build and deployment",
+        "runs": 22,
+        "successRate": 0.64,
+        "avgDurationSeconds": 80
       },
       {
         "repo": "mgifford/dot-gov-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 21,
+        "runs": 19,
         "successRate": 1,
-        "avgDurationSeconds": 37
+        "avgDurationSeconds": 47
       },
       {
-        "repo": "mgifford/OSW_plus",
-        "workflow": "Deploy to GitHub Pages",
-        "runs": 20,
-        "successRate": 0.9,
-        "avgDurationSeconds": 64
+        "repo": "mgifford/vital-core",
+        "workflow": "spec-kitty-governance",
+        "runs": 18,
+        "successRate": 1,
+        "avgDurationSeconds": 122
       },
       {
-        "repo": "mgifford/susty-house",
-        "workflow": "Deploy to GitHub Pages",
-        "runs": 20,
+        "repo": "mgifford/daily-dap",
+        "workflow": "pages build and deployment",
+        "runs": 16,
         "successRate": 1,
-        "avgDurationSeconds": 20
+        "avgDurationSeconds": 34
       }
     ]
   },
