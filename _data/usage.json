@@ -1,95 +1,93 @@
 {
-  "generated": "2026-06-30T01:06:49.352Z",
+  "generated": "2026-07-15T00:38:13.402Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-06-16",
-    "end": "2026-06-30"
+    "start": "2026-07-01",
+    "end": "2026-07-15"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
-    "reposWithRuns": 23,
-    "totalRuns": 794,
+    "reposWithRuns": 25,
+    "totalRuns": 696,
     "byConclusion": {
-      "success": 635,
-      "cancelled": 32,
-      "skipped": 46,
-      "failure": 74,
-      "startup_failure": 2,
-      "action_required": 2
+      "success": 531,
+      "skipped": 27,
+      "cancelled": 27,
+      "failure": 107
     },
-    "estimatedComputeMinutes": 11986,
+    "estimatedComputeMinutes": 7049,
     "topWorkflows": [
       {
         "repo": "mgifford/vital-core",
         "workflow": "scan",
-        "runs": 64,
-        "successRate": 0.89,
-        "avgDurationSeconds": 4298
+        "runs": 44,
+        "successRate": 0.8,
+        "avgDurationSeconds": 2775
       },
       {
-        "repo": "mgifford/edu-scans",
-        "workflow": "Issue-Triggered Validation",
-        "runs": 34,
-        "successRate": 1,
-        "avgDurationSeconds": 50
-      },
-      {
-        "repo": "mgifford/dot-gov-scans",
-        "workflow": "Monitor Workflow Health",
-        "runs": 34,
-        "successRate": 0,
-        "avgDurationSeconds": 2
-      },
-      {
-        "repo": "mgifford/ox.ca",
-        "workflow": "QA",
-        "runs": 24,
-        "successRate": 0,
-        "avgDurationSeconds": 88
-      },
-      {
-        "repo": "mgifford/ox.ca",
-        "workflow": "Quality Checks",
-        "runs": 24,
-        "successRate": 0,
-        "avgDurationSeconds": 37
-      },
-      {
-        "repo": "mgifford/edu-scans",
-        "workflow": "Scan Social Media Links",
-        "runs": 22,
-        "successRate": 0.91,
-        "avgDurationSeconds": 939
-      },
-      {
-        "repo": "mgifford/ox.ca",
+        "repo": "mgifford/drupal-core",
         "workflow": "pages build and deployment",
-        "runs": 22,
-        "successRate": 0.64,
-        "avgDurationSeconds": 80
+        "runs": 39,
+        "successRate": 0,
+        "avgDurationSeconds": 39
       },
       {
-        "repo": "mgifford/dot-gov-scans",
+        "repo": "mgifford/edu-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 19,
+        "runs": 38,
         "successRate": 1,
-        "avgDurationSeconds": 47
+        "avgDurationSeconds": 53
+      },
+      {
+        "repo": "mgifford/eu-plus-government-scans",
+        "workflow": "Deploy GitHub Pages",
+        "runs": 29,
+        "successRate": 0.69,
+        "avgDurationSeconds": 52
+      },
+      {
+        "repo": "mgifford/eu-plus-government-scans",
+        "workflow": "Generate Scan Progress Report",
+        "runs": 29,
+        "successRate": 0.69,
+        "avgDurationSeconds": 63
       },
       {
         "repo": "mgifford/vital-core",
         "workflow": "spec-kitty-governance",
-        "runs": 18,
-        "successRate": 1,
-        "avgDurationSeconds": 122
+        "runs": 29,
+        "successRate": 0.97,
+        "avgDurationSeconds": 137
       },
       {
-        "repo": "mgifford/daily-dap",
-        "workflow": "pages build and deployment",
-        "runs": 16,
+        "repo": "mgifford/vital-core",
+        "workflow": "report",
+        "runs": 24,
+        "successRate": 0.96,
+        "avgDurationSeconds": 215
+      },
+      {
+        "repo": "mgifford/civicactions-homesite",
+        "workflow": "Deploy to Firebase Hosting on merge, content update and schedule",
+        "runs": 23,
+        "successRate": 0,
+        "avgDurationSeconds": 72
+      },
+      {
+        "repo": "mgifford/edu-scans",
+        "workflow": "Scan Social Media Links",
+        "runs": 20,
+        "successRate": 0.95,
+        "avgDurationSeconds": 646
+      },
+      {
+        "repo": "mgifford/eu-plus-government-scans",
+        "workflow": "Issue-Triggered Validation",
+        "runs": 18,
         "successRate": 1,
-        "avgDurationSeconds": 34
+        "avgDurationSeconds": 46
       }
     ]
   },
