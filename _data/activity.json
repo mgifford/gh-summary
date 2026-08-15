@@ -1,1936 +1,1104 @@
 {
   "user": "mgifford",
-  "generated": "2026-07-31T00:47:38.099Z",
+  "generated": "2026-08-15T00:18:09.946Z",
   "period": {
     "days": 14,
-    "start": "2026-07-17",
-    "end": "2026-07-31"
+    "start": "2026-08-01",
+    "end": "2026-08-15"
   },
   "summary": {
-    "totalEvents": 300,
-    "totalDaysWithActivity": 8,
-    "averagePerDay": "21.4",
+    "totalEvents": 143,
+    "totalDaysWithActivity": 14,
+    "averagePerDay": "10.2",
     "topRepositories": [
       {
-        "repo": "w3c/wai-arrm",
-        "count": 41
+        "repo": "mgifford/eu-plus-government-scans",
+        "count": 44
+      },
+      {
+        "repo": "mgifford/ontario-home-energy-futures",
+        "count": 30
       },
       {
         "repo": "mgifford/drupal-core",
-        "count": 37
+        "count": 22
       },
       {
         "repo": "mgifford/open-scans",
-        "count": 35
-      },
-      {
-        "repo": "mgifford/ACCESSIBILITY.md",
-        "count": 33
-      },
-      {
-        "repo": "mgifford/vital-core",
-        "count": 28
-      },
-      {
-        "repo": "mgifford/accessibility-skills",
-        "count": 15
-      },
-      {
-        "repo": "mgifford/w3c-a11y-maturity-model",
         "count": 13
       },
       {
-        "repo": "mgifford/pdf-crawler",
+        "repo": "CivicActions/accessibility",
         "count": 11
       },
       {
-        "repo": "mgifford/eu-plus-government-scans",
-        "count": 10
+        "repo": "mgifford/neighbourhood-solar",
+        "count": 11
       },
       {
-        "repo": "mgifford/wsg-mooc",
-        "count": 9
+        "repo": "mgifford/ACCESSIBILITY.md",
+        "count": 4
+      },
+      {
+        "repo": "mgifford/vital-core",
+        "count": 4
+      },
+      {
+        "repo": "mgifford/firefox-energy-scanner",
+        "count": 1
+      },
+      {
+        "repo": "UC-OSPO-Network/orb-showcase",
+        "count": 1
       }
     ],
     "activityByType": [
       {
         "type": "commit",
-        "count": 156
-      },
-      {
-        "type": "delete",
-        "count": 52
+        "count": 57
       },
       {
         "type": "pull request",
-        "count": 29
-      },
-      {
-        "type": "issue",
         "count": 28
       },
       {
+        "type": "delete",
+        "count": 20
+      },
+      {
         "type": "create",
-        "count": 17
+        "count": 16
+      },
+      {
+        "type": "issue",
+        "count": 13
+      },
+      {
+        "type": "pr review",
+        "count": 5
       },
       {
         "type": "issue comment",
-        "count": 9
-      },
-      {
-        "type": "wiki",
         "count": 4
-      },
-      {
-        "type": "discussion",
-        "count": 2
-      },
-      {
-        "type": "release",
-        "count": 1
-      },
-      {
-        "type": "fork",
-        "count": 1
-      },
-      {
-        "type": "watch",
-        "count": 1
       }
     ]
   },
   "dailyActivity": [
     {
-      "date": "2026-07-23",
-      "total": 33,
+      "date": "2026-08-01",
+      "total": 9,
       "byType": {
-        "delete": 2,
-        "commit": 20,
-        "pull request": 1,
-        "create": 1,
-        "issue": 9
-      },
-      "byRepo": {
-        "mgifford/vital-core": 4,
-        "mgifford/Hex-Bicup-Rotor": 1,
-        "w3c/wai-arrm": 16,
-        "mgifford/accessibility-skills": 1,
-        "mgifford/pdf-crawler": 11
-      },
-      "events": [
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-24T02:09:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-24T02:09:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/Hex-Bicup-Rotor",
-          "timestamp": "2026-07-23T21:04:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T19:14:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T18:37:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T18:29:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T18:22:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T18:21:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T18:14:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T18:09:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-23T18:06:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-23T18:06:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T18:01:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T18:00:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T17:51:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T17:51:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T17:42:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T17:37:40Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T17:28:47Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T17:27:43Z",
-          "number": 128
-        },
-        {
-          "type": "create",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-23T17:27:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-23T15:42:10Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:53:07Z",
-          "title": "SCAN: https://www.energy.gov BLOOM",
-          "number": 261,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/261"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:53:00Z",
-          "title": "SCAN: https://www.energy.gov BLOOM",
-          "number": 261,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/261"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:52:52Z",
-          "title": "SCAN: https://www.energy.gov BLOOM",
-          "number": 261,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/261"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:52:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:52:06Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:44:59Z",
-          "title": "SCAN: https://www.cc-coeurdegaronne.fr BLOOM",
-          "number": 268,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/268"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:44:54Z",
-          "title": "SCAN: https://www.cc-coeurdegaronne.fr BLOOM",
-          "number": 268,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/268"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:44:48Z",
-          "title": "SCAN: https://www.cc-coeurdegaronne.fr BLOOM",
-          "number": 268,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/268"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:30:35Z",
-          "title": "SCAN: https://www.energy.gov BLOOM",
-          "number": 261,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/261"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:30:30Z",
-          "title": "SCAN: https://www.energy.gov BLOOM",
-          "number": 261,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/261"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-07-23T12:30:25Z",
-          "title": "SCAN: https://www.energy.gov BLOOM",
-          "number": 261,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/261"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "total": 22,
-      "byType": {
-        "commit": 17,
-        "delete": 2,
+        "commit": 3,
+        "issue comment": 1,
+        "issue": 2,
         "pull request": 2,
         "create": 1
       },
       "byRepo": {
-        "w3c/wai-arrm": 20,
-        "mgifford/vital-core": 2
+        "mgifford/neighbourhood-solar": 9
       },
       "events": [
         {
           "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T21:03:30Z"
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T23:16:41Z"
         },
         {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T21:00:21Z"
+          "type": "issue comment",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T22:51:05Z",
+          "title": "Broken links on home page",
+          "number": 6,
+          "url": "https://github.com/mgifford/neighbourhood-solar/issues/6"
         },
         {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:57:59Z"
+          "type": "issue",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T22:51:05Z",
+          "title": "Broken links on home page",
+          "number": 6,
+          "url": "https://github.com/mgifford/neighbourhood-solar/issues/6"
         },
         {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:52:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:51:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:43:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:37:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:33:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:32:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:24:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:21:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:16:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:07:48Z"
-        },
-        {
-          "type": "delete",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:07:00Z"
+          "type": "issue",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T22:49:16Z",
+          "title": "ical",
+          "number": 7,
+          "url": "https://github.com/mgifford/neighbourhood-solar/issues/7"
         },
         {
           "type": "pull request",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:06:58Z",
-          "number": 129
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T22:05:24Z",
+          "number": 11
         },
         {
           "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:06:59Z"
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T22:05:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T21:42:26Z"
         },
         {
           "type": "pull request",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:06:46Z",
-          "number": 129
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T21:40:14Z",
+          "number": 11
         },
         {
           "type": "create",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T20:06:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T19:56:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-24T19:51:23Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-24T12:09:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-24T12:09:22Z"
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-01T17:35:11Z"
         }
       ]
     },
     {
-      "date": "2026-07-25",
-      "total": 37,
+      "date": "2026-08-02",
+      "total": 1,
       "byType": {
-        "commit": 23,
-        "delete": 7,
-        "issue comment": 1,
-        "issue": 2,
-        "wiki": 2,
-        "fork": 1,
-        "watch": 1
+        "create": 1
       },
       "byRepo": {
-        "mgifford/accessibility-skills": 1,
-        "mgifford/ACCESSIBILITY.md": 7,
-        "mgifford/open-scans": 15,
-        "mgifford/eu-plus-government-scans": 10,
-        "mgifford/neighbourhood-solar": 2,
-        "nhazelett/ContractingHQ": 2
+        "mgifford/ontario-home-energy-futures": 1
       },
       "events": [
         {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-26T02:50:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T02:40:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T02:18:08Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T23:07:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T23:07:12Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-25T23:05:56Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-25T23:05:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-25T23:02:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T22:52:41Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-25T21:32:52Z",
-          "title": "COMPARISONS.md: update platform scope for fecarrico/A11Y.md",
-          "number": 136,
-          "url": "https://github.com/mgifford/ACCESSIBILITY.md/pull/136"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-25T21:32:23Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T21:29:56Z",
-          "title": "SCAN: CC Coeur de Garonne",
-          "number": 325,
-          "url": "https://github.com/mgifford/open-scans/issues/325"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T20:58:23Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T19:30:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T19:30:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T19:30:08Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T19:16:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T19:16:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T19:13:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T19:05:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T18:50:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T18:46:53Z"
-        },
-        {
-          "type": "wiki",
-          "repo": "mgifford/neighbourhood-solar",
-          "timestamp": "2026-07-25T16:31:52Z"
-        },
-        {
-          "type": "wiki",
-          "repo": "mgifford/neighbourhood-solar",
-          "timestamp": "2026-07-25T16:25:43Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T15:43:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T15:43:54Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T15:41:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T15:41:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T15:39:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T15:36:40Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T15:33:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T15:29:26Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T15:18:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-07-25T15:18:20Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-25T14:25:49Z",
-          "title": "SCAN: https://kthq.org ALFA",
-          "number": 331,
-          "url": "https://github.com/mgifford/open-scans/issues/331"
-        },
-        {
-          "type": "fork",
-          "repo": "nhazelett/ContractingHQ",
-          "timestamp": "2026-07-25T13:01:48Z"
-        },
-        {
-          "type": "watch",
-          "repo": "nhazelett/ContractingHQ",
-          "timestamp": "2026-07-25T13:01:42Z"
+          "type": "create",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-03T01:21:04Z"
         }
       ]
     },
     {
-      "date": "2026-07-26",
-      "total": 74,
+      "date": "2026-08-03",
+      "total": 6,
       "byType": {
-        "delete": 15,
-        "pull request": 14,
-        "commit": 32,
-        "create": 7,
-        "issue": 6
-      },
-      "byRepo": {
-        "mgifford/vital-core": 7,
-        "mgifford/open-scans": 18,
-        "mgifford/ACCESSIBILITY.md": 18,
-        "mgifford/accessibility-skills": 6,
-        "mgifford/drupal-core": 5,
-        "mgifford/AirScript": 2,
-        "mgifford/content-first-wireframe": 1,
-        "mgifford/dpg-dpi-govstack-map": 2,
-        "mgifford/OpenWealth": 1,
-        "mgifford/daily-hhs": 2,
-        "mgifford/openapi-reference": 2,
-        "mgifford/whisper-slides": 1,
-        "CivicActions/open-practice": 1,
-        "mgifford/contrast-plus": 2,
-        "mgifford/open-susty-scans": 2,
-        "mgifford/SUSTAINABILITY.md": 2,
-        "mgifford/daily-dap": 2
-      },
-      "events": [
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T02:23:14Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T02:23:11Z",
-          "number": 249
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T02:23:12Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T02:22:23Z",
-          "number": 249
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T02:22:04Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T01:52:25Z",
-          "title": "SCAN: ALL https://www.maryland.gov/",
-          "number": 218,
-          "url": "https://github.com/mgifford/open-scans/issues/218"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T01:52:07Z",
-          "title": "SCAN: https://oregon.gov/",
-          "number": 228,
-          "url": "https://github.com/mgifford/open-scans/issues/228"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T01:38:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T01:38:02Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T01:38:01Z",
-          "number": 140
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T01:35:28Z",
-          "number": 140
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T01:30:10Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T01:30:08Z",
-          "number": 16
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T01:30:08Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T01:28:59Z",
-          "number": 16
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T01:21:56Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T01:10:41Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-27T01:09:16Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-27T01:09:14Z",
-          "number": 43
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-27T01:09:15Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-27T01:09:07Z",
-          "number": 43
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T01:08:56Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T01:08:55Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T01:08:54Z",
-          "number": 334
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T01:08:46Z",
-          "number": 334
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T01:06:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T00:46:06Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-27T00:40:11Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T00:07:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T00:07:51Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T23:20:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T23:12:10Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T22:53:15Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T20:51:44Z",
-          "title": "SCAN: Belgium municipalities (BE-VAN)",
-          "number": 278,
-          "url": "https://github.com/mgifford/open-scans/issues/278"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T20:51:19Z",
-          "title": "SCAN: https://fosdem.org/",
-          "number": 314,
-          "url": "https://github.com/mgifford/open-scans/issues/314"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T20:46:34Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T20:39:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T20:06:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T19:42:35Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T19:42:35Z",
-          "title": "Backfill Spec Kitty scaffolding",
-          "number": 317,
-          "url": "https://github.com/mgifford/open-scans/issues/317"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T19:17:11Z",
-          "title": "sponsorship ",
-          "number": 163,
-          "url": "https://github.com/mgifford/open-scans/issues/163"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T19:08:25Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T15:20:46Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T15:20:44Z",
-          "number": 139
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T15:20:45Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T15:18:35Z",
-          "number": 139
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T15:17:40Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T14:54:16Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T14:54:14Z",
-          "number": 138
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T14:54:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T14:52:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-26T14:50:11Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T13:46:31Z",
-          "number": 138
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-26T13:43:13Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/AirScript",
-          "timestamp": "2026-07-26T13:17:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/AirScript",
-          "timestamp": "2026-07-26T13:17:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/content-first-wireframe",
-          "timestamp": "2026-07-26T13:16:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/dpg-dpi-govstack-map",
-          "timestamp": "2026-07-26T13:15:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/dpg-dpi-govstack-map",
-          "timestamp": "2026-07-26T13:15:34Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/OpenWealth",
-          "timestamp": "2026-07-26T13:14:47Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-07-26T13:14:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-07-26T13:14:20Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-07-26T13:05:34Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-07-26T13:05:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/whisper-slides",
-          "timestamp": "2026-07-26T13:05:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "CivicActions/open-practice",
-          "timestamp": "2026-07-26T13:04:33Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-07-26T13:03:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-07-26T13:03:23Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-07-26T13:03:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-07-26T13:03:01Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-07-26T13:02:34Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/SUSTAINABILITY.md",
-          "timestamp": "2026-07-26T13:02:32Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-07-26T13:00:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-07-26T13:00:18Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "total": 72,
-      "byType": {
-        "commit": 31,
-        "wiki": 1,
-        "delete": 17,
-        "create": 6,
-        "issue": 3,
-        "issue comment": 4,
-        "pull request": 10
-      },
-      "byRepo": {
-        "mgifford/neighbourhood-solar": 3,
-        "mgifford/AirScript": 2,
-        "mgifford/daily-dap": 2,
-        "mgifford/open-susty-scans": 2,
-        "mgifford/contrast-plus": 2,
-        "mgifford/whisper-slides": 1,
-        "mgifford/openapi-reference": 2,
-        "mgifford/OpenWealth": 1,
-        "mgifford/ai-browser-test": 2,
-        "mgifford/w3c-a11y-maturity-model": 13,
-        "mgifford/vital-core": 15,
-        "mgifford/accessibility-skills": 7,
-        "mgifford/ACCESSIBILITY.md": 8,
-        "mgifford/drupal-core": 1,
-        "moona3k/macparakeet": 1,
-        "mgifford/EchoLocate": 1,
-        "w3c/wai-arrm": 5,
-        "mgifford/dpg-dpi-govstack-map": 2,
-        "mgifford/open-scans": 2
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/neighbourhood-solar",
-          "timestamp": "2026-07-28T01:50:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/neighbourhood-solar",
-          "timestamp": "2026-07-28T01:44:15Z"
-        },
-        {
-          "type": "wiki",
-          "repo": "mgifford/neighbourhood-solar",
-          "timestamp": "2026-07-28T01:34:17Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/AirScript",
-          "timestamp": "2026-07-27T22:19:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/AirScript",
-          "timestamp": "2026-07-27T22:19:47Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-07-27T22:19:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-07-27T22:19:20Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-07-27T22:19:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-07-27T22:18:59Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-07-27T22:18:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-07-27T22:18:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/whisper-slides",
-          "timestamp": "2026-07-27T22:18:17Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-07-27T22:18:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-07-27T22:18:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/OpenWealth",
-          "timestamp": "2026-07-27T22:17:39Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-07-27T22:17:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ai-browser-test",
-          "timestamp": "2026-07-27T22:17:20Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:16:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:16:50Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:16:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:16:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:15:42Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:15:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:15:02Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:14:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:14:42Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:14:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:14:26Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:14:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/w3c-a11y-maturity-model",
-          "timestamp": "2026-07-27T22:14:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T18:56:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T18:50:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T18:50:01Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-27T17:32:59Z"
-        },
-        {
-          "type": "issue",
-          "repo": "moona3k/macparakeet",
-          "timestamp": "2026-07-27T15:19:08Z",
-          "title": "Encourage integration with other tools",
-          "number": 866,
-          "url": "https://github.com/moona3k/macparakeet/issues/866"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T15:16:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/EchoLocate",
-          "timestamp": "2026-07-27T15:16:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T15:16:18Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T15:07:17Z",
-          "title": "chore(data): refresh weekly artifacts for finding policy rollout",
-          "number": 251,
-          "url": "https://github.com/mgifford/vital-core/pull/251"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T15:07:15Z",
-          "title": "feat(policy): add configurable finding policy engine and Alfa metadata validation",
-          "number": 250,
-          "url": "https://github.com/mgifford/vital-core/pull/250"
-        },
-        {
-          "type": "create",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-27T15:00:07Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:57:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:55:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-27T14:58:08Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-27T15:00:19Z",
-          "number": 130
-        },
-        {
-          "type": "delete",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-27T14:58:10Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "w3c/wai-arrm",
-          "timestamp": "2026-07-27T14:58:07Z",
-          "number": 128
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:56:59Z",
-          "number": 251
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:57:00Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:47:26Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:48:36Z",
-          "title": "chore(data): refresh weekly artifacts for finding policy rollout",
-          "number": 251,
-          "url": "https://github.com/mgifford/vital-core/pull/251"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:47:24Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:47:23Z",
-          "number": 250
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:45:17Z",
-          "number": 251
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:44:45Z",
-          "number": 250
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:32:37Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-07-27T14:32:28Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T14:04:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T14:04:35Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T14:04:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T14:04:56Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T14:04:55Z",
-          "number": 17
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T14:04:34Z",
-          "number": 141
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T14:01:39Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T14:02:23Z",
-          "title": "Define actionable finding and repeatability policy",
-          "number": 141,
-          "url": "https://github.com/mgifford/ACCESSIBILITY.md/pull/141"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/accessibility-skills",
-          "timestamp": "2026-07-27T14:02:12Z",
-          "number": 17
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/dpg-dpi-govstack-map",
-          "timestamp": "2026-07-27T13:43:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/dpg-dpi-govstack-map",
-          "timestamp": "2026-07-27T13:35:19Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T13:19:51Z",
-          "number": 141
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-07-27T12:59:16Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T12:41:19Z",
-          "title": "SCAN: GSA.gov",
-          "number": 1,
-          "url": "https://github.com/mgifford/open-scans/issues/1"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-07-27T12:38:47Z",
-          "title": "SCAN: https://kthq.org ALFA",
-          "number": 331,
-          "url": "https://github.com/mgifford/open-scans/issues/331"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "total": 23,
-      "byType": {
-        "commit": 13,
-        "delete": 5,
+        "pull request": 1,
         "create": 1,
-        "pull request": 2,
+        "commit": 1,
+        "delete": 1,
         "issue comment": 1,
         "issue": 1
       },
       "byRepo": {
-        "mgifford/drupal-core": 20,
-        "w3c/sustainableweb-ig": 1,
-        "mgifford/unosw.plus": 2
+        "mgifford/ontario-home-energy-futures": 2,
+        "mgifford/vital-core": 2,
+        "mgifford/neighbourhood-solar": 2
       },
       "events": [
         {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T19:36:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T19:28:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T18:54:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T18:54:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T18:53:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T17:00:51Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:58:34Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:36:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:36:56Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:09:40Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:06:48Z"
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-03T20:49:27Z",
+          "number": 1
         },
         {
           "type": "create",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:03:08Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:02:28Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:09:41Z"
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-03T20:49:12Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:09:31Z"
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-08-03T13:21:29Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:06:47Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:06:46Z",
-          "number": 44
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-08-03T13:21:31Z"
         },
         {
           "type": "issue comment",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:04:06Z",
-          "title": "docs: Update and reorganize accessibility documentation",
-          "number": 44,
-          "url": "https://github.com/mgifford/drupal-core/pull/44"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:03:20Z",
-          "number": 44
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-28T16:02:27Z"
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-03T13:22:18Z",
+          "title": "Add a “How much could I save?” calculator",
+          "number": 4,
+          "url": "https://github.com/mgifford/neighbourhood-solar/issues/4"
         },
         {
           "type": "issue",
-          "repo": "w3c/sustainableweb-ig",
-          "timestamp": "2026-07-28T15:23:33Z",
-          "title": "Add a how to use the WSG within the policy guide",
-          "number": 260,
-          "url": "https://github.com/w3c/sustainableweb-ig/issues/260"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/unosw.plus",
-          "timestamp": "2026-07-28T12:57:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/unosw.plus",
-          "timestamp": "2026-07-28T12:56:59Z"
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-08-03T13:22:18Z",
+          "title": "Add a “How much could I save?” calculator",
+          "number": 4,
+          "url": "https://github.com/mgifford/neighbourhood-solar/issues/4"
         }
       ]
     },
     {
-      "date": "2026-07-29",
-      "total": 36,
+      "date": "2026-08-04",
+      "total": 38,
       "byType": {
-        "release": 1,
-        "commit": 19,
-        "create": 1,
-        "discussion": 2,
-        "issue comment": 2,
-        "issue": 7,
-        "delete": 3,
-        "wiki": 1
+        "delete": 8,
+        "pull request": 6,
+        "commit": 13,
+        "create": 3,
+        "issue": 3,
+        "pr review": 5
       },
       "byRepo": {
-        "mgifford/upstream-first": 6,
-        "Infisical/infisical": 1,
-        "go-gitea/gitea": 1,
-        "milvus-io/milvus": 3,
-        "searxng/searxng": 2,
-        "ollama/ollama": 1,
-        "diegosouzapw/OmniRoute": 2,
-        "langfuse/langfuse": 1,
-        "mgifford/wsg-mooc": 9,
-        "mgifford/drupal-core": 9,
-        "mgifford/neighbourhood-solar": 1
+        "mgifford/drupal-core": 18,
+        "mgifford/eu-plus-government-scans": 2,
+        "mgifford/dpg-dpi-govstack-map": 1,
+        "mgifford/ACCESSIBILITY.md": 3,
+        "CivicActions/accessibility": 11,
+        "mgifford/vital-core": 2,
+        "mgifford/wcag-spine": 1
       },
       "events": [
         {
-          "type": "release",
-          "repo": "mgifford/upstream-first",
-          "timestamp": "2026-07-29T20:45:16Z"
+          "type": "delete",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-05T01:13:02Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-05T01:12:58Z",
+          "number": 54
         },
         {
           "type": "commit",
-          "repo": "mgifford/upstream-first",
-          "timestamp": "2026-07-29T20:43:51Z"
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-05T01:12:59Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/upstream-first",
-          "timestamp": "2026-07-29T20:42:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/upstream-first",
-          "timestamp": "2026-07-29T18:42:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/upstream-first",
-          "timestamp": "2026-07-29T17:56:45Z"
+          "type": "pull request",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-05T01:11:56Z",
+          "number": 54
         },
         {
           "type": "create",
-          "repo": "mgifford/upstream-first",
-          "timestamp": "2026-07-29T17:56:24Z"
-        },
-        {
-          "type": "discussion",
-          "repo": "Infisical/infisical",
-          "timestamp": "2026-07-29T15:45:11Z",
-          "title": "Find ways to reduce the environmental / energy impacts of this project",
-          "url": "https://github.com/Infisical/infisical/discussions/7479"
-        },
-        {
-          "type": "issue comment",
-          "repo": "go-gitea/gitea",
-          "timestamp": "2026-07-29T15:40:31Z",
-          "title": "Automatically expire release assets",
-          "number": 16585,
-          "url": "https://github.com/go-gitea/gitea/issues/16585"
-        },
-        {
-          "type": "issue",
-          "repo": "milvus-io/milvus",
-          "timestamp": "2026-07-29T15:36:31Z",
-          "title": "[Feature]: \"Eco-Mode\" for Low-Priority RAG Ingestion / Batch Indexing",
-          "number": 52012,
-          "url": "https://github.com/milvus-io/milvus/issues/52012"
-        },
-        {
-          "type": "issue",
-          "repo": "milvus-io/milvus",
-          "timestamp": "2026-07-29T15:36:31Z",
-          "title": "[Feature]: \"Eco-Mode\" for Low-Priority RAG Ingestion / Batch Indexing",
-          "number": 52012,
-          "url": "https://github.com/milvus-io/milvus/issues/52012"
-        },
-        {
-          "type": "issue",
-          "repo": "milvus-io/milvus",
-          "timestamp": "2026-07-29T15:36:31Z",
-          "title": "[Feature]: \"Eco-Mode\" for Low-Priority RAG Ingestion / Batch Indexing",
-          "number": 52012,
-          "url": "https://github.com/milvus-io/milvus/issues/52012"
-        },
-        {
-          "type": "issue",
-          "repo": "searxng/searxng",
-          "timestamp": "2026-07-29T15:31:26Z",
-          "title": "Expose cache hit/miss telemetry (e.g. via Prometheus) to track AI agent query reuse",
-          "number": 6471,
-          "url": "https://github.com/searxng/searxng/issues/6471"
-        },
-        {
-          "type": "issue",
-          "repo": "searxng/searxng",
-          "timestamp": "2026-07-29T15:31:25Z",
-          "title": "Expose cache hit/miss telemetry (e.g. via Prometheus) to track AI agent query reuse",
-          "number": 6471,
-          "url": "https://github.com/searxng/searxng/issues/6471"
-        },
-        {
-          "type": "issue comment",
-          "repo": "ollama/ollama",
-          "timestamp": "2026-07-29T15:22:56Z",
-          "title": "High idle power consumption due to persistent CUDA initialization",
-          "number": 8591,
-          "url": "https://github.com/ollama/ollama/issues/8591"
-        },
-        {
-          "type": "issue",
-          "repo": "diegosouzapw/OmniRoute",
-          "timestamp": "2026-07-29T15:16:42Z",
-          "title": "[Feature] Carbon-Aware Routing Policies",
-          "number": 8917,
-          "url": "https://github.com/diegosouzapw/OmniRoute/issues/8917"
-        },
-        {
-          "type": "issue",
-          "repo": "diegosouzapw/OmniRoute",
-          "timestamp": "2026-07-29T15:16:42Z",
-          "title": "[Feature] Carbon-Aware Routing Policies",
-          "number": 8917,
-          "url": "https://github.com/diegosouzapw/OmniRoute/issues/8917"
-        },
-        {
-          "type": "discussion",
-          "repo": "langfuse/langfuse",
-          "timestamp": "2026-07-29T15:11:00Z",
-          "title": "Native Carbon ($CO_2e$) Tracking and Avoidance Metrics",
-          "url": "https://github.com/orgs/langfuse/discussions/15589"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T14:42:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T14:35:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T14:34:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T14:02:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T13:43:58Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T13:43:59Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T13:38:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T13:37:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-07-29T13:38:06Z"
-        },
-        {
-          "type": "commit",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:48:06Z"
+          "timestamp": "2026-08-05T01:11:19Z"
         },
         {
           "type": "delete",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:48:07Z"
+          "timestamp": "2026-08-05T00:15:51Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-05T00:15:48Z",
+          "number": 53
         },
         {
           "type": "commit",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:37:19Z"
+          "timestamp": "2026-08-05T00:15:49Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-05T00:15:36Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:36:51Z"
+          "timestamp": "2026-08-05T00:15:34Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-05T00:14:59Z",
+          "number": 53
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-05T00:14:12Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-04T20:55:54Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-04T20:56:57Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-04T20:56:55Z",
+          "number": 51
         },
         {
           "type": "commit",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:36:36Z"
+          "timestamp": "2026-08-04T20:56:56Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-04T20:56:22Z",
+          "number": 51
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-04T20:28:24Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-04T20:28:22Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-08-04T20:15:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-08-04T19:34:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-08-04T16:07:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-08-04T15:46:07Z"
+        },
+        {
+          "type": "commit",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:55:33Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:36:13Z"
+          "timestamp": "2026-08-04T15:39:45Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-08-04T15:56:31Z",
+          "title": "Playwright MCP",
+          "number": 255,
+          "url": "https://github.com/mgifford/vital-core/issues/255"
+        },
+        {
+          "type": "delete",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:55:33Z"
+        },
+        {
+          "type": "delete",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:44:42Z"
+        },
+        {
+          "type": "delete",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:50:28Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:24:34Z"
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:50:27Z"
+        },
+        {
+          "type": "pr review",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:46:09Z",
+          "number": 907
+        },
+        {
+          "type": "pr review",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:45:41Z",
+          "number": 905
+        },
+        {
+          "type": "pr review",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:45:10Z",
+          "number": 907
         },
         {
           "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:23:33Z"
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:44:41Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-29T12:08:24Z"
+          "type": "pr review",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:44:39Z",
+          "number": 908
         },
         {
-          "type": "wiki",
-          "repo": "mgifford/neighbourhood-solar",
-          "timestamp": "2026-07-29T11:54:38Z"
+          "type": "pr review",
+          "repo": "CivicActions/accessibility",
+          "timestamp": "2026-08-04T14:43:42Z",
+          "number": 905
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-08-04T12:48:55Z",
+          "title": "review according to the gap",
+          "number": 254,
+          "url": "https://github.com/mgifford/vital-core/issues/254"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/wcag-spine",
+          "timestamp": "2026-08-04T12:48:37Z",
+          "title": "Look at the gap",
+          "number": 57,
+          "url": "https://github.com/mgifford/wcag-spine/issues/57"
         }
       ]
     },
     {
-      "date": "2026-07-30",
+      "date": "2026-08-05",
+      "total": 14,
+      "byType": {
+        "commit": 4,
+        "issue": 6,
+        "issue comment": 1,
+        "delete": 3
+      },
+      "byRepo": {
+        "mgifford/open-scans": 13,
+        "mgifford/ACCESSIBILITY.md": 1
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T15:02:29Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T15:19:56Z",
+          "title": "Accessibility engine version check",
+          "number": 336,
+          "url": "https://github.com/mgifford/open-scans/issues/336"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T15:18:56Z",
+          "title": "Accessibility engine version check",
+          "number": 336,
+          "url": "https://github.com/mgifford/open-scans/issues/336"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T15:18:57Z",
+          "title": "Accessibility engine version check",
+          "number": 336,
+          "url": "https://github.com/mgifford/open-scans/issues/336"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T15:02:31Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T14:47:33Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T14:21:34Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T14:47:33Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T14:22:18Z",
+          "title": "SCAN: https://www.unopensource.org/",
+          "number": 341,
+          "url": "https://github.com/mgifford/open-scans/issues/341"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T14:22:02Z",
+          "title": "SCAN: https://www.un.org/",
+          "number": 340,
+          "url": "https://github.com/mgifford/open-scans/issues/340"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T14:21:35Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T14:21:07Z",
+          "title": "SCAN: https://www.wfp.org/",
+          "number": 339,
+          "url": "https://github.com/mgifford/open-scans/issues/339"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-08-05T14:20:41Z",
+          "title": "SCAN: https://www.who.int",
+          "number": 338,
+          "url": "https://github.com/mgifford/open-scans/issues/338"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-08-05T12:06:54Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
       "total": 3,
       "byType": {
-        "issue comment": 1,
-        "delete": 1,
-        "commit": 1
+        "commit": 2,
+        "pull request": 1
       },
       "byRepo": {
-        "w3c/sustainableweb-wsg": 1,
+        "mgifford/ontario-home-energy-futures": 3
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-06T09:44:04Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-06T09:40:33Z",
+          "number": 1
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-06T09:40:35Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "total": 13,
+      "byType": {
+        "pull request": 5,
+        "delete": 1,
+        "commit": 4,
+        "create": 2,
+        "issue comment": 1
+      },
+      "byRepo": {
+        "mgifford/ontario-home-energy-futures": 10,
+        "mgifford/drupal-core": 2,
+        "UC-OSPO-Network/orb-showcase": 1
+      },
+      "events": [
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T23:29:31Z",
+          "number": 4
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-07T23:28:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-08-07T23:28:36Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T23:28:20Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T22:40:55Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T22:40:54Z",
+          "number": 3
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T22:39:35Z",
+          "number": 3
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T22:39:21Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T22:28:31Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T22:28:30Z",
+          "number": 2
+        },
+        {
+          "type": "issue comment",
+          "repo": "UC-OSPO-Network/orb-showcase",
+          "timestamp": "2026-08-07T21:19:58Z",
+          "title": "[Frontend] Repository Page: Broken Repo resources URLs",
+          "number": 31,
+          "url": "https://github.com/UC-OSPO-Network/orb-showcase/issues/31"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T18:31:55Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-07T18:32:38Z",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "total": 4,
+      "byType": {
+        "commit": 2,
+        "pull request": 1,
+        "delete": 1
+      },
+      "byRepo": {
+        "mgifford/ontario-home-energy-futures": 2,
         "mgifford/drupal-core": 2
       },
       "events": [
         {
-          "type": "issue comment",
-          "repo": "w3c/sustainableweb-wsg",
-          "timestamp": "2026-07-30T15:07:40Z",
-          "title": "Caching resources - needs more detail and caution",
-          "number": 462,
-          "url": "https://github.com/w3c/sustainableweb-wsg/issues/462"
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-08T18:09:46Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-08T18:09:45Z",
+          "number": 4
         },
         {
           "type": "delete",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-30T13:32:40Z"
+          "timestamp": "2026-08-08T15:09:55Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-07-30T13:32:38Z"
+          "timestamp": "2026-08-08T15:09:54Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "total": 4,
+      "byType": {
+        "commit": 1,
+        "pull request": 2,
+        "create": 1
+      },
+      "byRepo": {
+        "mgifford/ontario-home-energy-futures": 4
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-09T21:46:15Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-09T21:46:14Z",
+          "number": 5
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-09T21:41:54Z",
+          "number": 5
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-09T21:41:40Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "total": 4,
+      "byType": {
+        "create": 2,
+        "commit": 2
+      },
+      "byRepo": {
+        "mgifford/eu-plus-government-scans": 1,
+        "mgifford/ontario-home-energy-futures": 3
+      },
+      "events": [
+        {
+          "type": "create",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-10T23:25:42Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-10T23:15:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-10T23:04:52Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-10T17:05:46Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "total": 14,
+      "byType": {
+        "delete": 2,
+        "commit": 9,
+        "pull request": 3
+      },
+      "byRepo": {
+        "mgifford/eu-plus-government-scans": 12,
+        "mgifford/ontario-home-energy-futures": 2
+      },
+      "events": [
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T22:18:56Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T22:18:55Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T22:18:54Z",
+          "number": 121
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T22:18:34Z",
+          "number": 121
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T22:10:58Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-11T16:25:26Z",
+          "number": 6
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-11T16:20:08Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T15:47:21Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T15:50:48Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T15:44:09Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T15:44:08Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T15:37:12Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T15:27:15Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-11T15:04:36Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "total": 20,
+      "byType": {
+        "commit": 11,
+        "pull request": 4,
+        "issue": 1,
+        "create": 2,
+        "delete": 2
+      },
+      "byRepo": {
+        "mgifford/eu-plus-government-scans": 17,
+        "mgifford/ontario-home-energy-futures": 3
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T03:51:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T03:15:55Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T03:14:18Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T02:47:46Z",
+          "number": 124
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T02:47:16Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T22:28:47Z",
+          "title": "Digital sovereignty view — revisit September 2026",
+          "number": 123,
+          "url": "https://github.com/mgifford/eu-plus-government-scans/issues/123"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T22:21:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T22:07:57Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T21:41:26Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T21:34:01Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T21:33:59Z",
+          "number": 122
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T21:34:00Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T17:57:12Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T17:54:46Z",
+          "number": 122
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T17:54:17Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T14:03:28Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-12T05:31:07Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-12T05:29:44Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-12T05:29:38Z",
+          "number": 6
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ontario-home-energy-futures",
+          "timestamp": "2026-08-12T05:29:39Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "total": 12,
+      "byType": {
+        "commit": 5,
+        "delete": 2,
+        "pull request": 3,
+        "create": 2
+      },
+      "byRepo": {
+        "mgifford/eu-plus-government-scans": 12
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T16:40:56Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T16:38:14Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T16:38:12Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T16:38:11Z",
+          "number": 125
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T16:36:25Z",
+          "number": 125
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T16:36:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T16:35:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T15:46:34Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T04:48:39Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T04:21:42Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T04:21:40Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-08-13T04:21:38Z",
+          "number": 124
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "total": 1,
+      "byType": {
+        "create": 1
+      },
+      "byRepo": {
+        "mgifford/firefox-energy-scanner": 1
+      },
+      "events": [
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-energy-scanner",
+          "timestamp": "2026-08-14T22:58:24Z"
         }
       ]
     }
