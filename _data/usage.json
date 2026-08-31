@@ -1,93 +1,94 @@
 {
-  "generated": "2026-08-15T00:18:35.564Z",
+  "generated": "2026-08-31T04:50:57.060Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-08-01",
-    "end": "2026-08-15"
+    "start": "2026-08-17",
+    "end": "2026-08-31"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
     "reposWithRuns": 24,
-    "totalRuns": 763,
+    "totalRuns": 802,
     "byConclusion": {
-      "success": 672,
-      "failure": 34,
-      "cancelled": 22,
-      "skipped": 35
+      "success": 643,
+      "skipped": 41,
+      "cancelled": 35,
+      "failure": 81,
+      "action_required": 1
     },
-    "estimatedComputeMinutes": 13045,
+    "estimatedComputeMinutes": 16202,
     "topWorkflows": [
       {
         "repo": "mgifford/vital-core",
         "workflow": "scan",
-        "runs": 76,
-        "successRate": 0.92,
-        "avgDurationSeconds": 4033
+        "runs": 87,
+        "successRate": 0.55,
+        "avgDurationSeconds": 2916
+      },
+      {
+        "repo": "mgifford/open-data-guide",
+        "workflow": "Deploy GitHub Pages",
+        "runs": 50,
+        "successRate": 0.78,
+        "avgDurationSeconds": 141
       },
       {
         "repo": "mgifford/dot-gov-scans",
         "workflow": "Monitor Workflow Health",
-        "runs": 35,
+        "runs": 37,
         "successRate": 0,
         "avgDurationSeconds": 3
       },
       {
-        "repo": "mgifford/edu-scans",
-        "workflow": "Issue-Triggered Validation",
-        "runs": 34,
-        "successRate": 1,
-        "avgDurationSeconds": 49
-      },
-      {
         "repo": "mgifford/eu-plus-government-scans",
         "workflow": "Push on main",
-        "runs": 24,
+        "runs": 23,
         "successRate": 1,
-        "avgDurationSeconds": 96
+        "avgDurationSeconds": 95
       },
       {
         "repo": "mgifford/eu-plus-government-scans",
         "workflow": "Deploy GitHub Pages",
         "runs": 22,
-        "successRate": 1,
-        "avgDurationSeconds": 91
+        "successRate": 0.82,
+        "avgDurationSeconds": 69
       },
       {
         "repo": "mgifford/eu-plus-government-scans",
         "workflow": "Generate Scan Progress Report",
-        "runs": 22,
-        "successRate": 1,
-        "avgDurationSeconds": 83
+        "runs": 21,
+        "successRate": 0.81,
+        "avgDurationSeconds": 138
       },
       {
         "repo": "mgifford/edu-scans",
-        "workflow": "Scan Social Media Links",
-        "runs": 20,
-        "successRate": 0.85,
-        "avgDurationSeconds": 1491
-      },
-      {
-        "repo": "mgifford/dot-gov-scans",
         "workflow": "Issue-Triggered Validation",
-        "runs": 20,
+        "runs": 18,
         "successRate": 1,
-        "avgDurationSeconds": 65
-      },
-      {
-        "repo": "mgifford/open-scans",
-        "workflow": "pages build and deployment",
-        "runs": 17,
-        "successRate": 0.88,
-        "avgDurationSeconds": 431
+        "avgDurationSeconds": 46
       },
       {
         "repo": "mgifford/aedesproject-uif",
         "workflow": "pages build and deployment",
         "runs": 16,
         "successRate": 1,
-        "avgDurationSeconds": 44
+        "avgDurationSeconds": 27
+      },
+      {
+        "repo": "mgifford/drupal-core",
+        "workflow": "Check GitHub Pages Health",
+        "runs": 16,
+        "successRate": 0.81,
+        "avgDurationSeconds": 15
+      },
+      {
+        "repo": "mgifford/daily-hhs",
+        "workflow": "pages build and deployment",
+        "runs": 15,
+        "successRate": 1,
+        "avgDurationSeconds": 50
       }
     ]
   },
