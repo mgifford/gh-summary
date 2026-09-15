@@ -1,1875 +1,1826 @@
 {
   "user": "mgifford",
-  "generated": "2026-08-31T04:50:34.488Z",
+  "generated": "2026-09-15T04:06:00.640Z",
   "period": {
     "days": 14,
-    "start": "2026-08-17",
-    "end": "2026-08-31"
+    "start": "2026-09-01",
+    "end": "2026-09-15"
   },
   "summary": {
-    "totalEvents": 281,
-    "totalDaysWithActivity": 14,
-    "averagePerDay": "20.1",
+    "totalEvents": 274,
+    "totalDaysWithActivity": 12,
+    "averagePerDay": "19.6",
     "topRepositories": [
       {
-        "repo": "mgifford/open-data-guide",
-        "count": 89
+        "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+        "count": 44
       },
       {
-        "repo": "mgifford/markdown-slides-editor",
-        "count": 40
-      },
-      {
-        "repo": "mgifford/accessibility-sandbox",
-        "count": 32
-      },
-      {
-        "repo": "mgifford/eu-plus-government-scans",
+        "repo": "mgifford/sunclipse",
         "count": 27
       },
       {
-        "repo": "mgifford/drupal-core",
-        "count": 19
+        "repo": "mgifford/accessibility-sandbox",
+        "count": 26
       },
       {
-        "repo": "mgifford/firefox-energy-scanner",
+        "repo": "mgifford/audio-news",
+        "count": 23
+      },
+      {
+        "repo": "uswds/uswds",
+        "count": 21
+      },
+      {
+        "repo": "mgifford/open-scans",
         "count": 15
       },
       {
-        "repo": "mgifford/open-accessibility-workbench",
-        "count": 7
+        "repo": "mgifford/uswds",
+        "count": 15
       },
       {
-        "repo": "mgifford/wayback-extractor",
-        "count": 6
+        "repo": "mgifford/neighbourhood-solar",
+        "count": 12
       },
       {
-        "repo": "mgifford/ACCESSIBILITY.md",
-        "count": 4
+        "repo": "mgifford/year-in-review-cif",
+        "count": 12
       },
       {
-        "repo": "mgifford/inclusive-emergency-readiness",
-        "count": 3
+        "repo": "mgifford/w3c-a11y-maturity-model",
+        "count": 12
       }
     ],
     "activityByType": [
       {
         "type": "commit",
-        "count": 149
+        "count": 157
       },
       {
         "type": "pull request",
-        "count": 46
-      },
-      {
-        "type": "delete",
-        "count": 33
+        "count": 25
       },
       {
         "type": "issue",
-        "count": 26
+        "count": 24
       },
       {
         "type": "create",
-        "count": 19
+        "count": 21
+      },
+      {
+        "type": "delete",
+        "count": 20
       },
       {
         "type": "issue comment",
-        "count": 8
+        "count": 17
+      },
+      {
+        "type": "pr review",
+        "count": 5
+      },
+      {
+        "type": "wiki",
+        "count": 3
+      },
+      {
+        "type": "fork",
+        "count": 2
       }
     ]
   },
   "dailyActivity": [
     {
-      "date": "2026-08-17",
-      "total": 15,
+      "date": "2026-09-01",
+      "total": 12,
       "byType": {
-        "commit": 8,
-        "issue": 6,
-        "issue comment": 1
+        "commit": 12
       },
       "byRepo": {
-        "mgifford/firefox-energy-scanner": 15
+        "mgifford/open-accessibility-workbench": 12
       },
       "events": [
         {
           "type": "commit",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-18T00:07:39Z"
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T07:37:33Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:23:59Z"
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T07:04:12Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:25:20Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:29:55Z",
-          "title": "SCAN: open-scan",
-          "number": 2,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:29:48Z",
-          "title": "SCAN: open-scan",
-          "number": 2,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/2"
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T08:42:30Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:29:36Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:24:14Z",
-          "title": "SCAN: open-scan",
-          "number": 2,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:24:05Z",
-          "title": "SCAN: open-scan",
-          "number": 2,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:22:28Z",
-          "title": "SCAN: open-scan",
-          "number": 2,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/2"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:22:18Z",
-          "title": "SCAN: open-scan",
-          "number": 2,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:22:19Z",
-          "title": "SCAN: open-scan",
-          "number": 2,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/2"
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T06:58:15Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T19:22:08Z"
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T07:16:13Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T14:53:04Z"
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T06:53:40Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T14:41:58Z"
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T06:33:20Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-08-17T14:57:42Z"
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T07:20:55Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T08:42:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T08:09:28Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T07:27:06Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-accessibility-workbench",
+          "timestamp": "2026-09-01T07:04:56Z"
         }
       ]
     },
     {
-      "date": "2026-08-18",
-      "total": 1,
+      "date": "2026-09-02",
+      "total": 32,
       "byType": {
-        "issue": 1
-      },
-      "byRepo": {
-        "mgifford/ACCESSIBILITY.md": 1
-      },
-      "events": [
-        {
-          "type": "issue",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-08-18T20:54:19Z",
-          "title": "Updated Light/Dark Mode",
-          "number": 155,
-          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/155"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "total": 2,
-      "byType": {
+        "commit": 17,
+        "delete": 8,
+        "create": 1,
+        "pull request": 2,
+        "fork": 2,
         "issue comment": 2
       },
       "byRepo": {
-        "mdn/mdn": 1,
-        "mgifford/ACCESSIBILITY.md": 1
-      },
-      "events": [
-        {
-          "type": "issue comment",
-          "repo": "mdn/mdn",
-          "timestamp": "2026-08-19T18:45:57Z",
-          "title": "Web Sustainability feature section ",
-          "number": 623,
-          "url": "https://github.com/mdn/mdn/issues/623"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-08-19T12:32:31Z",
-          "title": "Updated Light/Dark Mode",
-          "number": 155,
-          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/155"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "total": 8,
-      "byType": {
-        "commit": 2,
-        "delete": 1,
-        "issue": 5
-      },
-      "byRepo": {
-        "mgifford/wcag-spine": 2,
-        "trbouma/mainstay": 3,
-        "NCSU-Libraries-UX/readability-widget": 1,
-        "mgifford/open-scans": 1,
-        "CivicActions/civicactions-homesite": 1
+        "mgifford/neighbourhood-solar": 4,
+        "mgifford/w3c-a11y-maturity-model": 12,
+        "mgifford/markdown-slides-editor": 3,
+        "mgifford/contrast-plus": 4,
+        "mgifford/drupal-core": 2,
+        "mgifford/accessibility-sandbox": 1,
+        "mgifford/mgifford.github.io": 2,
+        "mgifford/medicare_monthly_enrollment_dashboard": 1,
+        "DSACMS/medicare_monthly_enrollment_dashboard": 1,
+        "DSACMS/year-in-review-cif": 1,
+        "ckeditor/ckeditor5": 1
       },
       "events": [
         {
           "type": "commit",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-08-20T15:28:20Z"
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-03T00:57:42Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/wcag-spine",
-          "timestamp": "2026-08-20T15:28:22Z"
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:27:35Z"
         },
         {
-          "type": "issue",
-          "repo": "trbouma/mainstay",
-          "timestamp": "2026-08-20T16:36:55Z",
-          "title": "Put the family in a grid.",
-          "number": 3,
-          "url": "https://github.com/trbouma/mainstay/issues/3"
-        },
-        {
-          "type": "issue",
-          "repo": "trbouma/mainstay",
-          "timestamp": "2026-08-20T16:34:57Z",
-          "title": "Improve color contrast in the footer",
-          "number": 2,
-          "url": "https://github.com/trbouma/mainstay/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "trbouma/mainstay",
-          "timestamp": "2026-08-20T16:33:26Z",
-          "title": "Add https://mainstay.safebox.dev to project page",
-          "number": 1,
-          "url": "https://github.com/trbouma/mainstay/issues/1"
-        },
-        {
-          "type": "issue",
-          "repo": "NCSU-Libraries-UX/readability-widget",
-          "timestamp": "2026-08-20T15:55:29Z",
-          "title": "What license is this released under?",
-          "number": 2,
-          "url": "https://github.com/NCSU-Libraries-UX/readability-widget/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-08-20T15:46:25Z",
-          "title": "SCAN: https://studentaffairs.charlotte.edu/",
-          "number": 346,
-          "url": "https://github.com/mgifford/open-scans/issues/346"
+          "type": "delete",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:23:30Z"
         },
         {
           "type": "commit",
-          "repo": "CivicActions/civicactions-homesite",
-          "timestamp": "2026-08-20T06:52:50Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-09-02T20:15:31Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-09-02T14:04:45Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-09-02T19:07:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:23:41Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:27:33Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:24:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-09-02T13:19:11Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:23:43Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-03T00:55:19Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-03T00:28:09Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:24:47Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:23:16Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-09-02T13:20:02Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:24:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-09-02T14:00:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:23:29Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:23:18Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/mgifford.github.io",
+          "timestamp": "2026-09-02T13:23:06Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-09-02T13:24:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-09-02T20:15:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-02T18:50:21Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-03T00:57:41Z",
+          "number": 12
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-03T00:50:58Z",
+          "number": 12
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-09-02T13:19:13Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/mgifford.github.io",
+          "timestamp": "2026-09-02T13:23:07Z"
+        },
+        {
+          "type": "fork",
+          "repo": "DSACMS/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-02T15:29:31Z"
+        },
+        {
+          "type": "fork",
+          "repo": "DSACMS/year-in-review-cif",
+          "timestamp": "2026-09-02T15:28:57Z"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-09-02T13:19:56Z",
+          "title": "fix initializing from URL",
+          "number": 43,
+          "url": "https://github.com/mgifford/contrast-plus/pull/43"
+        },
+        {
+          "type": "issue comment",
+          "repo": "ckeditor/ckeditor5",
+          "timestamp": "2026-09-02T12:51:16Z",
+          "title": "Incorrect behavior of tooltips",
+          "number": 18333,
+          "url": "https://github.com/ckeditor/ckeditor5/issues/18333"
         }
       ]
     },
     {
-      "date": "2026-08-21",
-      "total": 23,
+      "date": "2026-09-03",
+      "total": 45,
       "byType": {
-        "commit": 18,
-        "create": 2,
-        "issue comment": 2,
+        "commit": 39,
+        "create": 1,
+        "delete": 3,
+        "pull request": 1,
         "issue": 1
       },
       "byRepo": {
-        "mgifford/accessibility-sandbox": 15,
-        "mgifford/drupal-core": 3,
-        "mgifford/wayback-extractor": 3,
-        "NCSU-Libraries-UX/readability-widget": 1,
-        "mgifford/ACCESSIBILITY.md": 1
+        "mgifford/medicare_monthly_enrollment_dashboard": 23,
+        "mgifford/year-in-review-cif": 12,
+        "mgifford/accessibility-sandbox": 6,
+        "mgifford/ACCESSIBILITY.md": 3,
+        "DSACMS/year-in-review-cif": 1
       },
       "events": [
         {
           "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T20:14:17Z"
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T01:30:08Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T17:44:52Z"
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T22:29:46Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T17:58:07Z"
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T01:36:06Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T01:16:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T00:05:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T22:23:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T19:00:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T22:33:47Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-21T15:18:51Z"
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T21:51:36Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/wayback-extractor",
-          "timestamp": "2026-08-21T14:29:40Z"
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T20:08:58Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T14:40:38Z"
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T01:42:38Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/wayback-extractor",
-          "timestamp": "2026-08-21T12:39:34Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-21T12:55:36Z"
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T01:22:24Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:27:18Z"
+          "timestamp": "2026-09-03T18:15:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T20:59:31Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-03T17:08:37Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T13:45:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T15:26:08Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-03T17:08:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T13:51:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T15:44:13Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T16:05:23Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T13:45:58Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T13:26:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T01:41:06Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T21:55:09Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T20:12:17Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T19:50:08Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:29:47Z"
+          "timestamp": "2026-09-03T17:52:29Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:28:34Z"
+          "timestamp": "2026-09-03T18:25:03Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T15:20:52Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T14:28:52Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T15:07:00Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T00:31:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T00:11:39Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T00:02:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T23:11:54Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T13:28:20Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-09-03T18:11:13Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-09-03T18:11:12Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:31:21Z"
+          "timestamp": "2026-09-03T17:36:15Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:28:48Z"
+          "repo": "mgifford/year-in-review-cif",
+          "timestamp": "2026-09-03T15:17:00Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:53:43Z"
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T13:52:05Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/wayback-extractor",
-          "timestamp": "2026-08-21T14:38:20Z"
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-03T13:39:13Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:27:56Z"
-        },
-        {
-          "type": "issue comment",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-21T12:55:29Z",
-          "title": "docs: propose Phase 0 Drupal OpenACR traceability charter",
-          "number": 57,
-          "url": "https://github.com/mgifford/drupal-core/pull/57"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:54:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:30:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:28:18Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-21T12:26:12Z"
+          "type": "pull request",
+          "repo": "DSACMS/year-in-review-cif",
+          "timestamp": "2026-09-03T21:59:14Z",
+          "number": 1
         },
         {
           "type": "issue",
-          "repo": "NCSU-Libraries-UX/readability-widget",
-          "timestamp": "2026-08-21T12:17:02Z",
-          "title": "Maintenance",
-          "number": 3,
-          "url": "https://github.com/NCSU-Libraries-UX/readability-widget/issues/3"
-        },
-        {
-          "type": "issue comment",
           "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-08-21T12:11:54Z",
-          "title": "Updated Light/Dark Mode",
-          "number": 155,
-          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/155"
+          "timestamp": "2026-09-03T18:10:52Z",
+          "title": "SkipTo",
+          "number": 157,
+          "url": "https://github.com/mgifford/ACCESSIBILITY.md/issues/157"
         }
       ]
     },
     {
-      "date": "2026-08-23",
-      "total": 15,
+      "date": "2026-09-04",
+      "total": 28,
       "byType": {
+        "commit": 7,
+        "create": 3,
         "delete": 1,
-        "pull request": 2,
-        "commit": 5,
-        "create": 1,
-        "issue": 5,
-        "issue comment": 1
+        "issue": 10,
+        "pull request": 4,
+        "issue comment": 3
       },
       "byRepo": {
-        "mgifford/drupal-core": 6,
-        "mgifford/neighbourhood-solar": 1,
-        "mgifford/Find-Overlays": 1,
-        "mgifford/ontario-home-energy-futures": 1,
-        "mgifford/pdf-crawler": 1,
-        "mgifford/eu-plus-government-scans": 1,
-        "mgifford/wayback-extractor": 2,
-        "mgifford/EchoLocate": 1,
-        "mgifford/accessibility-sandbox": 1
+        "mgifford/uswds-sandbox": 3,
+        "mgifford/medicare_monthly_enrollment_dashboard": 20,
+        "mgifford/risky-weather": 1,
+        "DSACMS/medicare_monthly_enrollment_dashboard": 3,
+        "DSACMS/year-in-review-cif": 1
       },
       "events": [
         {
+          "type": "commit",
+          "repo": "mgifford/uswds-sandbox",
+          "timestamp": "2026-09-04T16:08:18Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T16:07:34Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T16:23:03Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T14:17:18Z"
+        },
+        {
           "type": "delete",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-24T00:13:23Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-24T00:13:21Z",
-          "number": 58
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T15:52:48Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-24T00:13:22Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-24T00:13:10Z",
-          "number": 58
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T15:24:21Z"
         },
         {
           "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T13:28:35Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds-sandbox",
+          "timestamp": "2026-09-04T16:32:18Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds-sandbox",
+          "timestamp": "2026-09-04T15:49:41Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T15:39:24Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T15:37:41Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/risky-weather",
+          "timestamp": "2026-09-04T19:30:11Z",
+          "title": "Look at SLM - AI weathernext",
+          "number": 10,
+          "url": "https://github.com/mgifford/risky-weather/issues/10"
+        },
+        {
+          "type": "pull request",
+          "repo": "DSACMS/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T16:24:12Z",
+          "number": 63
+        },
+        {
+          "type": "issue comment",
+          "repo": "DSACMS/year-in-review-cif",
+          "timestamp": "2026-09-04T16:13:33Z",
+          "title": "Upstream accessibility",
+          "number": 1,
+          "url": "https://github.com/DSACMS/year-in-review-cif/pull/1"
+        },
+        {
+          "type": "issue comment",
+          "repo": "DSACMS/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T16:12:39Z",
+          "title": "Feature/accessibility",
+          "number": 62,
+          "url": "https://github.com/DSACMS/medicare_monthly_enrollment_dashboard/pull/62"
+        },
+        {
+          "type": "pull request",
+          "repo": "DSACMS/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T16:12:19Z",
+          "number": 62
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T15:39:23Z",
+          "number": 5
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T15:39:24Z",
+          "title": "[Accessibility] Add system-aware light, dark, and forced-colors support",
+          "number": 2,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/2"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T15:38:27Z",
+          "number": 5
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T15:13:05Z",
+          "title": "[State combobox] Firefox selection does not commit in keyboard regression test (WCAG 2.1.1)",
+          "number": 1,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/1"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T14:30:25Z",
+          "title": "[Documentation] Add dashboard data and WebMCP colophon",
+          "number": 4,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/4"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T14:30:24Z",
+          "title": "[Documentation] Add dashboard data and WebMCP colophon",
+          "number": 4,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/4"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T13:53:15Z",
+          "title": "[Accessibility] Add system-aware light, dark, and forced-colors support",
+          "number": 2,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/2"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T13:53:15Z",
+          "title": "[Dashboard] Explain selected geography enrollment relative to U.S. total",
+          "number": 3,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/3"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T13:53:14Z",
+          "title": "[Accessibility] Add system-aware light, dark, and forced-colors support",
+          "number": 2,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/2"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T13:53:14Z",
+          "title": "[Dashboard] Explain selected geography enrollment relative to U.S. total",
+          "number": 3,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/3"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T12:41:30Z",
+          "title": "[State combobox] Firefox selection does not commit in keyboard regression test (WCAG 2.1.1)",
+          "number": 1,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/1"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/medicare_monthly_enrollment_dashboard",
+          "timestamp": "2026-09-04T12:41:30Z",
+          "title": "[State combobox] Firefox selection does not commit in keyboard regression test (WCAG 2.1.1)",
+          "number": 1,
+          "url": "https://github.com/mgifford/medicare_monthly_enrollment_dashboard/issues/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "total": 1,
+      "byType": {
+        "issue comment": 1
+      },
+      "byRepo": {
+        "uswds/uswds": 1
+      },
+      "events": [
+        {
+          "type": "issue comment",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-05T11:59:13Z",
+          "title": "Consider media queries for dark-mode favicon",
+          "number": 3449,
+          "url": "https://github.com/uswds/uswds/issues/3449"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "total": 6,
+      "byType": {
+        "commit": 3,
+        "create": 2,
+        "pull request": 1
+      },
+      "byRepo": {
+        "mgifford/drupal-core": 5,
+        "mgifford/uswds-sandbox": 1
+      },
+      "events": [
+        {
+          "type": "commit",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-24T00:12:05Z"
+          "timestamp": "2026-09-08T19:31:09Z"
         },
         {
           "type": "create",
           "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-24T00:10:33Z"
+          "timestamp": "2026-09-08T17:46:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds-sandbox",
+          "timestamp": "2026-09-08T19:34:48Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-09-08T19:31:39Z",
+          "number": 66
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-09-08T17:19:28Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-09-08T17:47:43Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "total": 42,
+      "byType": {
+        "commit": 13,
+        "create": 4,
+        "delete": 1,
+        "pull request": 11,
+        "issue comment": 8,
+        "issue": 1,
+        "pr review": 4
+      },
+      "byRepo": {
+        "mgifford/neighbourhood-solar": 3,
+        "mgifford/uswds": 15,
+        "mgifford/uswds-sandbox": 2,
+        "mgifford/vital-core": 5,
+        "uswds/uswds": 17
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-10T00:26:29Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-10T00:21:17Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T20:16:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T20:46:20Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T18:01:54Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T20:17:39Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds-sandbox",
+          "timestamp": "2026-09-09T12:25:59Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T13:33:52Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T13:36:34Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T18:08:44Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-09T16:31:36Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/neighbourhood-solar",
-          "timestamp": "2026-08-23T17:52:26Z"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/Find-Overlays",
-          "timestamp": "2026-08-23T16:24:07Z",
-          "title": "add security scans",
-          "number": 5,
-          "url": "https://github.com/mgifford/Find-Overlays/issues/5"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/ontario-home-energy-futures",
-          "timestamp": "2026-08-23T16:23:37Z",
-          "title": "add security scans",
-          "number": 7,
-          "url": "https://github.com/mgifford/ontario-home-energy-futures/issues/7"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-08-23T16:23:14Z",
-          "title": "Add security scans",
-          "number": 277,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/277"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-23T16:22:52Z",
-          "title": "Add security scans for code",
-          "number": 128,
-          "url": "https://github.com/mgifford/eu-plus-government-scans/issues/128"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/wayback-extractor",
-          "timestamp": "2026-08-23T16:21:09Z",
-          "title": "Look at adding Bandit & Argus",
-          "number": 8,
-          "url": "https://github.com/mgifford/wayback-extractor/issues/8"
+          "timestamp": "2026-09-10T00:30:18Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/wayback-extractor",
-          "timestamp": "2026-08-23T16:19:15Z"
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T18:08:40Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T20:47:48Z",
+          "number": 6913
         },
         {
           "type": "issue comment",
-          "repo": "mgifford/EchoLocate",
-          "timestamp": "2026-08-23T16:03:42Z",
-          "title": "Investigate integration with Parakeet",
-          "number": 54,
-          "url": "https://github.com/mgifford/EchoLocate/issues/54"
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T20:18:15Z",
+          "title": "build(deps): bump the npm_and_yarn group across 1 directory with 9 updates",
+          "number": 19,
+          "url": "https://github.com/mgifford/uswds/pull/19"
         },
         {
           "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-23T13:38:53Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "total": 11,
-      "byType": {
-        "commit": 6,
-        "create": 1,
-        "delete": 3,
-        "issue": 1
-      },
-      "byRepo": {
-        "mgifford/open-data-guide": 3,
-        "mgifford/wayback-extractor": 1,
-        "mgifford/pdf-crawler": 2,
-        "mgifford/unosw.plus": 2,
-        "mgifford/inclusive-emergency-readiness": 1,
-        "mgifford/gh-open-dash": 2
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-24T21:35:01Z"
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-09T16:31:35Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-24T21:38:19Z"
+          "type": "issue comment",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T18:17:29Z",
+          "title": "Fix nav accordion icon hover selector for Firefox",
+          "number": 6912,
+          "url": "https://github.com/uswds/uswds/pull/6912"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/wayback-extractor",
-          "timestamp": "2026-08-24T19:54:34Z"
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T18:07:11Z",
+          "number": 6912
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T18:14:09Z",
+          "title": "build(deps): bump the npm_and_yarn group across 1 directory with 8 updates",
+          "number": 21,
+          "url": "https://github.com/mgifford/uswds/pull/21"
+        },
+        {
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T18:06:54Z",
+          "number": 6912
+        },
+        {
+          "type": "issue comment",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T18:03:16Z",
+          "title": "Add mobile and desktop to $project-column-gaps",
+          "number": 6911,
+          "url": "https://github.com/uswds/uswds/pull/6911"
+        },
+        {
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T17:58:10Z",
+          "number": 6911
         },
         {
           "type": "create",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-24T21:32:22Z"
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T16:04:08Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-08-24T13:53:37Z"
+          "type": "issue comment",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-09T17:27:45Z",
+          "title": "Align with US Fed Reporting Requirements",
+          "number": 259,
+          "url": "https://github.com/mgifford/vital-core/issues/259"
         },
         {
-          "type": "delete",
-          "repo": "mgifford/unosw.plus",
-          "timestamp": "2026-08-24T13:53:18Z"
+          "type": "issue comment",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-09T17:03:07Z",
+          "title": "Align with US Fed Reporting Requirements",
+          "number": 259,
+          "url": "https://github.com/mgifford/vital-core/issues/259"
         },
         {
           "type": "issue",
-          "repo": "mgifford/inclusive-emergency-readiness",
-          "timestamp": "2026-08-24T15:05:01Z",
-          "title": "heat waves",
-          "number": 99,
-          "url": "https://github.com/mgifford/inclusive-emergency-readiness/issues/99"
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-09T17:00:09Z",
+          "title": "Align with US Fed Reporting Requirements",
+          "number": 259,
+          "url": "https://github.com/mgifford/vital-core/issues/259"
         },
         {
-          "type": "delete",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-08-24T13:49:16Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-08-24T13:53:38Z"
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T16:11:13Z",
+          "number": 6911
         },
         {
           "type": "commit",
-          "repo": "mgifford/unosw.plus",
-          "timestamp": "2026-08-24T13:53:17Z"
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T13:35:37Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/gh-open-dash",
-          "timestamp": "2026-08-24T13:49:15Z"
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T13:39:34Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds-sandbox",
+          "timestamp": "2026-09-09T13:26:01Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:50:27Z",
+          "number": 6909
+        },
+        {
+          "type": "issue comment",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:48:17Z",
+          "title": "replace map-deep-get with sass:map.get",
+          "number": 6896,
+          "url": "https://github.com/uswds/uswds/pull/6896"
+        },
+        {
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:40:51Z",
+          "number": 6909
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T13:35:36Z",
+          "number": 22
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/uswds",
+          "timestamp": "2026-09-09T13:35:13Z",
+          "number": 22
+        },
+        {
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:30:31Z",
+          "number": 6908
+        },
+        {
+          "type": "issue comment",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:30:41Z",
+          "title": "I'm going to close this but wanted an archive of changes.",
+          "number": 6908,
+          "url": "https://github.com/uswds/uswds/pull/6908"
+        },
+        {
+          "type": "pull request",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:30:19Z",
+          "number": 6908
+        },
+        {
+          "type": "pr review",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:25:02Z",
+          "number": 6894
+        },
+        {
+          "type": "pr review",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:11:27Z",
+          "number": 6905
+        },
+        {
+          "type": "pr review",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:10:44Z",
+          "number": 6890
+        },
+        {
+          "type": "pr review",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-09T13:09:14Z",
+          "number": 6906
         }
       ]
     },
     {
-      "date": "2026-08-25",
-      "total": 55,
+      "date": "2026-09-10",
+      "total": 3,
       "byType": {
-        "commit": 41,
-        "create": 2,
-        "pull request": 6,
-        "delete": 6
+        "wiki": 3
       },
       "byRepo": {
-        "mgifford/open-data-guide": 27,
-        "mgifford/accessibility-sandbox": 16,
-        "mgifford/accessible-buildings": 2,
-        "mgifford/alt-text-scan": 2,
-        "mgifford/a11y-svg": 2,
-        "mgifford/contrast-plus": 2,
-        "mgifford/open-susty-scans": 2,
-        "mgifford/AirScript": 2
+        "mgifford/neighbourhood-solar": 3
+      },
+      "events": [
+        {
+          "type": "wiki",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-10T18:15:03Z"
+        },
+        {
+          "type": "wiki",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-10T14:09:15Z"
+        },
+        {
+          "type": "wiki",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-10T14:05:26Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "total": 14,
+      "byType": {
+        "commit": 12,
+        "issue comment": 1,
+        "pr review": 1
+      },
+      "byRepo": {
+        "mgifford/accessibility-sandbox": 12,
+        "uswds/uswds": 2
       },
       "events": [
         {
           "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T20:25:03Z"
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-11T19:26:29Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T19:28:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T00:02:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T00:00:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T19:17:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T23:18:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T19:12:24Z"
+          "timestamp": "2026-09-11T19:26:57Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T19:08:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T18:13:13Z"
+          "timestamp": "2026-09-11T19:27:38Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T17:58:53Z"
+          "timestamp": "2026-09-11T20:29:33Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T19:44:46Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T01:56:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T01:47:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T01:12:59Z"
+          "timestamp": "2026-09-11T20:26:06Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T18:43:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T17:43:34Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T17:50:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T22:50:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T15:14:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T15:14:27Z"
+          "timestamp": "2026-09-11T19:40:44Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T19:38:06Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T19:44:45Z",
-          "number": 3
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T19:44:36Z",
-          "number": 3
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T14:19:23Z"
+          "timestamp": "2026-09-11T19:38:40Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T19:41:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T19:39:22Z"
+          "timestamp": "2026-09-11T18:39:33Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T19:01:02Z"
+          "timestamp": "2026-09-11T18:40:06Z"
         },
         {
-          "type": "create",
+          "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T18:38:13Z"
+          "timestamp": "2026-09-11T20:32:19Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T18:52:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T18:31:38Z"
-        },
-        {
-          "type": "pull request",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T18:43:20Z",
-          "number": 2
+          "timestamp": "2026-09-11T20:24:14Z"
         },
         {
-          "type": "pull request",
+          "type": "issue comment",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-11T19:16:51Z",
+          "title": "Fix nav accordion icon hover selector for Firefox",
+          "number": 6912,
+          "url": "https://github.com/uswds/uswds/pull/6912"
+        },
+        {
+          "type": "commit",
           "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T18:38:14Z",
-          "number": 2
+          "timestamp": "2026-09-11T18:40:38Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T18:27:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T18:19:34Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T17:58:51Z",
-          "number": 1
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-08-25T17:50:31Z",
-          "number": 1
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T13:08:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T15:55:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T15:25:35Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/accessible-buildings",
-          "timestamp": "2026-08-25T11:23:01Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-08-25T11:23:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T15:21:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/a11y-svg",
-          "timestamp": "2026-08-25T11:24:58Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-08-25T11:23:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/contrast-plus",
-          "timestamp": "2026-08-25T11:23:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-08-25T11:24:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T14:24:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T13:59:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-25T13:58:59Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/a11y-svg",
-          "timestamp": "2026-08-25T11:25:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessible-buildings",
-          "timestamp": "2026-08-25T11:23:00Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/AirScript",
-          "timestamp": "2026-08-25T11:26:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/AirScript",
-          "timestamp": "2026-08-25T11:26:27Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-susty-scans",
-          "timestamp": "2026-08-25T11:24:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-08-25T11:23:58Z"
+          "type": "pr review",
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-11T18:06:09Z",
+          "number": 6914
         }
       ]
     },
     {
-      "date": "2026-08-26",
-      "total": 35,
+      "date": "2026-09-12",
+      "total": 28,
+      "byType": {
+        "commit": 14,
+        "create": 8,
+        "pull request": 6
+      },
+      "byRepo": {
+        "mgifford/sunclipse": 26,
+        "mgifford/neighbourhood-solar": 2
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T01:32:13Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:04:24Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T23:41:15Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T23:11:50Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T22:18:08Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-12T20:55:29Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T22:32:20Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:14:51Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T23:04:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T01:43:27Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:54:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:50:47Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T22:22:45Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T22:04:29Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:33:23Z",
+          "number": 2
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:33:22Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:04:23Z",
+          "number": 3
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:04:13Z",
+          "number": 3
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T00:03:51Z",
+          "number": 2
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T23:56:40Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T23:52:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T23:05:37Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T23:01:27Z",
+          "number": 1
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T23:01:26Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T22:44:11Z",
+          "number": 1
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T22:30:31Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-12T22:06:04Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/neighbourhood-solar",
+          "timestamp": "2026-09-12T21:30:24Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "total": 29,
       "byType": {
         "commit": 24,
-        "delete": 8,
-        "issue comment": 2,
-        "issue": 1
+        "delete": 3,
+        "create": 2
       },
       "byRepo": {
-        "mgifford/inclusive-emergency-readiness": 2,
-        "mgifford/ox.ca": 2,
-        "mgifford/open-data-guide": 12,
-        "mgifford/eu-plus-government-scans": 10,
-        "mgifford/ACCESSIBILITY.md": 1,
-        "mgifford/drupal-core": 5,
-        "mgifford/daily-dap": 2,
-        "mgifford/open-scans": 1
+        "mgifford/audio-news": 23,
+        "mgifford/open-data-guide": 3,
+        "mgifford/vital-core": 2,
+        "mgifford/sunclipse": 1
       },
       "events": [
         {
           "type": "commit",
-          "repo": "mgifford/inclusive-emergency-readiness",
-          "timestamp": "2026-08-27T01:52:09Z"
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T17:15:12Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-08-27T01:51:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T01:01:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T22:27:28Z"
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T16:55:30Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-26T19:00:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-26T19:00:31Z"
-        },
-        {
-          "type": "commit",
           "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T18:50:21Z"
+          "timestamp": "2026-09-13T16:25:33Z"
         },
         {
           "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T23:22:24Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-14T00:41:54Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T23:47:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T23:31:04Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T23:26:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T23:19:28Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T23:07:22Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T23:06:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T22:53:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T22:44:47Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T22:28:04Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T21:55:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T21:13:12Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-13T17:30:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-13T17:30:39Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T16:56:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T16:36:44Z"
+        },
+        {
+          "type": "delete",
           "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T18:50:21Z"
+          "timestamp": "2026-09-13T16:26:52Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/ACCESSIBILITY.md",
-          "timestamp": "2026-08-26T18:10:42Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-26T17:44:34Z"
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T16:24:28Z"
         },
         {
           "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T16:12:23Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T16:12:13Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T15:32:15Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T15:27:09Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/audio-news",
+          "timestamp": "2026-09-13T15:20:45Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sunclipse",
+          "timestamp": "2026-09-13T15:18:25Z"
+        },
+        {
+          "type": "create",
           "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T22:50:05Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-26T20:36:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-26T20:36:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-26T20:36:05Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/inclusive-emergency-readiness",
-          "timestamp": "2026-08-27T01:52:15Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-08-27T01:51:34Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-08-27T01:50:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-dap",
-          "timestamp": "2026-08-27T01:50:41Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T01:33:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T01:33:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T01:22:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T01:19:35Z"
-        },
+          "timestamp": "2026-09-13T15:07:41Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "total": 34,
+      "byType": {
+        "issue comment": 2,
+        "issue": 12,
+        "commit": 16,
+        "delete": 4
+      },
+      "byRepo": {
+        "uswds/uswds": 1,
+        "mgifford/open-scans": 15,
+        "mgifford/alt-text-scan": 3,
+        "mgifford/markdown-slides-editor": 4,
+        "mgifford/vital-core": 2,
+        "mgifford/accessibility-sandbox": 7,
+        "mgifford/eu-plus-government-scans": 2
+      },
+      "events": [
         {
           "type": "issue comment",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-26T19:53:31Z",
-          "title": "Import domains from government audit URL sources",
-          "number": 131,
-          "url": "https://github.com/mgifford/eu-plus-government-scans/pull/131"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T23:08:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T11:33:38Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-26T19:50:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-26T19:50:35Z"
+          "repo": "uswds/uswds",
+          "timestamp": "2026-09-15T02:10:51Z",
+          "title": "USWDS - No Package: Added adaptive favicon for dark mode support",
+          "number": 6918,
+          "url": "https://github.com/uswds/uswds/pull/6918"
         },
         {
           "type": "issue",
           "repo": "mgifford/open-scans",
-          "timestamp": "2026-08-26T18:56:56Z",
+          "timestamp": "2026-09-15T01:57:17Z",
+          "title": "SCAN: https://www.portofrotterdam.com ALL",
+          "number": 350,
+          "url": "https://github.com/mgifford/open-scans/issues/350"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-15T01:57:13Z",
+          "title": "SCAN: https://www.portofrotterdam.com ALL",
+          "number": 350,
+          "url": "https://github.com/mgifford/open-scans/issues/350"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-15T01:24:41Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/alt-text-scan",
+          "timestamp": "2026-09-15T00:58:58Z",
+          "title": "Use local AI to suggest improved alt text",
+          "number": 73,
+          "url": "https://github.com/mgifford/alt-text-scan/issues/73"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/alt-text-scan",
+          "timestamp": "2026-09-15T00:57:13Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/alt-text-scan",
+          "timestamp": "2026-09-15T00:57:11Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T19:47:00Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T19:46:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-09-14T18:47:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-09-14T17:31:42Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-14T19:29:15Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T19:46:59Z",
+          "title": "Accessibility engine version check",
+          "number": 348,
+          "url": "https://github.com/mgifford/open-scans/issues/348"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-09-14T19:14:32Z"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T19:37:02Z",
           "title": "SCAN: CivicActions.com - AXE ALFA REMEDIATE",
           "number": 189,
           "url": "https://github.com/mgifford/open-scans/issues/189"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-26T18:47:31Z"
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T19:36:22Z",
+          "title": "Accessibility engine version check",
+          "number": 348,
+          "url": "https://github.com/mgifford/open-scans/issues/348"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T19:36:22Z",
+          "title": "Accessibility engine version check",
+          "number": 348,
+          "url": "https://github.com/mgifford/open-scans/issues/348"
+        },
+        {
+          "type": "issue",
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T19:35:56Z",
+          "title": "SCAN: https://www.portofrotterdam.com ALL",
+          "number": 350,
+          "url": "https://github.com/mgifford/open-scans/issues/350"
         },
         {
           "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T18:03:55Z"
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T18:23:51Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-26T17:44:33Z"
+          "repo": "mgifford/markdown-slides-editor",
+          "timestamp": "2026-09-14T19:00:11Z"
         },
         {
           "type": "issue comment",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-26T16:52:41Z",
-          "title": "Heads-up: Drupal.org issues and updates planned from AS-OACR-001",
-          "number": 60,
-          "url": "https://github.com/mgifford/drupal-core/issues/60"
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-09-14T18:32:55Z",
+          "title": "Reduce `www.cms.gov` scan memory pressure and add scan-phase memory telemetry",
+          "number": 264,
+          "url": "https://github.com/mgifford/vital-core/pull/264"
         },
         {
           "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-26T16:52:01Z"
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-14T14:32:12Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-09-14T16:06:44Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T12:38:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-26T11:35:35Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "total": 30,
-      "byType": {
-        "commit": 15,
-        "create": 3,
-        "pull request": 6,
-        "issue": 6
-      },
-      "byRepo": {
-        "mgifford/open-data-guide": 18,
-        "mgifford/eu-plus-government-scans": 12
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T13:17:30Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T12:25:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T13:11:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T12:31:48Z"
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-14T14:04:40Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:02:39Z"
+          "timestamp": "2026-09-14T16:06:40Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:08:51Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T12:41:07Z"
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-14T14:03:25Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T14:02:33Z"
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-14T13:58:21Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:59:51Z"
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-14T13:44:06Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T14:06:09Z"
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-14T13:48:32Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:45:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:37:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:29:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:04:48Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T13:17:29Z",
-          "number": 7
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T13:11:46Z",
-          "number": 6
+          "repo": "mgifford/accessibility-sandbox",
+          "timestamp": "2026-09-14T13:45:12Z"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T13:11:48Z",
-          "title": "documented_definition can be determined",
-          "number": 2,
-          "url": "https://github.com/mgifford/open-data-guide/issues/2"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T13:09:03Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T13:09:19Z",
-          "number": 7
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T12:48:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:03:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-27T13:01:22Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T12:42:06Z",
-          "number": 6
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T12:31:46Z",
-          "number": 5
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T13:38:03Z",
+          "title": "SCAN: https://www.rotterdam.nl  ALL",
+          "number": 353,
+          "url": "https://github.com/mgifford/open-scans/issues/353"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T12:31:48Z",
-          "title": "Data.gov  Cross-origin (CORS) block",
-          "number": 3,
-          "url": "https://github.com/mgifford/open-data-guide/issues/3"
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T13:37:08Z",
+          "title": "SCAN: https://events.drupal.org/rotterdam2026 ALL",
+          "number": 352,
+          "url": "https://github.com/mgifford/open-scans/issues/352"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T12:31:48Z",
-          "title": "Summarize this result with AI - Freezes Browser",
-          "number": 4,
-          "url": "https://github.com/mgifford/open-data-guide/issues/4"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T12:26:03Z",
-          "number": 5
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T13:36:32Z",
+          "title": "SCAN: https://www.portofrotterdam.com ALL",
+          "number": 351,
+          "url": "https://github.com/mgifford/open-scans/issues/351"
         },
         {
           "type": "issue",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T10:03:40Z",
-          "title": "Summarize this result with AI - Freezes Browser",
-          "number": 4,
-          "url": "https://github.com/mgifford/open-data-guide/issues/4"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T09:55:09Z",
-          "title": "Data.gov  Cross-origin (CORS) block",
-          "number": 3,
-          "url": "https://github.com/mgifford/open-data-guide/issues/3"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-27T09:34:22Z",
-          "title": "documented_definition can be determined",
-          "number": 2,
-          "url": "https://github.com/mgifford/open-data-guide/issues/2"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "total": 42,
-      "byType": {
-        "commit": 14,
-        "create": 3,
-        "delete": 9,
-        "pull request": 16
-      },
-      "byRepo": {
-        "mgifford/open-data-guide": 29,
-        "mgifford/eu-plus-government-scans": 4,
-        "mgifford/markdown-slides-editor": 9
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-29T01:04:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:44:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T20:16:43Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T18:03:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:52:12Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-28T16:59:54Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T14:14:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T01:54:38Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T14:14:39Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T02:06:00Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T01:53:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-29T01:20:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T18:09:28Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T02:05:58Z",
-          "number": 157
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T02:04:50Z",
-          "number": 157
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T02:03:52Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T01:54:37Z",
-          "number": 156
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T01:54:40Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T01:53:50Z",
-          "number": 156
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-29T01:19:59Z",
-          "number": 13
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-29T01:04:57Z",
-          "number": 13
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-28T16:59:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:11:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T20:20:13Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T20:20:11Z",
-          "number": 12
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T20:17:00Z",
-          "number": 12
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:58:59Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:52:11Z",
-          "number": 11
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:45:15Z",
-          "number": 11
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:35:04Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:35:03Z",
-          "number": 10
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:32:48Z",
-          "number": 10
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:32:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:11:13Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:11:58Z",
-          "number": 9
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:11:28Z",
-          "number": 9
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T19:04:38Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T18:09:27Z",
-          "number": 8
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T18:08:37Z",
-          "number": 8
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-28T16:59:55Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-08-28T16:59:52Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-data-guide",
-          "timestamp": "2026-08-28T14:14:39Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "total": 37,
-      "byType": {
-        "create": 7,
-        "delete": 5,
-        "commit": 9,
-        "pull request": 16
-      },
-      "byRepo": {
-        "mgifford/open-accessibility-workbench": 1,
-        "mgifford/markdown-slides-editor": 31,
-        "mgifford/drupal-core": 5
-      },
-      "events": [
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-08-30T02:09:42Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:03:54Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:46:36Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:13:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:30:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:17:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:01:08Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:30:56Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:16:04Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:14:06Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:05:38Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:01:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:14:05Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:04:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-29T11:50:54Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:27:01Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-29T12:23:07Z",
-          "number": 63
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-29T12:23:08Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-29T12:22:59Z",
-          "number": 63
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:14:17Z",
-          "number": 164
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:14:18Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:14:04Z",
-          "number": 163
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:13:52Z",
-          "number": 162
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:07:40Z",
-          "number": 164
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:05:52Z",
-          "number": 163
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/drupal-core",
-          "timestamp": "2026-08-29T12:05:43Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:04:30Z",
-          "number": 162
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T12:01:07Z",
-          "number": 161
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:59:56Z",
-          "number": 161
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:47:21Z",
-          "number": 160
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:47:22Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:47:01Z",
-          "number": 160
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:30:54Z",
-          "number": 159
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:27:18Z",
-          "number": 159
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:17:30Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:17:28Z",
-          "number": 158
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-08-29T11:16:23Z",
-          "number": 158
-        }
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "total": 5,
-      "byType": {
-        "commit": 5
-      },
-      "byRepo": {
-        "mgifford/open-accessibility-workbench": 4,
-        "mgifford/daily-hhs": 1
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-08-31T03:44:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-08-31T03:40:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/daily-hhs",
-          "timestamp": "2026-08-31T02:24:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-08-31T00:36:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-08-31T01:39:42Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "total": 2,
-      "byType": {
-        "commit": 2
-      },
-      "byRepo": {
-        "mgifford/open-accessibility-workbench": 2
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-08-31T04:49:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-08-31T04:40:10Z"
+          "repo": "mgifford/open-scans",
+          "timestamp": "2026-09-14T13:36:17Z",
+          "title": "SCAN: https://www.portofrotterdam.com ALL",
+          "number": 350,
+          "url": "https://github.com/mgifford/open-scans/issues/350"
         }
       ]
     }
