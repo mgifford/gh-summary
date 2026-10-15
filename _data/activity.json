@@ -1,46 +1,38 @@
 {
   "user": "mgifford",
-  "generated": "2026-09-30T04:58:10.228Z",
+  "generated": "2026-10-15T03:53:06.380Z",
   "period": {
     "days": 14,
-    "start": "2026-09-16",
-    "end": "2026-09-30"
+    "start": "2026-10-01",
+    "end": "2026-10-15"
   },
   "summary": {
-    "totalEvents": 299,
-    "totalDaysWithActivity": 14,
+    "totalEvents": 300,
+    "totalDaysWithActivity": 3,
     "averagePerDay": "21.4",
     "topRepositories": [
       {
-        "repo": "mgifford/FerroEHR",
-        "count": 115
+        "repo": "mgifford/tune-my-repos",
+        "count": 82
       },
       {
-        "repo": "mgifford/open-accessibility-workbench",
-        "count": 70
+        "repo": "mgifford/firefox-container-homes-routes",
+        "count": 79
       },
       {
-        "repo": "mgifford/DiDay",
-        "count": 27
+        "repo": "mgifford/drupal-core-lab",
+        "count": 35
       },
       {
-        "repo": "mgifford/FOSDEM-website",
-        "count": 24
+        "repo": "mgifford/vital-core",
+        "count": 32
       },
       {
-        "repo": "mgifford/ox.ca",
-        "count": 17
+        "repo": "rolfkleef/firefox-container-homes",
+        "count": 7
       },
       {
-        "repo": "mgifford/markdown-slides-editor",
-        "count": 10
-      },
-      {
-        "repo": "mgifford/open-scans",
-        "count": 9
-      },
-      {
-        "repo": "mgifford/medblocks-ui",
+        "repo": "mgifford/vital-core-data",
         "count": 4
       },
       {
@@ -48,1973 +40,1772 @@
         "count": 4
       },
       {
-        "repo": "mgifford/pdf-crawler",
-        "count": 2
+        "repo": "mgifford/contrast-plus",
+        "count": 3
+      },
+      {
+        "repo": "mgifford/w3c-a11y-maturity-model",
+        "count": 3
+      },
+      {
+        "repo": "mgifford/dot-gov-scans",
+        "count": 3
       }
     ],
     "activityByType": [
       {
-        "type": "commit",
-        "count": 107
+        "type": "pull request",
+        "count": 108
       },
       {
-        "type": "pull request",
-        "count": 81
+        "type": "commit",
+        "count": 106
       },
       {
         "type": "create",
-        "count": 51
-      },
-      {
-        "type": "issue",
-        "count": 42
+        "count": 43
       },
       {
         "type": "delete",
-        "count": 12
+        "count": 33
       },
       {
         "type": "issue comment",
-        "count": 3
+        "count": 5
+      },
+      {
+        "type": "pr review",
+        "count": 2
       },
       {
         "type": "fork",
-        "count": 3
+        "count": 2
+      },
+      {
+        "type": "release",
+        "count": 1
       }
     ]
   },
   "dailyActivity": [
     {
-      "date": "2026-09-16",
-      "total": 5,
+      "date": "2026-10-12",
+      "total": 29,
       "byType": {
-        "commit": 1,
-        "delete": 3,
-        "create": 1
+        "commit": 18,
+        "delete": 11
       },
       "byRepo": {
-        "mgifford/airtime2": 1,
-        "mgifford/eu-plus-government-scans": 4
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/airtime2",
-          "timestamp": "2026-09-16T21:54:06Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-09-17T00:42:22Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-09-17T00:33:41Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-09-16T23:35:53Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-09-16T23:35:46Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "total": 18,
-      "byType": {
-        "commit": 9,
-        "create": 7,
-        "pull request": 2
-      },
-      "byRepo": {
-        "mgifford/open-accessibility-workbench": 17,
-        "mgifford/accessibility-sandbox": 1
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T22:56:38Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T17:29:35Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T14:01:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T13:33:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/accessibility-sandbox",
-          "timestamp": "2026-09-17T13:23:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T17:24:38Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T13:22:50Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T17:21:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T14:01:47Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T00:58:59Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T01:25:16Z",
-          "number": 14
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T01:25:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T23:36:15Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T00:59:12Z",
-          "number": 14
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T23:17:18Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T23:19:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T23:36:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-17T23:19:19Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "total": 67,
-      "byType": {
-        "create": 14,
-        "commit": 20,
-        "pull request": 27,
-        "issue": 3,
-        "delete": 3
-      },
-      "byRepo": {
-        "mgifford/open-accessibility-workbench": 46,
-        "mgifford/markdown-slides-editor": 5,
-        "mgifford/open-scans": 8,
-        "mgifford/ox.ca": 8
-      },
-      "events": [
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:22:43Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T19:34:34Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-18T14:19:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-18T19:34:47Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-18T19:31:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:52:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:52:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-18T21:01:49Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T12:28:33Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-19T02:04:03Z",
-          "number": 26
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-19T02:03:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:52:12Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:55:26Z",
-          "number": 25
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:55:27Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:52:40Z",
-          "number": 24
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:52:25Z",
-          "number": 23
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:52:11Z",
-          "number": 22
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:49:00Z",
-          "number": 25
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:48:46Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:22:55Z",
-          "number": 24
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:20:14Z",
-          "number": 23
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:20:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-18T21:12:18Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:12:16Z",
-          "number": 22
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T21:12:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-18T21:00:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-18T19:34:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T19:37:50Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T19:37:49Z",
-          "number": 21
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-18T19:35:05Z",
-          "title": "SCAN: CMS.gov — ALFA EQUALACCESS  ACCESSLINT QUALWEB",
-          "number": 308,
-          "url": "https://github.com/mgifford/open-scans/issues/308"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-18T19:35:01Z",
-          "title": "SCAN: CMS.gov — ALFA EQUALACCESS  ACCESSLINT QUALWEB",
-          "number": 308,
-          "url": "https://github.com/mgifford/open-scans/issues/308"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T19:34:56Z",
-          "number": 21
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-18T19:34:48Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-18T19:34:46Z",
-          "number": 356
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-18T19:33:05Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-18T19:31:55Z",
-          "number": 356
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-18T19:31:38Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-18T19:31:40Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-18T18:59:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T17:34:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T17:34:36Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T17:34:48Z",
-          "number": 20
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T17:34:35Z",
-          "number": 19
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T16:04:24Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T16:04:43Z",
-          "number": 20
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-18T14:26:15Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T14:41:26Z",
-          "number": 19
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T14:41:12Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-18T14:26:13Z",
-          "number": 165
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-18T14:26:14Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-18T14:20:01Z",
-          "number": 165
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-18T13:35:09Z",
-          "title": "SCAN: CMS.gov — ALFA EQUALACCESS  ACCESSLINT QUALWEB",
-          "number": 308,
-          "url": "https://github.com/mgifford/open-scans/issues/308"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T13:33:50Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T13:33:49Z",
-          "number": 18
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T13:31:29Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T13:31:47Z",
-          "number": 18
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T13:02:11Z",
-          "number": 17
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T13:02:12Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T12:55:07Z",
-          "number": 17
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T12:54:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T12:31:57Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T12:31:56Z",
-          "number": 16
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T12:28:49Z",
-          "number": 16
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T11:33:19Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T11:33:18Z",
-          "number": 15
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T11:13:03Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-18T11:13:16Z",
-          "number": 15
-        }
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "total": 5,
-      "byType": {
-        "commit": 2,
-        "pull request": 2,
-        "create": 1
-      },
-      "byRepo": {
-        "mgifford/open-accessibility-workbench": 5
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-20T01:59:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-20T01:59:02Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-20T02:27:39Z",
-          "number": 28
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-20T02:25:56Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-20T01:59:01Z",
-          "number": 26
-        }
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "total": 7,
-      "byType": {
-        "commit": 3,
-        "create": 1,
-        "fork": 2,
-        "pull request": 1
-      },
-      "byRepo": {
-        "mgifford/medblocks-ui": 2,
-        "medblocks/medblocks-ui": 1,
-        "mgifford/open-accessibility-workbench": 2,
-        "mgifford/whisper-web": 1,
-        "adamchaboryk/whisper-web": 1
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/medblocks-ui",
-          "timestamp": "2026-09-20T23:52:19Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/medblocks-ui",
-          "timestamp": "2026-09-20T23:50:09Z"
-        },
-        {
-          "type": "fork",
-          "repo": "medblocks/medblocks-ui",
-          "timestamp": "2026-09-20T23:16:29Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-20T15:26:28Z",
-          "number": 28
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/open-accessibility-workbench",
-          "timestamp": "2026-09-20T15:26:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/whisper-web",
-          "timestamp": "2026-09-20T15:26:15Z"
-        },
-        {
-          "type": "fork",
-          "repo": "adamchaboryk/whisper-web",
-          "timestamp": "2026-09-20T14:14:48Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "total": 8,
-      "byType": {
-        "delete": 3,
-        "commit": 5
-      },
-      "byRepo": {
-        "mgifford/openapi-reference": 2,
-        "mgifford/wsg-mooc": 2,
-        "CivicActions/SOO-Wizard": 1,
+        "mgifford/vital-core": 3,
+        "mgifford/AirScript": 1,
+        "mgifford/wai-yaml-ld": 1,
+        "mgifford/gh-open-dash": 1,
+        "mgifford/wai-arrm": 1,
+        "mgifford/contrast-plus": 1,
+        "mgifford/w3c-a11y-maturity-model": 3,
         "mgifford/mgifford.github.io": 2,
-        "mgifford/whisper-slides": 1
+        "mgifford/wai-linkedobjects": 1,
+        "mgifford/pdf-crawler": 1,
+        "mgifford/smart-cookbook": 1,
+        "mgifford/daily-hhs": 2,
+        "mgifford/tune-my-repos": 3,
+        "mgifford/openapi-reference": 1,
+        "mgifford/alt-text-scan": 1,
+        "mgifford/openpracticelibrary": 1,
+        "mgifford/drupal-core": 1,
+        "mgifford/wayback-extractor": 2,
+        "mgifford/dpg-dpi-govstack-map": 1,
+        "mgifford/drupal-open-dash": 1
       },
       "events": [
         {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-12T23:20:21Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/AirScript",
+          "timestamp": "2026-10-12T23:20:02Z"
+        },
+        {
           "type": "delete",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-09-21T09:07:15Z"
+          "repo": "mgifford/wai-yaml-ld",
+          "timestamp": "2026-10-12T23:12:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/gh-open-dash",
+          "timestamp": "2026-10-12T23:10:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wai-arrm",
+          "timestamp": "2026-10-12T23:27:05Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-09-21T09:05:27Z"
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-10-12T23:20:17Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/wsg-mooc",
-          "timestamp": "2026-09-21T09:05:26Z"
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-10-12T23:13:57Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-10-12T23:13:46Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/openapi-reference",
-          "timestamp": "2026-09-21T09:07:13Z"
+          "repo": "mgifford/mgifford.github.io",
+          "timestamp": "2026-10-12T23:11:06Z"
         },
         {
           "type": "commit",
-          "repo": "CivicActions/SOO-Wizard",
-          "timestamp": "2026-09-21T09:05:54Z"
+          "repo": "mgifford/wai-linkedobjects",
+          "timestamp": "2026-10-12T23:21:40Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/pdf-crawler",
+          "timestamp": "2026-10-12T23:16:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/w3c-a11y-maturity-model",
+          "timestamp": "2026-10-12T23:15:04Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/smart-cookbook",
+          "timestamp": "2026-10-12T23:12:13Z"
         },
         {
           "type": "delete",
           "repo": "mgifford/mgifford.github.io",
-          "timestamp": "2026-09-21T09:06:17Z"
+          "timestamp": "2026-10-12T23:11:07Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/daily-hhs",
+          "timestamp": "2026-10-12T23:10:18Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/mgifford.github.io",
-          "timestamp": "2026-09-21T09:06:15Z"
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-12T23:06:57Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/openapi-reference",
+          "timestamp": "2026-10-12T23:24:03Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/whisper-slides",
-          "timestamp": "2026-09-21T09:04:43Z"
+          "repo": "mgifford/alt-text-scan",
+          "timestamp": "2026-10-12T23:20:27Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openpracticelibrary",
+          "timestamp": "2026-10-12T23:24:28Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/drupal-core",
+          "timestamp": "2026-10-12T23:11:35Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/wayback-extractor",
+          "timestamp": "2026-10-12T23:18:48Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wayback-extractor",
+          "timestamp": "2026-10-12T23:18:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/dpg-dpi-govstack-map",
+          "timestamp": "2026-10-12T23:18:28Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-open-dash",
+          "timestamp": "2026-10-12T23:16:18Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-12T23:09:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/daily-hhs",
+          "timestamp": "2026-10-12T23:10:30Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-12T23:09:55Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-12T23:06:58Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-12T08:18:39Z"
         }
       ]
     },
     {
-      "date": "2026-09-22",
-      "total": 57,
+      "date": "2026-10-13",
+      "total": 224,
       "byType": {
-        "commit": 5,
-        "create": 7,
-        "pull request": 9,
-        "delete": 2,
-        "issue comment": 3,
-        "issue": 30,
-        "fork": 1
+        "commit": 68,
+        "create": 37,
+        "delete": 20,
+        "pull request": 89,
+        "pr review": 2,
+        "fork": 2,
+        "release": 1,
+        "issue comment": 5
       },
       "byRepo": {
-        "mgifford/FerroEHR": 54,
-        "rubentalstra/FerroEHR": 1,
-        "mgifford/medblocks-ui": 2
+        "mgifford/kj-liatest": 1,
+        "mgifford/firefox-container-homes-routes": 79,
+        "mgifford/tune-my-repos": 79,
+        "mgifford/wai-wcag-em-report-tool": 1,
+        "mgifford/publicgoods-website": 1,
+        "mgifford/captchaCrawler": 1,
+        "mgifford/18f.gsa.gov": 1,
+        "mgifford/bbc-a11y": 1,
+        "mgifford/digitalservicescoalition.org": 1,
+        "mgifford/drupal-core-lab": 5,
+        "mgifford/dot-gov-scans": 3,
+        "mgifford/a11y-svg": 3,
+        "mgifford/edu-scans": 3,
+        "mgifford/eu-plus-government-scans": 4,
+        "mgifford/vital-core": 16,
+        "mgifford/contrast-plus": 2,
+        "Siteimprove/alfa-integrations": 1,
+        "mgifford/OpenWealth": 1,
+        "rolfkleef/firefox-container-homes": 7,
+        "mgifford/testaro": 2,
+        "mgifford/wappalyzer": 3,
+        "mgifford/uswds-proposals": 1,
+        "mgifford/ditap-curriculum-update": 1,
+        "mgifford/record-a-goose-sighting": 2,
+        "mgifford/sitemap-generator": 1,
+        "mgifford/greenspeed": 1,
+        "mgifford/node-wcag-pdf": 1,
+        "mgifford/A11YPortal": 1,
+        "mgifford/simplA11yGenReport": 1
       },
       "events": [
         {
           "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T17:16:19Z"
+          "repo": "mgifford/kj-liatest",
+          "timestamp": "2026-10-13T11:55:19Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T23:03:12Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T23:03:30Z",
-          "number": 13
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:53:11Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:29:04Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:27:57Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:24:02Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T17:16:20Z"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:41:05Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T17:43:17Z"
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:19:59Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T16:42:08Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T17:43:19Z",
-          "number": 12
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T17:16:18Z",
-          "number": 11
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:24:03Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:23:59Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:37:11Z",
-          "number": 11
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:36:56Z"
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:08:35Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:29:04Z"
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:06:43Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:06:41Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:55:42Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:51:48Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:37:10Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:38:15Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:47:20Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:42:06Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:28:47Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:15:50Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:11:01Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:00:16Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:44:57Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:37:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:26:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wai-wcag-em-report-tool",
+          "timestamp": "2026-10-13T11:12:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:14:11Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:08:27Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T13:58:00Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T13:57:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/publicgoods-website",
+          "timestamp": "2026-10-13T11:58:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/captchaCrawler",
+          "timestamp": "2026-10-13T11:54:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/18f.gsa.gov",
+          "timestamp": "2026-10-13T11:46:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/bbc-a11y",
+          "timestamp": "2026-10-13T11:02:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/digitalservicescoalition.org",
+          "timestamp": "2026-10-13T11:06:32Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:29:02Z",
-          "number": 10
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T02:18:15Z",
+          "number": 5
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T02:17:05Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/dot-gov-scans",
+          "timestamp": "2026-10-14T01:34:56Z"
+        },
+        {
+          "type": "pr review",
+          "repo": "mgifford/dot-gov-scans",
+          "timestamp": "2026-10-14T01:34:05Z",
+          "number": 49
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/a11y-svg",
+          "timestamp": "2026-10-14T01:26:42Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/edu-scans",
+          "timestamp": "2026-10-14T01:24:28Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:28:14Z",
-          "number": 10
+          "repo": "mgifford/edu-scans",
+          "timestamp": "2026-10-14T01:24:27Z",
+          "number": 37
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:24:35Z",
-          "number": 9
+          "repo": "mgifford/edu-scans",
+          "timestamp": "2026-10-14T01:23:57Z",
+          "number": 37
+        },
+        {
+          "type": "pr review",
+          "repo": "mgifford/dot-gov-scans",
+          "timestamp": "2026-10-14T01:19:41Z",
+          "number": 48
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/a11y-svg",
+          "timestamp": "2026-10-14T01:15:44Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-10-14T01:14:00Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:24:33Z",
-          "number": 8
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-10-14T01:13:57Z",
+          "number": 145
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-10-14T01:13:58Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/a11y-svg",
+          "timestamp": "2026-10-14T01:13:14Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:24:30Z",
-          "number": 7
+          "repo": "mgifford/eu-plus-government-scans",
+          "timestamp": "2026-10-14T01:12:12Z",
+          "number": 145
         },
         {
-          "type": "issue comment",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:19:26Z",
-          "title": "Viewer: decorative icons are exposed to assistive technology (missing aria-hidden)",
-          "number": 2,
-          "url": "https://github.com/mgifford/FerroEHR/issues/2"
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T01:11:35Z",
+          "number": 271
         },
         {
-          "type": "issue comment",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:19:25Z",
-          "title": "Viewer: light-theme accent and notice colours fail WCAG 1.4.3 on every page",
-          "number": 1,
-          "url": "https://github.com/mgifford/FerroEHR/issues/1"
+          "type": "create",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T01:11:34Z"
         },
         {
-          "type": "issue comment",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:09:11Z",
-          "title": "Viewer: light-theme accent and notice colours fail WCAG 1.4.3 on every page",
-          "number": 1,
-          "url": "https://github.com/mgifford/FerroEHR/issues/1"
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T01:07:52Z"
         },
         {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:07:03Z",
-          "title": "Viewer accessibility: bring the FerroEHR Viewer to WCAG 2.2 AA",
-          "number": 6,
-          "url": "https://github.com/mgifford/FerroEHR/issues/6"
+          "type": "delete",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-10-14T01:07:02Z"
         },
         {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:07:03Z",
-          "title": "Viewer accessibility: bring the FerroEHR Viewer to WCAG 2.2 AA",
-          "number": 6,
-          "url": "https://github.com/mgifford/FerroEHR/issues/6"
+          "type": "commit",
+          "repo": "mgifford/contrast-plus",
+          "timestamp": "2026-10-14T01:07:01Z"
         },
         {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:07:03Z",
-          "title": "Viewer accessibility: bring the FerroEHR Viewer to WCAG 2.2 AA",
-          "number": 6,
-          "url": "https://github.com/mgifford/FerroEHR/issues/6"
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T01:06:02Z"
         },
         {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:07:03Z",
-          "title": "Viewer accessibility: bring the FerroEHR Viewer to WCAG 2.2 AA",
-          "number": 6,
-          "url": "https://github.com/mgifford/FerroEHR/issues/6"
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T01:04:01Z"
         },
         {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:07:02Z",
-          "title": "Viewer accessibility: bring the FerroEHR Viewer to WCAG 2.2 AA",
-          "number": 6,
-          "url": "https://github.com/mgifford/FerroEHR/issues/6"
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:49:59Z",
+          "number": 270
         },
         {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:03Z",
-          "title": "Viewer: measure the accessibility lanes this audit did not cover",
-          "number": 5,
-          "url": "https://github.com/mgifford/FerroEHR/issues/5"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:03Z",
-          "title": "Viewer: measure the accessibility lanes this audit did not cover",
-          "number": 5,
-          "url": "https://github.com/mgifford/FerroEHR/issues/5"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:03Z",
-          "title": "Viewer: measure the accessibility lanes this audit did not cover",
-          "number": 5,
-          "url": "https://github.com/mgifford/FerroEHR/issues/5"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:02Z",
-          "title": "Viewer: measure the accessibility lanes this audit did not cover",
-          "number": 5,
-          "url": "https://github.com/mgifford/FerroEHR/issues/5"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:02Z",
-          "title": "Viewer: measure the accessibility lanes this audit did not cover",
-          "number": 5,
-          "url": "https://github.com/mgifford/FerroEHR/issues/5"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:00Z",
-          "title": "Viewer: add a \"Skip to main content\" link (WCAG 2.4.1)",
-          "number": 4,
-          "url": "https://github.com/mgifford/FerroEHR/issues/4"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:00Z",
-          "title": "Viewer: add a \"Skip to main content\" link (WCAG 2.4.1)",
-          "number": 4,
-          "url": "https://github.com/mgifford/FerroEHR/issues/4"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:00Z",
-          "title": "Viewer: add a \"Skip to main content\" link (WCAG 2.4.1)",
-          "number": 4,
-          "url": "https://github.com/mgifford/FerroEHR/issues/4"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:02:00Z",
-          "title": "Viewer: add a \"Skip to main content\" link (WCAG 2.4.1)",
-          "number": 4,
-          "url": "https://github.com/mgifford/FerroEHR/issues/4"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:59Z",
-          "title": "Viewer: add a \"Skip to main content\" link (WCAG 2.4.1)",
-          "number": 4,
-          "url": "https://github.com/mgifford/FerroEHR/issues/4"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:58Z",
-          "title": "Viewer: /system horizontal scroll region is not keyboard-accessible",
-          "number": 3,
-          "url": "https://github.com/mgifford/FerroEHR/issues/3"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:58Z",
-          "title": "Viewer: /system horizontal scroll region is not keyboard-accessible",
-          "number": 3,
-          "url": "https://github.com/mgifford/FerroEHR/issues/3"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:58Z",
-          "title": "Viewer: /system horizontal scroll region is not keyboard-accessible",
-          "number": 3,
-          "url": "https://github.com/mgifford/FerroEHR/issues/3"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:58Z",
-          "title": "Viewer: /system horizontal scroll region is not keyboard-accessible",
-          "number": 3,
-          "url": "https://github.com/mgifford/FerroEHR/issues/3"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:58Z",
-          "title": "Viewer: /system horizontal scroll region is not keyboard-accessible",
-          "number": 3,
-          "url": "https://github.com/mgifford/FerroEHR/issues/3"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:56Z",
-          "title": "Viewer: decorative icons are exposed to assistive technology (missing aria-hidden)",
-          "number": 2,
-          "url": "https://github.com/mgifford/FerroEHR/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:55Z",
-          "title": "Viewer: decorative icons are exposed to assistive technology (missing aria-hidden)",
-          "number": 2,
-          "url": "https://github.com/mgifford/FerroEHR/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:55Z",
-          "title": "Viewer: decorative icons are exposed to assistive technology (missing aria-hidden)",
-          "number": 2,
-          "url": "https://github.com/mgifford/FerroEHR/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:55Z",
-          "title": "Viewer: decorative icons are exposed to assistive technology (missing aria-hidden)",
-          "number": 2,
-          "url": "https://github.com/mgifford/FerroEHR/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:55Z",
-          "title": "Viewer: decorative icons are exposed to assistive technology (missing aria-hidden)",
-          "number": 2,
-          "url": "https://github.com/mgifford/FerroEHR/issues/2"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:20Z",
-          "title": "Viewer: light-theme accent and notice colours fail WCAG 1.4.3 on every page",
-          "number": 1,
-          "url": "https://github.com/mgifford/FerroEHR/issues/1"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:20Z",
-          "title": "Viewer: light-theme accent and notice colours fail WCAG 1.4.3 on every page",
-          "number": 1,
-          "url": "https://github.com/mgifford/FerroEHR/issues/1"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:20Z",
-          "title": "Viewer: light-theme accent and notice colours fail WCAG 1.4.3 on every page",
-          "number": 1,
-          "url": "https://github.com/mgifford/FerroEHR/issues/1"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:20Z",
-          "title": "Viewer: light-theme accent and notice colours fail WCAG 1.4.3 on every page",
-          "number": 1,
-          "url": "https://github.com/mgifford/FerroEHR/issues/1"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-22T15:01:19Z",
-          "title": "Viewer: light-theme accent and notice colours fail WCAG 1.4.3 on every page",
-          "number": 1,
-          "url": "https://github.com/mgifford/FerroEHR/issues/1"
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:50:00Z"
         },
         {
           "type": "fork",
-          "repo": "rubentalstra/FerroEHR",
-          "timestamp": "2026-09-22T12:12:19Z"
+          "repo": "Siteimprove/alfa-integrations",
+          "timestamp": "2026-10-13T23:48:33Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/medblocks-ui",
-          "timestamp": "2026-09-22T09:33:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/medblocks-ui",
-          "timestamp": "2026-09-22T09:30:34Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "total": 37,
-      "byType": {
-        "commit": 14,
-        "pull request": 16,
-        "create": 6,
-        "issue": 1
-      },
-      "byRepo": {
-        "mgifford/FerroEHR": 37
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T12:19:06Z"
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:22:39Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T12:19:05Z",
-          "number": 18
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:22:23Z",
+          "number": 270
         },
         {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T12:18:25Z",
-          "number": 17
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:22:13Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T12:18:26Z"
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:22:11Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T12:18:13Z",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:22:10Z",
+          "number": 269
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:18:53Z",
+          "number": 268
+        },
+        {
+          "type": "release",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:18:14Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:17:05Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:15:20Z",
+          "number": 269
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:14:28Z",
+          "number": 268
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-13T23:14:15Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T22:43:03Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T22:42:16Z",
+          "number": 21
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T22:42:18Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T20:26:45Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T20:30:34Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T20:26:43Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T20:25:46Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T20:30:40Z",
+          "number": 21
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T20:27:43Z",
+          "number": 20
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/OpenWealth",
+          "timestamp": "2026-10-13T20:12:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T20:23:06Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T20:08:18Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T20:12:04Z",
+          "number": 20
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-13T20:02:57Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T20:08:29Z",
           "number": 19
         },
         {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T12:17:48Z"
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T20:08:15Z",
+          "number": 83
         },
         {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T12:16:04Z"
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T19:45:57Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T11:58:05Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T19:45:59Z",
+          "number": 19
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T19:39:43Z",
+          "number": 83
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T19:25:48Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T19:34:58Z",
           "number": 18
         },
         {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T11:57:42Z"
-        },
-        {
           "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T09:43:17Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:21:30Z"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T19:25:21Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:49:09Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T19:25:50Z",
+          "number": 18
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T19:25:20Z",
           "number": 17
         },
         {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:15:13Z"
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T19:16:16Z",
+          "number": 17
         },
         {
           "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:16:40Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:16:39Z",
-          "number": 16
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:08:29Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:15:15Z",
-          "number": 16
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:08:28Z",
-          "number": 15
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:06:28Z",
-          "number": 15
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:57:48Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T10:06:11Z"
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:53:25Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T09:45:07Z"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:47:30Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T09:43:16Z",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:52:56Z",
+          "number": 80
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:52:30Z",
+          "number": 16
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:48:32Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:40:44Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:57:50Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:57:47Z",
+          "number": 81
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:39:41Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:53:36Z",
+          "number": 81
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:52:31Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:52:00Z",
+          "number": 80
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:48:33Z",
+          "number": 16
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:47:28Z",
+          "number": 15
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:39:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:39:40Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T18:40:43Z",
+          "number": 78
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:39:47Z",
           "number": 14
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T09:42:39Z",
-          "number": 14
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T09:42:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:06:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:01:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:00:16Z"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:39:43Z",
+          "number": 15
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:08:09Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T18:39:38Z",
           "number": 13
         },
         {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:08:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:02:00Z"
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:41:04Z",
+          "number": 9
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:01:59Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:47:35Z",
+          "number": 11
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:52:14Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:47:47Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:47:15Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:53:13Z",
+          "number": 14
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:52:02Z",
+          "number": 78
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:49:25Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:49:27Z",
+          "number": 13
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:47:45Z",
           "number": 12
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:01:32Z",
-          "number": 9
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:01:10Z"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:47:19Z",
+          "number": 10
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:00:15Z",
-          "number": 8
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:00:16Z",
-          "title": "Viewer: light-theme accent and notice colours fail WCAG 1.4.3 on every page",
-          "number": 1,
-          "url": "https://github.com/mgifford/FerroEHR/issues/1"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:47:16Z",
+          "number": 12
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:00:01Z",
-          "number": 7
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-23T07:00:02Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "total": 8,
-      "byType": {
-        "create": 1,
-        "delete": 1,
-        "commit": 3,
-        "pull request": 3
-      },
-      "byRepo": {
-        "mgifford/markdown-slides-editor": 5,
-        "mgifford/FerroEHR": 3
-      },
-      "events": [
-        {
-          "type": "create",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-24T11:59:19Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-24T12:58:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-24T12:58:36Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-24T12:58:35Z",
-          "number": 166
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/markdown-slides-editor",
-          "timestamp": "2026-09-24T11:59:31Z",
-          "number": 166
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-24T07:10:23Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-24T07:10:22Z",
-          "number": 19
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-24T07:09:52Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "total": 6,
-      "byType": {
-        "issue": 6
-      },
-      "byRepo": {
-        "mgifford/pdf-crawler": 2,
-        "mgifford/dot-gov-scans": 1,
-        "mgifford/alt-text-scan": 2,
-        "mgifford/open-scans": 1
-      },
-      "events": [
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-09-25T20:08:01Z",
-          "title": "SCAN: https://www.rijksoverheid.nl",
-          "number": 282,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/282"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-09-25T20:07:45Z",
-          "title": "SCAN: https://www.rotterdam.nl/",
-          "number": 281,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/281"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/dot-gov-scans",
-          "timestamp": "2026-09-25T20:02:09Z",
-          "title": "Update Technology tool",
-          "number": 46,
-          "url": "https://github.com/mgifford/dot-gov-scans/issues/46"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-09-25T11:33:47Z",
-          "title": "SCAN: https://www.rijksoverheid.nl",
-          "number": 75,
-          "url": "https://github.com/mgifford/alt-text-scan/issues/75"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/alt-text-scan",
-          "timestamp": "2026-09-25T11:33:04Z",
-          "title": "SCAN: https://mgifford.github.io/neighbourhood-solar/",
-          "number": 74,
-          "url": "https://github.com/mgifford/alt-text-scan/issues/74"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-09-25T11:28:41Z",
-          "title": "SCAN: https://www.rijksoverheid.nl",
-          "number": 357,
-          "url": "https://github.com/mgifford/open-scans/issues/357"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "total": 19,
-      "byType": {
-        "create": 4,
-        "commit": 5,
-        "pull request": 8,
-        "issue": 2
-      },
-      "byRepo": {
-        "mgifford/FerroEHR": 19
-      },
-      "events": [
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:10:00Z"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:42:08Z",
+          "number": 11
         },
         {
           "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:05:40Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:48:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:09:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:53:45Z"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:39:46Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:53:44Z",
-          "number": 24
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:48:36Z",
-          "number": 24
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:41:45Z",
-          "number": 23
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:41:46Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:21:44Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:20:43Z",
-          "number": 23
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:20:19Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:15:26Z",
-          "number": 22
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:15:27Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:10:26Z",
-          "number": 22
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:09:04Z",
-          "number": 21
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:06:07Z",
-          "number": 21
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:00:45Z",
-          "title": "Comparison: FerroEHR vs openehr-rust (library vs CDR) — comparable products",
-          "number": 20,
-          "url": "https://github.com/mgifford/FerroEHR/issues/20"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-26T06:00:45Z",
-          "title": "Comparison: FerroEHR vs openehr-rust (library vs CDR) — comparable products",
-          "number": 20,
-          "url": "https://github.com/mgifford/FerroEHR/issues/20"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "total": 21,
-      "byType": {
-        "commit": 17,
-        "create": 3,
-        "pull request": 1
-      },
-      "byRepo": {
-        "mgifford/DiDay": 10,
-        "mgifford/ox.ca": 9,
-        "mgifford/FerroEHR": 2
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T20:10:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T19:52:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T19:34:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:22:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:41:31Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:41:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:26:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T20:07:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:50:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:50:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T19:48:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T19:45:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:42:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T19:40:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T19:33:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:28:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/ox.ca",
-          "timestamp": "2026-09-27T19:23:30Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T15:46:53Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-27T15:37:58Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-27T09:04:18Z",
-          "number": 25
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FerroEHR",
-          "timestamp": "2026-09-27T09:03:49Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "total": 2,
-      "byType": {
-        "commit": 2
-      },
-      "byRepo": {
-        "mgifford/DiDay": 2
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-28T10:04:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-28T10:20:07Z"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "total": 39,
-      "byType": {
-        "create": 6,
-        "commit": 21,
-        "pull request": 12
-      },
-      "byRepo": {
-        "mgifford/FOSDEM-website": 24,
-        "mgifford/DiDay": 15
-      },
-      "events": [
-        {
-          "type": "create",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:49:15Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:49:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T06:06:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:53:29Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:49:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T04:45:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:52:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:49:16Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:49:15Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:49:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T14:58:27Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:52:17Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:40:53Z",
           "number": 8
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:52:08Z",
-          "number": 8
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:39:48Z",
+          "number": 10
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:51:54Z",
-          "number": 7
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:51:45Z",
-          "number": 7
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:51:35Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:04:41Z",
           "number": 6
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:51:23Z",
-          "number": 5
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:38:17Z",
+          "number": 9
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:51:12Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:37:12Z",
+          "number": 8
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:25:21Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:20:00Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:27:13Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:27:12Z",
+          "number": 76
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:25:29Z",
+          "number": 76
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:11:52Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:19:57Z",
+          "number": 75
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:09:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:11:20Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:11:50Z",
+          "number": 74
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:16:12Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:04:09Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:16:04Z",
+          "number": 75
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:11:54Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:11:19Z",
+          "number": 7
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:11:11Z",
+          "number": 74
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:04:10Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:10:01Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:05:53Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:09:57Z",
+          "number": 73
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:09:02Z",
+          "number": 7
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:08:47Z",
+          "number": 73
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:57:20Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:06:40Z",
+          "number": 72
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:06:04Z",
+          "number": 72
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T15:04:07Z",
+          "number": 71
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:00:53Z",
+          "number": 5
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:52:47Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T15:00:17Z",
+          "number": 6
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:47:16Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:57:18Z",
           "number": 4
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:51:01Z",
-          "number": 3
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:55:43Z",
+          "number": 5
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:50:49Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:55:29Z",
+          "number": 4
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:55:27Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:47:34Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:53:19Z",
+          "number": 3
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:53:07Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:53:06Z",
           "number": 2
         },
         {
           "type": "pull request",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:50:30Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:52:45Z",
           "number": 1
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:44:55Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:48:27Z",
+          "number": 3
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:47:46Z",
+          "number": 71
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:47:27Z",
+          "number": 2
         },
         {
           "type": "create",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T21:49:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T11:49:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T15:01:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T14:53:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T07:25:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T13:09:22Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/FOSDEM-website",
-          "timestamp": "2026-09-29T12:56:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T05:32:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T05:22:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T05:29:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T04:22:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T07:18:50Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T06:13:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T06:09:24Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T05:47:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T05:04:18Z"
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:45:10Z"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T04:45:35Z",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:45:12Z",
           "number": 1
         },
         {
           "type": "pull request",
-          "repo": "mgifford/DiDay",
-          "timestamp": "2026-09-29T04:45:06Z",
-          "number": 1
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:44:54Z",
+          "number": 70
+        },
+        {
+          "type": "issue comment",
+          "repo": "rolfkleef/firefox-container-homes",
+          "timestamp": "2026-10-13T14:43:18Z",
+          "title": "docs: restore the shipped 0.4.0 group-switch shortcut in CHANGELOG",
+          "number": 7,
+          "url": "https://github.com/rolfkleef/firefox-container-homes/pull/7"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:37:42Z"
+        },
+        {
+          "type": "issue comment",
+          "repo": "rolfkleef/firefox-container-homes",
+          "timestamp": "2026-10-13T14:42:27Z",
+          "title": "fix: validate imported config files before replacing settings",
+          "number": 6,
+          "url": "https://github.com/rolfkleef/firefox-container-homes/pull/6"
+        },
+        {
+          "type": "issue comment",
+          "repo": "rolfkleef/firefox-container-homes",
+          "timestamp": "2026-10-13T14:41:46Z",
+          "title": "fix: make the Import config control keyboard-operable",
+          "number": 5,
+          "url": "https://github.com/rolfkleef/firefox-container-homes/pull/5"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:39:54Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "rolfkleef/firefox-container-homes",
+          "timestamp": "2026-10-13T14:40:13Z",
+          "number": 7
+        },
+        {
+          "type": "pull request",
+          "repo": "rolfkleef/firefox-container-homes",
+          "timestamp": "2026-10-13T14:40:11Z",
+          "number": 6
+        },
+        {
+          "type": "pull request",
+          "repo": "rolfkleef/firefox-container-homes",
+          "timestamp": "2026-10-13T14:40:08Z",
+          "number": 5
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:40:04Z",
+          "number": 70
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/firefox-container-homes-routes",
+          "timestamp": "2026-10-13T14:36:44Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:26:39Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:26:37Z",
+          "number": 69
+        },
+        {
+          "type": "fork",
+          "repo": "rolfkleef/firefox-container-homes",
+          "timestamp": "2026-10-13T14:35:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:12:41Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:08:50Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:14:20Z",
+          "number": 69
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:03:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:03:34Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:13:28Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:12:44Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:12:37Z",
+          "number": 68
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:12:38Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:09:15Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:09:23Z",
+          "number": 68
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:08:25Z",
+          "number": 67
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:05:54Z",
+          "number": 67
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:00:12Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:03:33Z",
+          "number": 66
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T14:00:24Z",
+          "number": 66
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T13:57:18Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T13:57:15Z",
+          "number": 65
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T13:32:03Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/tune-my-repos",
+          "timestamp": "2026-10-13T13:32:14Z",
+          "number": 65
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/testaro",
+          "timestamp": "2026-10-13T13:19:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wappalyzer",
+          "timestamp": "2026-10-13T12:06:39Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/uswds-proposals",
+          "timestamp": "2026-10-13T11:58:11Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ditap-curriculum-update",
+          "timestamp": "2026-10-13T11:57:51Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/record-a-goose-sighting",
+          "timestamp": "2026-10-13T11:48:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/record-a-goose-sighting",
+          "timestamp": "2026-10-13T11:47:32Z"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/wappalyzer",
+          "timestamp": "2026-10-13T11:46:36Z",
+          "title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
+          "number": 1,
+          "url": "https://github.com/mgifford/wappalyzer/pull/1"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/wappalyzer",
+          "timestamp": "2026-10-13T11:46:18Z"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/testaro",
+          "timestamp": "2026-10-13T11:08:18Z",
+          "title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
+          "number": 1,
+          "url": "https://github.com/mgifford/testaro/pull/1"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/sitemap-generator",
+          "timestamp": "2026-10-13T11:12:28Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/greenspeed",
+          "timestamp": "2026-10-13T11:14:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/node-wcag-pdf",
+          "timestamp": "2026-10-13T11:09:11Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/A11YPortal",
+          "timestamp": "2026-10-13T11:12:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/simplA11yGenReport",
+          "timestamp": "2026-10-13T11:07:16Z"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "total": 47,
+      "byType": {
+        "pull request": 19,
+        "commit": 20,
+        "create": 6,
+        "delete": 2
+      },
+      "byRepo": {
+        "mgifford/drupal-core-lab": 30,
+        "mgifford/vital-core": 13,
+        "mgifford/vital-core-data": 4
+      },
+      "events": [
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T23:21:42Z",
+          "number": 11
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T23:21:08Z",
+          "number": 11
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T20:48:56Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T20:27:48Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T19:43:49Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T20:48:55Z",
+          "number": 10
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T20:32:12Z",
+          "number": 9
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T20:20:40Z",
+          "number": 10
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T19:10:45Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T19:11:19Z",
+          "number": 9
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T16:36:13Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T15:57:13Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T15:59:12Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T15:59:10Z",
+          "number": 8
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T15:58:32Z",
+          "number": 8
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T14:52:12Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T11:31:10Z",
+          "number": 274
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T10:02:58Z",
+          "number": 271
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-10-14T12:10:23Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T10:05:28Z",
+          "number": 272
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-10-14T11:50:46Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T11:38:44Z",
+          "number": 7
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T11:38:03Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T11:34:24Z",
+          "number": 7
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T11:31:14Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T11:31:12Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T11:19:44Z",
+          "number": 274
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T11:19:43Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T10:56:08Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T10:56:06Z",
+          "number": 6
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T10:55:45Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T10:45:08Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T10:45:09Z",
+          "number": 6
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-10-14T10:39:26Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T10:41:05Z",
+          "number": 273
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T10:36:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T10:25:26Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T10:17:13Z",
+          "number": 273
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T10:05:31Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T10:05:30Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-10-14T10:03:00Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-10-14T09:45:11Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T09:41:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T09:14:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T08:37:29Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T08:19:09Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/drupal-core-lab",
+          "timestamp": "2026-10-14T08:19:07Z",
+          "number": 5
         }
       ]
     }
