@@ -1,94 +1,93 @@
 {
-  "generated": "2026-10-15T03:53:37.279Z",
+  "generated": "2026-10-31T04:56:20.898Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-10-01",
-    "end": "2026-10-15"
+    "start": "2026-10-17",
+    "end": "2026-10-31"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
     "reposWithRuns": 21,
-    "totalRuns": 955,
+    "totalRuns": 1027,
     "byConclusion": {
-      "success": 719,
-      "failure": 105,
-      "skipped": 80,
-      "cancelled": 43,
-      "action_required": 5
+      "failure": 112,
+      "success": 795,
+      "cancelled": 37,
+      "skipped": 79
     },
-    "estimatedComputeMinutes": 12999,
+    "estimatedComputeMinutes": 15110,
     "topWorkflows": [
       {
-        "repo": "mgifford/drupal-core-lab",
-        "workflow": "Check cloud/ is up to date",
-        "runs": 54,
+        "repo": "mgifford/vital-core-nsf",
+        "workflow": "scan",
+        "runs": 59,
         "successRate": 0.76,
-        "avgDurationSeconds": 11
+        "avgDurationSeconds": 409
       },
       {
         "repo": "mgifford/vital-core",
-        "workflow": "scan",
-        "runs": 48,
-        "successRate": 0.96,
-        "avgDurationSeconds": 2863
-      },
-      {
-        "repo": "mgifford/firefox-container-homes-routes",
-        "workflow": "CI",
-        "runs": 45,
-        "successRate": 0.84,
-        "avgDurationSeconds": 24
-      },
-      {
-        "repo": "mgifford/drupal-core-lab",
-        "workflow": "Lab self-test",
-        "runs": 41,
-        "successRate": 0.71,
-        "avgDurationSeconds": 18
-      },
-      {
-        "repo": "mgifford/tune-my-repos",
-        "workflow": "CI",
-        "runs": 39,
+        "workflow": "tests",
+        "runs": 37,
         "successRate": 1,
-        "avgDurationSeconds": 15
-      },
-      {
-        "repo": "mgifford/a11y-svg",
-        "workflow": "Quality Checks",
-        "runs": 36,
-        "successRate": 0.58,
-        "avgDurationSeconds": 502
+        "avgDurationSeconds": 256
       },
       {
         "repo": "mgifford/dot-gov-scans",
         "workflow": "Monitor Workflow Health",
-        "runs": 32,
-        "successRate": 0.03,
-        "avgDurationSeconds": 3
+        "runs": 36,
+        "successRate": 0.08,
+        "avgDurationSeconds": 4
       },
       {
-        "repo": "mgifford/a11y-svg",
-        "workflow": "Dependabot Pilot",
+        "repo": "mgifford/vital-core-lgd",
+        "workflow": "scan",
+        "runs": 33,
+        "successRate": 0.94,
+        "avgDurationSeconds": 1044
+      },
+      {
+        "repo": "mgifford/firefox-energy-scanner",
+        "workflow": "Tests",
+        "runs": 31,
+        "successRate": 0.87,
+        "avgDurationSeconds": 1011
+      },
+      {
+        "repo": "mgifford/vital-core-lgd",
+        "workflow": "tests",
+        "runs": 30,
+        "successRate": 0.97,
+        "avgDurationSeconds": 255
+      },
+      {
+        "repo": "mgifford/vital-core",
+        "workflow": "scan",
         "runs": 29,
-        "successRate": 0.41,
-        "avgDurationSeconds": 55
+        "successRate": 0.86,
+        "avgDurationSeconds": 3500
       },
       {
         "repo": "mgifford/eu-plus-government-scans",
         "workflow": "Lighthouse Pace Guard",
-        "runs": 21,
-        "successRate": 0.19,
-        "avgDurationSeconds": 7
+        "runs": 23,
+        "successRate": 0,
+        "avgDurationSeconds": 2
       },
       {
         "repo": "mgifford/eu-plus-government-scans",
         "workflow": "Deploy GitHub Pages",
-        "runs": 21,
-        "successRate": 0.19,
-        "avgDurationSeconds": 24
+        "runs": 23,
+        "successRate": 0,
+        "avgDurationSeconds": 3
+      },
+      {
+        "repo": "mgifford/eu-plus-government-scans",
+        "workflow": "Generate Scan Progress Report",
+        "runs": 22,
+        "successRate": 0,
+        "avgDurationSeconds": 898
       }
     ]
   },
