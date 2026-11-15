@@ -1,1745 +1,1743 @@
 {
   "user": "mgifford",
-  "generated": "2026-10-31T04:55:52.354Z",
+  "generated": "2026-11-15T05:36:25.713Z",
   "period": {
     "days": 14,
-    "start": "2026-10-17",
-    "end": "2026-10-31"
+    "start": "2026-11-01",
+    "end": "2026-11-15"
   },
   "summary": {
-    "totalEvents": 300,
-    "totalDaysWithActivity": 5,
-    "averagePerDay": "21.4",
+    "totalEvents": 295,
+    "totalDaysWithActivity": 4,
+    "averagePerDay": "21.1",
     "topRepositories": [
       {
-        "repo": "mgifford/vital-core-data",
-        "count": 98
-      },
-      {
-        "repo": "mgifford/vital-core-lgd-data",
-        "count": 51
+        "repo": "mgifford/ACCESSIBILITY.md",
+        "count": 61
       },
       {
         "repo": "mgifford/vital-core",
-        "count": 48
-      },
-      {
-        "repo": "mgifford/vital-core-lgd",
-        "count": 37
-      },
-      {
-        "repo": "mgifford/vital-core-nsf-data",
         "count": 36
       },
       {
-        "repo": "mgifford/vital-core-nsf",
-        "count": 13
+        "repo": "mgifford/WCAG_by_Role",
+        "count": 34
       },
       {
-        "repo": "mgifford/pdf-crawler",
-        "count": 9
+        "repo": "mgifford/DiDay",
+        "count": 33
       },
       {
-        "repo": "mgifford/firefox-energy-scanner",
-        "count": 5
+        "repo": "mgifford/openacr-release-evidence",
+        "count": 31
       },
       {
-        "repo": "mgifford/open-scans",
-        "count": 1
+        "repo": "mgifford/open-market-research-mcp",
+        "count": 17
       },
       {
-        "repo": "w3c/wai-arrm",
-        "count": 1
+        "repo": "mgifford/vital-core-lgd",
+        "count": 15
+      },
+      {
+        "repo": "mgifford/FOSDEM-website",
+        "count": 15
+      },
+      {
+        "repo": "mgifford/vital-core-data",
+        "count": 14
+      },
+      {
+        "repo": "mgifford/accessibility-skills",
+        "count": 10
       }
     ],
     "activityByType": [
       {
         "type": "commit",
-        "count": 213
-      },
-      {
-        "type": "pull request",
-        "count": 57
+        "count": 103
       },
       {
         "type": "delete",
-        "count": 13
+        "count": 72
+      },
+      {
+        "type": "pull request",
+        "count": 70
       },
       {
         "type": "create",
-        "count": 11
-      },
-      {
-        "type": "issue",
-        "count": 4
+        "count": 41
       },
       {
         "type": "issue comment",
-        "count": 2
+        "count": 7
+      },
+      {
+        "type": "public",
+        "count": 1
+      },
+      {
+        "type": "issue",
+        "count": 1
       }
     ]
   },
   "dailyActivity": [
     {
-      "date": "2026-10-26",
-      "total": 1,
+      "date": "2026-11-11",
+      "total": 32,
       "byType": {
-        "commit": 1
+        "create": 5,
+        "commit": 25,
+        "delete": 2
       },
       "byRepo": {
-        "mgifford/eu-plus-government-scans": 1
+        "mgifford/vital-core": 13,
+        "mgifford/html2sign-language": 3,
+        "mgifford/EchoLocate": 9,
+        "mgifford/openacr-release-evidence": 3,
+        "mgifford/vital-core-data": 4
       },
       "events": [
         {
+          "type": "create",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T23:33:24Z"
+        },
+        {
           "type": "commit",
-          "repo": "mgifford/eu-plus-government-scans",
-          "timestamp": "2026-10-26T22:30:53Z"
+          "repo": "mgifford/html2sign-language",
+          "timestamp": "2026-11-11T23:14:07Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T22:12:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T21:55:53Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:51:37Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-11T21:50:28Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:49:16Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:34:24Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T20:16:53Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-11T22:19:41Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T20:10:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-11T22:16:50Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-11T22:12:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-11T22:08:19Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-11T19:58:35Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T19:56:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/html2sign-language",
+          "timestamp": "2026-11-11T23:29:52Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T23:28:50Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T23:27:53Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T20:16:55Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:41:48Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:36:20Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/html2sign-language",
+          "timestamp": "2026-11-11T22:35:18Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-11T22:26:06Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T19:34:37Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T23:33:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/EchoLocate",
+          "timestamp": "2026-11-11T22:01:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:56:59Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:53:49Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:52:16Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:51:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-11T21:45:59Z"
         }
       ]
     },
     {
-      "date": "2026-10-27",
-      "total": 82,
+      "date": "2026-11-12",
+      "total": 138,
       "byType": {
-        "commit": 62,
-        "create": 9,
-        "delete": 11
+        "commit": 52,
+        "create": 25,
+        "delete": 61
       },
       "byRepo": {
-        "mgifford/vital-core-lgd": 10,
-        "mgifford/vital-core-lgd-data": 10,
-        "mgifford/vital-core": 18,
-        "mgifford/vital-core-data": 26,
-        "mgifford/vital-core-nsf": 7,
-        "mgifford/vital-core-nsf-data": 11
+        "mgifford/vital-core-nsf-data": 3,
+        "mgifford/DiDay": 12,
+        "mgifford/open-market-research-mcp": 10,
+        "mgifford/openacr-release-evidence": 24,
+        "mgifford/vital-core": 7,
+        "mgifford/vital-core-data": 4,
+        "mgifford/WCAG_by_Role": 5,
+        "mgifford/ACCESSIBILITY.md": 61,
+        "mgifford/accessibility-skills": 10,
+        "mgifford/vital-core-lgd-data": 2
       },
       "events": [
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:45:57Z"
+          "repo": "mgifford/vital-core-nsf-data",
+          "timestamp": "2026-11-12T20:24:38Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:58:51Z"
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T22:31:50Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T22:51:44Z"
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T22:44:52Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T22:44:21Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T22:40:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T22:47:03Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T18:35:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T21:17:54Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T21:16:34Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:30:05Z"
+          "timestamp": "2026-11-12T21:03:34Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T21:03:28Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T21:17:58Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T21:00:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T17:42:09Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T17:32:03Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T19:06:21Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-12T20:27:39Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T18:39:37Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-12T18:57:57Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T17:58:08Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T17:52:36Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T21:17:46Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T22:30:50Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T18:39:17Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T18:58:40Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T21:05:33Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-12T18:56:18Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T20:59:25Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T18:49:40Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T17:58:10Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-12T21:17:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T17:47:27Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-12T21:08:57Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T17:46:28Z"
         },
         {
           "type": "create",
           "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:42:48Z"
+          "timestamp": "2026-11-12T21:02:47Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:14:34Z"
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-12T17:40:09Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T23:04:40Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:45:28Z"
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T18:49:52Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T22:32:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T16:22:54Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-27T16:20:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T16:31:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T16:08:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T16:06:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T15:26:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T16:26:03Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-27T16:20:40Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-27T16:20:34Z"
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-12T18:33:35Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T14:03:27Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T14:18:37Z"
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T18:55:21Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T14:15:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T15:46:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T15:38:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T15:24:41Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T13:36:56Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T13:13:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T15:00:35Z"
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T17:49:55Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-27T14:05:28Z"
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T17:46:40Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T12:03:09Z"
+          "timestamp": "2026-11-12T11:40:52Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T11:55:56Z"
+          "timestamp": "2026-11-12T11:07:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-12T17:50:50Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-nsf-data",
+          "timestamp": "2026-11-12T11:00:07Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T11:37:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T23:09:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T11:34:33Z"
+          "timestamp": "2026-11-12T11:16:41Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:57:59Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:52:04Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:37Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:28Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:19Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T07:45:13Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T11:23:10Z"
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T07:43:12Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T11:04:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:26:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T11:09:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T10:37:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:53:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:53:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:38:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T09:59:48Z"
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:58Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:16:17Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T11:19:02Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T09:14:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T10:51:27Z"
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T07:40:27Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T23:01:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T10:00:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T10:00:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T09:45:29Z"
+          "timestamp": "2026-11-12T11:09:53Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:14:35Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:17:39Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T06:57:40Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T23:03:50Z"
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T06:27:41Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T06:28:26Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T22:48:48Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T05:59:28Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T23:05:33Z"
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T07:56:17Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T07:53:11Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:52:05Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:56Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:48Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:44Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:22Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:15Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:13Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:02Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:50:57Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T23:27:19Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:50:34Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T08:58:28Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:45:23Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:34:35Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:52:09Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:52:02Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:34Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:16Z"
         },
         {
           "type": "create",
           "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T23:15:41Z"
+          "timestamp": "2026-11-12T07:50:59Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:50:58Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:52:12Z"
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T07:45:11Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T22:41:35Z"
+          "timestamp": "2026-11-12T11:17:08Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:52:00Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:45Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:30Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:29Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:18Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:10Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:08Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:04Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:01Z"
         },
         {
           "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T06:48:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-nsf-data",
+          "timestamp": "2026-11-12T10:59:33Z"
+        },
+        {
+          "type": "delete",
           "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:57:58Z"
+          "timestamp": "2026-11-12T07:55:55Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T05:58:24Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T05:57:06Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:52:03Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:59Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:54Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:32Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:14Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:03Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:50:53Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T06:10:01Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:10:12Z"
         },
         {
           "type": "create",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:26:49Z"
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T05:47:22Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T22:42:38Z"
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T06:59:03Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T06:57:57Z"
         },
         {
           "type": "delete",
           "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:38:02Z"
+          "timestamp": "2026-11-12T06:11:26Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-27T22:49:01Z"
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-12T06:10:50Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:53Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:49Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:47Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:33Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:24Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:12Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:50:55Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:30:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-27T22:28:46Z"
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T07:42:16Z"
         },
         {
           "type": "create",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T07:34:03Z"
+        },
+        {
+          "type": "commit",
           "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T22:17:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T16:44:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T18:14:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T13:59:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T16:25:37Z"
+          "timestamp": "2026-11-12T07:55:53Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-27T16:26:04Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:57Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-27T16:20:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T15:37:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-27T13:18:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T15:58:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T16:21:42Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:38Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-27T16:20:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T15:02:21Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:21Z"
         },
         {
           "type": "delete",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-27T16:20:39Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:51:07Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:50:59Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:50:52Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:50:49Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T07:50:35Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T07:17:49Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-27T11:59:37Z"
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T07:17:38Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T07:00:19Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T06:59:33Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T06:49:26Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T06:42:34Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/accessibility-skills",
+          "timestamp": "2026-11-12T06:50:44Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T06:05:26Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-12T06:03:14Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/ACCESSIBILITY.md",
+          "timestamp": "2026-11-12T05:59:29Z"
         }
       ]
     },
     {
-      "date": "2026-10-28",
-      "total": 105,
-      "byType": {
-        "commit": 97,
-        "delete": 2,
-        "pull request": 5,
-        "create": 1
-      },
-      "byRepo": {
-        "mgifford/vital-core-lgd-data": 23,
-        "mgifford/vital-core-nsf-data": 19,
-        "mgifford/vital-core-data": 47,
-        "mgifford/vital-core": 9,
-        "mgifford/vital-core-lgd": 7
-      },
-      "events": [
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T03:05:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T18:29:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T17:37:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T17:58:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T16:32:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T16:18:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T14:48:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T17:13:34Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T14:08:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T03:21:22Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T02:58:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T03:05:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T02:48:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T15:33:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T12:32:25Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T11:43:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T11:54:51Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:16:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T14:04:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T10:50:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T10:13:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T03:01:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T02:58:09Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T09:44:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T03:03:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T02:59:40Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T03:12:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:32:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-28T20:09:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T05:43:04Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-28T05:23:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-28T05:19:49Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T17:40:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T17:40:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T15:28:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T15:23:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T17:53:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T14:28:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T14:13:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T17:41:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T16:14:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T14:03:20Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T17:31:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T17:50:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T14:01:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T17:09:33Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T15:44:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T17:22:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T16:22:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T16:22:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T15:52:32Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T16:27:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T15:36:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T12:19:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T16:22:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T15:30:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T12:14:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T16:08:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T16:09:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:51:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T14:06:26Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T14:49:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T15:25:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:00:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T10:47:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:14:16Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T10:33:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:04:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T14:19:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T10:59:07Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T14:28:55Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T14:19:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T09:53:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T09:38:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T14:08:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T12:23:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T10:09:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T09:51:21Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T12:16:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:59:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T11:47:27Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T11:44:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:59:00Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T11:43:52Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T09:38:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T11:17:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T10:18:37Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T10:51:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T10:54:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T10:46:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T10:49:15Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T09:43:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T10:11:30Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-28T09:53:10Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T05:31:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-28T09:40:11Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T03:01:12Z",
-          "number": 6
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T03:00:08Z",
-          "number": 6
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T02:58:07Z",
-          "number": 282
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-28T05:33:36Z"
-        },
-        {
-          "type": "create",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-28T05:26:42Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-28T05:23:58Z"
-        },
-        {
-          "type": "delete",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-28T05:19:51Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-28T05:27:09Z",
-          "number": 282
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-28T05:19:47Z",
-          "number": 281
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
+      "date": "2026-11-13",
       "total": 64,
       "byType": {
-        "commit": 53,
-        "create": 1,
-        "pull request": 10
+        "commit": 16,
+        "create": 7,
+        "delete": 2,
+        "issue comment": 7,
+        "issue": 1,
+        "pull request": 31
       },
       "byRepo": {
-        "mgifford/vital-core-lgd": 7,
-        "mgifford/vital-core-nsf-data": 6,
-        "mgifford/vital-core-data": 25,
-        "mgifford/vital-core": 8,
-        "mgifford/vital-core-lgd-data": 18
+        "mgifford/DiDay": 4,
+        "mgifford/WCAG_by_Role": 24,
+        "mgifford/FOSDEM-website": 15,
+        "mgifford/openacr-release-evidence": 4,
+        "mgifford/vital-core": 4,
+        "mgifford/open-market-research-mcp": 7,
+        "mgifford/vital-core-data": 3,
+        "w3c/wai-arrm": 2,
+        "mgifford/vital-core-lgd-data": 1
       },
       "events": [
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T06:08:38Z"
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-13T23:13:06Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-29T18:39:07Z"
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T20:03:11Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T15:39:51Z"
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T19:48:14Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T19:26:10Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T19:26:10Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T13:58:42Z"
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-13T16:58:26Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T14:37:44Z"
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:38:11Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T16:41:33Z"
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T14:39:38Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-13T14:30:40Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T16:27:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T15:47:05Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T15:33:18Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T12:03:35Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T15:31:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-29T11:06:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T14:20:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T15:36:58Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T15:29:57Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T11:35:39Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T14:29:45Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T14:48:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T14:18:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-29T14:11:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T12:18:03Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T14:29:36Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T14:24:29Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T14:20:53Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-29T09:54:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T14:20:06Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T14:32:13Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T10:08:51Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-29T09:54:01Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T12:11:59Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T10:00:28Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T09:53:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T11:54:11Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T11:21:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T11:48:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T11:52:19Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T12:32:38Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T11:31:43Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T11:09:08Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T11:07:57Z"
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T14:10:25Z"
         },
         {
           "type": "create",
           "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T06:29:34Z"
+          "timestamp": "2026-11-13T13:55:26Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-13T14:53:19Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T06:11:27Z"
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-13T14:37:27Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-13T14:09:01Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T11:18:21Z"
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-13T13:46:31Z"
         },
         {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T10:29:44Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T10:10:54Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T10:01:14Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T10:00:12Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-nsf-data",
-          "timestamp": "2026-10-29T09:57:45Z"
+          "type": "create",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T19:19:27Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T10:16:46Z"
+          "timestamp": "2026-11-13T17:44:11Z"
         },
         {
           "type": "commit",
           "repo": "mgifford/vital-core-data",
-          "timestamp": "2026-10-29T10:12:40Z"
+          "timestamp": "2026-11-13T17:31:59Z"
         },
         {
           "type": "commit",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T06:09:47Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T06:19:23Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T06:05:48Z"
-        },
-        {
-          "type": "commit",
-          "repo": "mgifford/vital-core-lgd-data",
-          "timestamp": "2026-10-29T06:13:47Z"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T22:35:14Z",
-          "number": 285
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T22:29:05Z",
-          "number": 9
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T22:27:08Z",
-          "number": 284
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T22:24:13Z",
-          "number": 284
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T22:17:25Z",
-          "number": 8
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T22:14:23Z",
-          "number": 8
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T22:10:46Z",
-          "number": 283
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-29T13:59:15Z",
-          "number": 283
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T06:09:46Z",
-          "number": 7
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-29T06:08:59Z",
-          "number": 7
-        }
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "total": 48,
-      "byType": {
-        "pull request": 42,
-        "issue": 4,
-        "issue comment": 2
-      },
-      "byRepo": {
-        "mgifford/firefox-energy-scanner": 5,
-        "mgifford/open-scans": 1,
-        "mgifford/vital-core-lgd": 13,
-        "mgifford/vital-core-nsf": 6,
-        "mgifford/vital-core": 13,
-        "mgifford/pdf-crawler": 9,
-        "w3c/wai-arrm": 1
-      },
-      "events": [
-        {
-          "type": "pull request",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-10-30T23:22:39Z",
-          "number": 23
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/open-scans",
-          "timestamp": "2026-10-30T23:20:09Z",
-          "title": "SCAN: https://canada.ca",
-          "number": 367,
-          "url": "https://github.com/mgifford/open-scans/issues/367"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-10-30T23:17:24Z",
-          "title": "SCAN: https://Canada.ca",
-          "number": 22,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/22"
-        },
-        {
-          "type": "issue",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-10-30T23:17:09Z",
-          "title": "SCAN: Ottawa.ca",
-          "number": 21,
-          "url": "https://github.com/mgifford/firefox-energy-scanner/issues/21"
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T23:09:45Z",
-          "number": 15
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T22:57:51Z",
-          "number": 15
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-10-30T22:54:38Z",
-          "number": 20
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T13:28:51Z",
-          "number": 14
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-30T13:28:04Z",
-          "number": 12
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T13:28:26Z",
-          "number": 291
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T13:26:37Z",
-          "number": 301
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/firefox-energy-scanner",
-          "timestamp": "2026-10-30T13:02:27Z",
-          "number": 20
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T13:00:04Z",
-          "number": 291
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-30T12:51:51Z",
-          "number": 12
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-30T12:42:33Z",
-          "number": 11
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-30T12:42:11Z",
-          "number": 11
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:56:14Z"
         },
         {
           "type": "issue comment",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T12:41:45Z",
-          "title": "Lock the dependency versions requirements.txt already pins",
-          "number": 301,
-          "url": "https://github.com/mgifford/pdf-crawler/pull/301"
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T20:16:31Z",
+          "title": "A11y/08 test screenreader",
+          "number": 6,
+          "url": "https://github.com/mgifford/FOSDEM-website/pull/6"
         },
         {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T12:41:21Z",
-          "number": 14
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-13T15:24:39Z"
         },
         {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-30T12:41:05Z",
-          "number": 10
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-nsf",
-          "timestamp": "2026-10-30T12:39:49Z",
-          "number": 10
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T12:39:29Z",
-          "number": 301
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T12:35:57Z",
-          "number": 298
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T12:35:38Z",
-          "number": 290
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T12:31:48Z",
-          "number": 298
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T12:26:43Z",
-          "number": 290
+          "type": "create",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-13T14:41:39Z"
         },
         {
           "type": "issue comment",
           "repo": "w3c/wai-arrm",
-          "timestamp": "2026-10-30T12:19:02Z",
-          "title": "Product Ownership Section Requires Disaggregation",
-          "number": 61,
-          "url": "https://github.com/w3c/wai-arrm/issues/61"
+          "timestamp": "2026-11-13T22:27:17Z",
+          "title": "Possible mismatch in user persona within ARRM case study",
+          "number": 120,
+          "url": "https://github.com/w3c/wai-arrm/issues/120"
         },
         {
           "type": "issue",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T10:28:52Z",
-          "title": "SCAN: https://www.luton.gov.uk",
-          "number": 297,
-          "url": "https://github.com/mgifford/pdf-crawler/issues/297"
+          "repo": "w3c/wai-arrm",
+          "timestamp": "2026-11-13T22:22:07Z",
+          "title": "Possible mismatch in user persona within ARRM case study",
+          "number": 120,
+          "url": "https://github.com/w3c/wai-arrm/issues/120"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T10:08:53Z",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T22:00:01Z",
           "number": 13
         },
         {
           "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T09:45:22Z",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T21:57:53Z",
           "number": 13
         },
         {
           "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T09:44:06Z",
-          "number": 289
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-13T21:07:21Z",
+          "number": 11
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-13T13:46:59Z"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T20:16:26Z",
+          "title": "A11y/07 test focus",
+          "number": 5,
+          "url": "https://github.com/mgifford/FOSDEM-website/pull/5"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T20:14:54Z",
+          "title": "A11y/06 test skipto",
+          "number": 4,
+          "url": "https://github.com/mgifford/FOSDEM-website/pull/4"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T20:14:50Z",
+          "title": "test: add Playwright + axe-core accessibility crawl",
+          "number": 3,
+          "url": "https://github.com/mgifford/FOSDEM-website/pull/3"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-lgd-data",
+          "timestamp": "2026-11-13T19:59:33Z"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T20:08:45Z",
+          "title": "a11y: let an explicit light choice override the OS dark preference",
+          "number": 2,
+          "url": "https://github.com/mgifford/FOSDEM-website/pull/2"
         },
         {
           "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T09:12:08Z",
-          "number": 289
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T20:03:10Z",
+          "number": 16
         },
         {
           "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T09:09:13Z",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T19:54:48Z",
           "number": 12
         },
         {
           "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T09:08:52Z",
-          "number": 288
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T09:07:39Z",
-          "number": 296
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T08:22:18Z",
-          "number": 12
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T08:21:28Z",
-          "number": 288
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T07:56:54Z",
-          "number": 296
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/pdf-crawler",
-          "timestamp": "2026-10-30T07:38:19Z",
-          "number": 295
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T07:34:00Z",
-          "number": 287
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T07:28:23Z",
-          "number": 287
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T07:24:41Z",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T19:54:40Z",
           "number": 11
         },
         {
           "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T07:16:48Z",
-          "number": 11
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T07:14:57Z",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T19:54:33Z",
           "number": 10
         },
         {
           "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T07:14:40Z",
-          "number": 286
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T07:09:47Z",
-          "number": 10
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T07:08:44Z",
-          "number": 286
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core",
-          "timestamp": "2026-10-30T06:51:49Z",
-          "number": 285
-        },
-        {
-          "type": "pull request",
-          "repo": "mgifford/vital-core-lgd",
-          "timestamp": "2026-10-30T06:33:48Z",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T19:54:12Z",
           "number": 9
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/FOSDEM-website",
+          "timestamp": "2026-11-13T19:30:27Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-13T19:29:58Z"
+        },
+        {
+          "type": "issue comment",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-13T19:29:57Z",
+          "title": "Bump @hono/node-server from 2.1.3 to 2.1.8 in the npm_and_yarn group across 1 directory",
+          "number": 353,
+          "url": "https://github.com/mgifford/vital-core/pull/353"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-13T19:29:56Z",
+          "number": 354
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T19:27:57Z",
+          "number": 15
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T19:19:29Z",
+          "number": 16
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-13T18:59:00Z",
+          "number": 52
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T18:57:29Z",
+          "number": 14
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T18:27:41Z",
+          "number": 15
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-13T18:14:23Z",
+          "number": 11
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T18:11:43Z",
+          "number": 14
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T17:40:40Z",
+          "number": 13
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T17:24:18Z",
+          "number": 13
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T17:09:52Z",
+          "number": 12
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T17:07:37Z",
+          "number": 12
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-13T16:57:37Z",
+          "number": 52
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:56:12Z",
+          "number": 11
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:45:28Z",
+          "number": 11
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:38:09Z",
+          "number": 10
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:24:48Z",
+          "number": 10
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:19:27Z",
+          "number": 9
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:11:00Z",
+          "number": 9
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:05:27Z",
+          "number": 8
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/openacr-release-evidence",
+          "timestamp": "2026-11-13T16:01:29Z",
+          "number": 51
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/open-market-research-mcp",
+          "timestamp": "2026-11-13T16:01:19Z",
+          "number": 10
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-13T16:00:36Z",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "total": 61,
+      "byType": {
+        "commit": 10,
+        "delete": 7,
+        "pull request": 39,
+        "create": 4,
+        "public": 1
+      },
+      "byRepo": {
+        "mgifford/vital-core-lgd": 15,
+        "mgifford/vital-core": 12,
+        "mgifford/WCAG_by_Role": 5,
+        "mgifford/vital-core-nsf": 4,
+        "mgifford/Containers-Hamlet": 5,
+        "mgifford/vital-core-data": 3,
+        "mgifford/DiDay": 17
+      },
+      "events": [
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-14T17:03:40Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-14T16:58:25Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-15T02:23:07Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-15T02:22:54Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-nsf",
+          "timestamp": "2026-11-15T01:55:27Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/Containers-Hamlet",
+          "timestamp": "2026-11-15T02:59:46Z",
+          "number": 2
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-15T01:34:59Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T02:26:38Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-15T02:23:41Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-15T01:18:06Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-15T02:33:08Z",
+          "number": 17
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/Containers-Hamlet",
+          "timestamp": "2026-11-15T01:56:02Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-15T01:08:37Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T02:26:31Z",
+          "number": 36
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/WCAG_by_Role",
+          "timestamp": "2026-11-15T02:24:51Z",
+          "number": 17
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T02:19:15Z",
+          "number": 36
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T01:43:15Z"
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T00:56:24Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T02:04:47Z",
+          "number": 35
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/Containers-Hamlet",
+          "timestamp": "2026-11-15T02:04:17Z",
+          "number": 1
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/Containers-Hamlet",
+          "timestamp": "2026-11-15T01:56:16Z",
+          "number": 1
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-15T01:09:45Z"
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-15T01:09:23Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T01:55:39Z",
+          "number": 35
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-nsf",
+          "timestamp": "2026-11-15T01:55:26Z",
+          "number": 17
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-15T01:46:53Z",
+          "number": 31
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T01:46:31Z",
+          "number": 34
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-nsf",
+          "timestamp": "2026-11-15T01:44:08Z",
+          "number": 17
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T01:43:17Z",
+          "number": 34
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-15T00:49:24Z"
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-15T00:04:18Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T01:18:28Z",
+          "number": 31
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T01:11:39Z",
+          "number": 31
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-15T01:09:52Z",
+          "number": 31
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-15T01:09:20Z",
+          "number": 359
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-15T01:08:35Z",
+          "number": 30
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T01:03:07Z",
+          "number": 30
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core-nsf",
+          "timestamp": "2026-11-15T00:04:50Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T00:56:26Z",
+          "number": 30
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-15T00:49:37Z",
+          "number": 30
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-15T00:48:25Z",
+          "number": 359
+        },
+        {
+          "type": "public",
+          "repo": "mgifford/Containers-Hamlet",
+          "timestamp": "2026-11-14T16:47:58Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T00:21:04Z",
+          "number": 29
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-15T00:14:49Z",
+          "number": 29
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-15T00:04:17Z",
+          "number": 358
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-15T00:03:59Z",
+          "number": 29
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-14T23:55:23Z",
+          "number": 29
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-14T23:54:33Z",
+          "number": 358
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-14T23:49:09Z",
+          "number": 28
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/DiDay",
+          "timestamp": "2026-11-14T23:42:35Z",
+          "number": 28
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-14T17:37:04Z",
+          "number": 28
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-14T17:33:00Z",
+          "number": 28
+        },
+        {
+          "type": "commit",
+          "repo": "mgifford/vital-core-data",
+          "timestamp": "2026-11-14T16:48:34Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-14T17:30:48Z",
+          "number": 357
+        },
+        {
+          "type": "delete",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-14T16:39:50Z"
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-14T17:03:39Z",
+          "number": 27
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-14T16:57:33Z",
+          "number": 27
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-14T16:55:40Z",
+          "number": 357
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-14T16:39:47Z",
+          "number": 356
+        },
+        {
+          "type": "pull request",
+          "repo": "mgifford/vital-core",
+          "timestamp": "2026-11-14T16:28:45Z",
+          "number": 356
+        },
+        {
+          "type": "create",
+          "repo": "mgifford/vital-core-lgd",
+          "timestamp": "2026-11-14T15:03:16Z"
         }
       ]
     }

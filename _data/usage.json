@@ -1,93 +1,93 @@
 {
-  "generated": "2026-10-31T04:56:20.898Z",
+  "generated": "2026-11-15T05:37:07.391Z",
   "user": "mgifford",
   "period": {
     "days": 14,
-    "start": "2026-10-17",
-    "end": "2026-10-31"
+    "start": "2026-11-01",
+    "end": "2026-11-15"
   },
   "actions": {
     "available": true,
     "reposChecked": 25,
-    "reposWithRuns": 21,
-    "totalRuns": 1027,
+    "reposWithRuns": 22,
+    "totalRuns": 1303,
     "byConclusion": {
-      "failure": 112,
-      "success": 795,
-      "cancelled": 37,
-      "skipped": 79
+      "success": 1066,
+      "failure": 156,
+      "cancelled": 35,
+      "skipped": 41
     },
-    "estimatedComputeMinutes": 15110,
+    "estimatedComputeMinutes": 14199,
     "topWorkflows": [
+      {
+        "repo": "mgifford/openacr-release-evidence",
+        "workflow": "Test evidence pipeline",
+        "runs": 78,
+        "successRate": 0.92,
+        "avgDurationSeconds": 24
+      },
+      {
+        "repo": "mgifford/DiDay",
+        "workflow": "Build and deploy",
+        "runs": 67,
+        "successRate": 0.93,
+        "avgDurationSeconds": 286
+      },
       {
         "repo": "mgifford/vital-core-nsf",
         "workflow": "scan",
-        "runs": 59,
-        "successRate": 0.76,
-        "avgDurationSeconds": 409
+        "runs": 62,
+        "successRate": 0.65,
+        "avgDurationSeconds": 182
+      },
+      {
+        "repo": "mgifford/vital-core-lgd",
+        "workflow": "scan",
+        "runs": 58,
+        "successRate": 0.64,
+        "avgDurationSeconds": 467
       },
       {
         "repo": "mgifford/vital-core",
         "workflow": "tests",
-        "runs": 37,
-        "successRate": 1,
-        "avgDurationSeconds": 256
+        "runs": 49,
+        "successRate": 0.82,
+        "avgDurationSeconds": 257
+      },
+      {
+        "repo": "mgifford/WCAG_by_Role",
+        "workflow": "Build and deploy WCAG by Role",
+        "runs": 41,
+        "successRate": 0.98,
+        "avgDurationSeconds": 92
       },
       {
         "repo": "mgifford/dot-gov-scans",
         "workflow": "Monitor Workflow Health",
-        "runs": 36,
-        "successRate": 0.08,
-        "avgDurationSeconds": 4
+        "runs": 34,
+        "successRate": 0.03,
+        "avgDurationSeconds": 3
       },
       {
-        "repo": "mgifford/vital-core-lgd",
-        "workflow": "scan",
-        "runs": 33,
-        "successRate": 0.94,
-        "avgDurationSeconds": 1044
-      },
-      {
-        "repo": "mgifford/firefox-energy-scanner",
-        "workflow": "Tests",
+        "repo": "mgifford/open-market-research-mcp",
+        "workflow": "Test and deploy GitHub Pages",
         "runs": 31,
-        "successRate": 0.87,
-        "avgDurationSeconds": 1011
-      },
-      {
-        "repo": "mgifford/vital-core-lgd",
-        "workflow": "tests",
-        "runs": 30,
         "successRate": 0.97,
-        "avgDurationSeconds": 255
+        "avgDurationSeconds": 85
       },
       {
         "repo": "mgifford/vital-core",
         "workflow": "scan",
-        "runs": 29,
-        "successRate": 0.86,
-        "avgDurationSeconds": 3500
-      },
-      {
-        "repo": "mgifford/eu-plus-government-scans",
-        "workflow": "Lighthouse Pace Guard",
         "runs": 23,
-        "successRate": 0,
-        "avgDurationSeconds": 2
+        "successRate": 0.61,
+        "avgDurationSeconds": 1221
       },
       {
-        "repo": "mgifford/eu-plus-government-scans",
-        "workflow": "Deploy GitHub Pages",
-        "runs": 23,
-        "successRate": 0,
-        "avgDurationSeconds": 3
-      },
-      {
-        "repo": "mgifford/eu-plus-government-scans",
-        "workflow": "Generate Scan Progress Report",
+        "repo": "mgifford/openacr-release-evidence",
+        "workflow": "Publish evidence reports to GitHub Pages",
         "runs": 22,
-        "successRate": 0,
-        "avgDurationSeconds": 898
+        "successRate": 1,
+        "avgDurationSeconds": 33
       }
     ]
   },
